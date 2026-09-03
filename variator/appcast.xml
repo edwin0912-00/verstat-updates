@@ -12,7 +12,7 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-164/UnificVariator-0.2.0-164.zip" length="1792318339" type="application/octet-stream" sparkle:edSignature="bAM7daEMr3mHLkAVjKHwDmOBrS375bKu4eyk90cCYHilvPD0m/BBqWYedGJp7J4nzc0zHqEqX99t2oSdmwmQDw=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-164/Unific%20Variator164-162.delta" sparkle:deltaFrom="162" length="1462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L3EwvalapP6pVE9lIg0Oqe8qbuPeJ6WXG1pbxiXFG4FCkzSbV/GFtrtjqF0G1HviZk+/SoBRtxRWr9SBTpHPBg=="/>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-164/Unific.Variator164-162.delta" sparkle:deltaFrom="162" length="1462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L3EwvalapP6pVE9lIg0Oqe8qbuPeJ6WXG1pbxiXFG4FCkzSbV/GFtrtjqF0G1HviZk+/SoBRtxRWr9SBTpHPBg=="/>
             </sparkle:deltas>
         </item>
         <item>
