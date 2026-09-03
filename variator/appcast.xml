@@ -5,7 +5,6 @@
         <item>
             <title>0.2.0</title>
             <pubDate>Thu, 03 Sep 2026 18:04:29 +0200</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
             <sparkle:phasedRolloutInterval>3600</sparkle:phasedRolloutInterval>
             <sparkle:version>164</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
