@@ -4,6 +4,21 @@
         <title>Unific Variator</title>
         <item>
             <title>0.2.0</title>
+            <pubDate>Fri, 04 Sep 2026 09:55:00 +0200</pubDate>
+            <sparkle:phasedRolloutInterval>3600</sparkle:phasedRolloutInterval>
+            <sparkle:version>184</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-184/UnificVariator-0.2.0-184.zip" length="1793087186" type="application/octet-stream" sparkle:edSignature="2Ni+V7X+Ys1ayT+DMS3CiDjUvZ8KhaaV5Cd29HjjMJjGBacG3i46mw7mGEgCBPiFfMTxJBE3hJGZTZd1cDGQDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-184/Unific.Variator184-175.delta" sparkle:deltaFrom="175" length="1003146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wLpYixCU7XJTxbIwcyPdEWpkMzNsDfTj91LA5mDgzoG0mMlql6DQoDaF94b1PN3poWszgVslJnGI+wSpeIuBCQ=="/>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-184/Unific.Variator184-164.delta" sparkle:deltaFrom="164" length="1038134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AYflVec5BrStrQm70wZ/XMKz8PZW6eeVpjZynx0qvhbbfSU6nr32xjCiz1fLNuoEK8krg5g7J+8eRK6t6+2xAg=="/>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-184/Unific.Variator184-162.delta" sparkle:deltaFrom="162" length="1038358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VCoXzRZDgaSf+dIDGc26TnqViW44KAsL2xVr2RwkwbFkz2opzJ/c5wVqLxzED8yrZ57MqSsV70Z5uW9zARTkDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2.0</title>
             <pubDate>Thu, 03 Sep 2026 23:32:50 +0200</pubDate>
             <sparkle:phasedRolloutInterval>3600</sparkle:phasedRolloutInterval>
             <sparkle:version>175</sparkle:version>
