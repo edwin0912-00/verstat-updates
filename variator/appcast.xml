@@ -4,6 +4,20 @@
         <title>Unific Variator</title>
         <item>
             <title>0.2.0</title>
+            <pubDate>Fri, 04 Sep 2026 16:10:00 +0200</pubDate>
+            <sparkle:phasedRolloutInterval>3600</sparkle:phasedRolloutInterval>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-206/UnificVariator-0.2.0-206.zip" length="1793490082" type="application/octet-stream" sparkle:edSignature="FXq/Zjg0Q+YkDuJo6Mbz3A/mWRDSS7dZwlTqAeH08BTvwwb9Hi/wxfHnDxqz1aR5aQgDQ4jKtd7r2Q9ZnylfAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-206/Unific.Variator206-175.delta" sparkle:deltaFrom="175" length="1445766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qZeOqrX9txKoQG9KOYSBTeUcEg4BgVm70DjO9gvEw9pOdXoKT+91ni6Z1q+iimSqdQFEknc6jGx7tnupQw+KCg=="/>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/variator-v0.2.0-206/Unific.Variator206-164.delta" sparkle:deltaFrom="164" length="1458794" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Qddorf/I9ydc+MI+x5B1WzcpjwX0skVU4gol9RxLNBTShBfLzsWssb6LxVEjIRsJYizHvNQCRvQlG2+k4eB7DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.2.0</title>
             <pubDate>Fri, 04 Sep 2026 09:55:00 +0200</pubDate>
             <sparkle:phasedRolloutInterval>3600</sparkle:phasedRolloutInterval>
             <sparkle:version>184</sparkle:version>
