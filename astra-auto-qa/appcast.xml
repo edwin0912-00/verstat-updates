@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Variator Dev Auto QA</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 09 Sep 2026 20:20:00 +0200</pubDate>
+            <sparkle:phasedRolloutInterval>3600</sparkle:phasedRolloutInterval>
+            <sparkle:version>328</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-auto-qa-327-to-328/VariatorDev-0.3.0-328.zip" length="7056049" type="application/octet-stream" sparkle:edSignature="fXTA6Ec1wvnOoWXQtZNp8xeB1aJM7uhE0ig/Tqty1Z25Kvlsyaxm3TGQB6LgM/i8nlYC7kMQnjaiyczQyDOWCQ=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-auto-qa-327-to-328/VariatorDev328-327.delta" sparkle:deltaFrom="327" length="9538" type="application/octet-stream" sparkle:edSignature="qfx6JWDCIKVEXn28RnkRidtj+1s3EToHZ9OAPSrXykCrnKCwiqVVgSy72KB6VcUTzVxpwdf+gID5MtvJNvQmBg=="></enclosure>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: GhDdo+kTwxyax3aPtKVnntHYPXQIU+SqXhFZaFJwKW9KHj/33LtfsFRDTszjGKk14uCfWdmVrzlqwy4fvgSMDQ==
+length: 1652
+-->
