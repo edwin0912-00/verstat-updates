@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (329)</title>
+      <pubDate>Thu, 10 Sep 2026 05:46:00 +0200</pubDate>
+      <sparkle:channel>0.3</sparkle:channel>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator-0.3.0-329.zip" sparkle:version="329" sparkle:shortVersionString="0.3.0" length="477516193" type="application/octet-stream" sparkle:edSignature="8Oa2gQ7/XXF1i3Mh+kq9Wow8keytnItLqp5XaOvW+Ao3NDk93WDz7H0kKhh3qRS8JLYtgJJyS+OsUa4E/27sBw==">
+        <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator329-325.delta" sparkle:version="329" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="2116306" type="application/octet-stream" sparkle:edSignature="PutAJv0DqJbOw8grhQrBwsIFl4U31Q4aqh4J0Eds7dT1SPWBs6g0fXz8KJykxAQJzml/BfiUZn4q0oM/f0aCBQ=="></enclosure>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator329-326.delta" sparkle:version="329" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="2008318" type="application/octet-stream" sparkle:edSignature="IOguDG/aqbJbghc96Rzj3wh/VzENT3kZaUkB+fdbY4igfvGzOTNC2lewSbYo9q7ayA9ESYE9HGXmqLVWS2NWCQ=="></enclosure>
+        </sparkle:deltas>
+      </enclosure>
+    </item>
+    <item>
       <title>Version 0.3.0 (327)</title>
       <pubDate>Wed, 09 Sep 2026 22:18:00 +0200</pubDate>
       <sparkle:channel>0.3</sparkle:channel>
@@ -20,6 +32,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: nVcXjPR06NSrgzUD8NMo611E2BC7Jlx7g0YOnsNT1ej5aPp68QBmNyxXKak6O/UKzqBoWUiQHVAl10Sb9L9gCA==
-length: 2126
+edSignature: EiHijmmntmNxe6FIeEFACtrE1WdsmaERxgDuqAncToJubeFgh6DfcM0YECEK9/Zxfxfk4a2fF2ag89Rkqd0rBA==
+length: 3555
 -->
