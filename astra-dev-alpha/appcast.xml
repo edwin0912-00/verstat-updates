@@ -32,11 +32,10 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <li><strong>Layout Stability:</strong> Enforced robust single-line constraints to preserve clean, unclipped action buttons across all window and sheet dimensions.</li>
 </ul>
       ]]></description>
-      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-345/Variator-0.3.0-345.zip" sparkle:version="345" sparkle:shortVersionString="0.3.0" length="1609296725" type="application/octet-stream" sparkle:edSignature="7SOodIKiqV9VbitVxqxoE1Vr36alBEn4euO+I0RQKrNGGHo3eITxh++CWLcArK1pO7PAtLEgFn/7lMnq4/c7Dw==">
-        <sparkle:deltas>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-345/Variator345-343.delta" sparkle:version="345" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="343" length="574046" type="application/octet-stream" sparkle:edSignature="/TmpxxbizONm2HKS+fJmVORbiriHWz8PwZntnS6lz0vsg4LI2Mnnkapek5xEi0/sA8WNGL0brz3Lwqrjl7j2BQ=="></enclosure>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-345/Variator-0.3.0-345.zip" sparkle:version="345" sparkle:shortVersionString="0.3.0" length="1609296725" type="application/octet-stream" sparkle:edSignature="7SOodIKiqV9VbitVxqxoE1Vr36alBEn4euO+I0RQKrNGGHo3eITxh++CWLcArK1pO7PAtLEgFn/7lMnq4/c7Dw==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-345/Variator345-343.delta" sparkle:version="345" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="343" length="574046" type="application/octet-stream" sparkle:edSignature="/TmpxxbizONm2HKS+fJmVORbiriHWz8PwZntnS6lz0vsg4LI2Mnnkapek5xEi0/sA8WNGL0brz3Lwqrjl7j2BQ==" />
         </sparkle:deltas>
-      </enclosure>
     </item>
     <item>
       <title>Version 0.3.0 (343)</title>
@@ -81,51 +80,47 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   <li><strong>Full Runtime Restoration:</strong> Delivers complete standalone bundle with all bundled binaries, ffmpeg, and node runtime.</li>
 </ul>
       ]]></description>
-      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator-0.3.0-343.zip" sparkle:version="343" sparkle:shortVersionString="0.3.0" length="1609289355" type="application/octet-stream" sparkle:edSignature="pgVWB9CZgeDqAyTLdw6CXBBcharhlVYO/3NJeh2iNqq8U1yFWQCBhy+eIF7EYxlhbItAzyC4eOKDoa0clH20Bw==">
-        <sparkle:deltas>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-330.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="330" length="897028086" type="application/octet-stream" sparkle:edSignature="0B4kns8XmUldqTF0xIia9gBFzy9VkcTy4EuuU4xJlr6Y3+alxJdja0vtQR8kPTEv4YLOsHa1a0h+GeIaHyoLDw=="></enclosure>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-329.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="329" length="897063782" type="application/octet-stream" sparkle:edSignature="SViine7VR6OfZWzfGLpa/Z1mzBLYy7KiJjWiy55K5UXyqVpCUNEVPX8Ca4m19yZjxa9nH3tVpKdyD863Prs1DA=="></enclosure>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-326.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="1768578" type="application/octet-stream" sparkle:edSignature="scek25YrReLDdvu+78JQ0IczK/GWIlWHK23yCkdq33N2BDrmI8jFVksYYz1Ysw4uYMVbG/rdVxMSr0kt0v4pAA=="></enclosure>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator-0.3.0-343.zip" sparkle:version="343" sparkle:shortVersionString="0.3.0" length="1609289355" type="application/octet-stream" sparkle:edSignature="pgVWB9CZgeDqAyTLdw6CXBBcharhlVYO/3NJeh2iNqq8U1yFWQCBhy+eIF7EYxlhbItAzyC4eOKDoa0clH20Bw==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-330.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="330" length="897028086" type="application/octet-stream" sparkle:edSignature="0B4kns8XmUldqTF0xIia9gBFzy9VkcTy4EuuU4xJlr6Y3+alxJdja0vtQR8kPTEv4YLOsHa1a0h+GeIaHyoLDw==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-329.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="329" length="897063782" type="application/octet-stream" sparkle:edSignature="SViine7VR6OfZWzfGLpa/Z1mzBLYy7KiJjWiy55K5UXyqVpCUNEVPX8Ca4m19yZjxa9nH3tVpKdyD863Prs1DA==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-326.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="1768578" type="application/octet-stream" sparkle:edSignature="scek25YrReLDdvu+78JQ0IczK/GWIlWHK23yCkdq33N2BDrmI8jFVksYYz1Ysw4uYMVbG/rdVxMSr0kt0v4pAA==" />
         </sparkle:deltas>
-      </enclosure>
     </item>
     <item>
       <title>Version 0.3.0 (330)</title>
       <pubDate>Thu, 10 Sep 2026 13:50:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator-0.3.0-330.zip" sparkle:version="330" sparkle:shortVersionString="0.3.0" length="477538845" type="application/octet-stream" sparkle:edSignature="drkAo97pQUENLm9oyWabY5mS5ra30uqjslYU9LAwb++9LmgoT/142DNpCUi+/eeyjilDRk62bHUemuD5eMT1CA==">
-        <sparkle:deltas>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator330-329.delta" sparkle:version="330" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="329" length="934442" type="application/octet-stream" sparkle:edSignature="/W75crKDtkGrzHv3FNy7NdXK1SJ17lWbXEUHeX8JS5WYCnk2K5nsgXoP+wXpb4o/OEUCH5im4o4RdifuoShcCg=="></enclosure>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator330-326.delta" sparkle:version="330" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="2085730" type="application/octet-stream" sparkle:edSignature="PldP8/62G8O8wM/hWBpFAXV/Ayg/F/r4H8EW+TfxjDMEPaGZEGt704Z0/VYxS77YStCGioCDpJfT1Lhv/OGYAw=="></enclosure>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator330-325.delta" sparkle:version="330" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="2208222" type="application/octet-stream" sparkle:edSignature="jX7y0qyIRhSmFhmOsiyHz71GZIRZLMfD1FqpsNLkOlUEpU/0mVWpwjTlOK4vF/TR59LY53QXMoIwtXBYWLqbCw=="></enclosure>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator-0.3.0-330.zip" sparkle:version="330" sparkle:shortVersionString="0.3.0" length="477538845" type="application/octet-stream" sparkle:edSignature="drkAo97pQUENLm9oyWabY5mS5ra30uqjslYU9LAwb++9LmgoT/142DNpCUi+/eeyjilDRk62bHUemuD5eMT1CA==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator330-329.delta" sparkle:version="330" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="329" length="934442" type="application/octet-stream" sparkle:edSignature="/W75crKDtkGrzHv3FNy7NdXK1SJ17lWbXEUHeX8JS5WYCnk2K5nsgXoP+wXpb4o/OEUCH5im4o4RdifuoShcCg==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator330-326.delta" sparkle:version="330" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="2085730" type="application/octet-stream" sparkle:edSignature="PldP8/62G8O8wM/hWBpFAXV/Ayg/F/r4H8EW+TfxjDMEPaGZEGt704Z0/VYxS77YStCGioCDpJfT1Lhv/OGYAw==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-330/Variator330-325.delta" sparkle:version="330" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="2208222" type="application/octet-stream" sparkle:edSignature="jX7y0qyIRhSmFhmOsiyHz71GZIRZLMfD1FqpsNLkOlUEpU/0mVWpwjTlOK4vF/TR59LY53QXMoIwtXBYWLqbCw==" />
         </sparkle:deltas>
-      </enclosure>
     </item>
     <item>
       <title>Version 0.3.0 (329)</title>
       <pubDate>Thu, 10 Sep 2026 05:46:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator-0.3.0-329.zip" sparkle:version="329" sparkle:shortVersionString="0.3.0" length="477516193" type="application/octet-stream" sparkle:edSignature="S20Kh1Bbv9QFlv7Zj5O+LJCFiD0tb9+lB1z0EjBKpdryZJqwrWOpCC2sNaT5xGyBSHU0wKqtogW9iubMDLCVCQ==">
-        <sparkle:deltas>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator329-325.delta" sparkle:version="329" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="2116306" type="application/octet-stream" sparkle:edSignature="jedAYu58qYYaOD7LalZgtn6/M2rcytEMeC0p/RObPzehRakt85456RdRUIxKw+DcQ+lz9PPBpkIVbLpQb1gYCQ=="></enclosure>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator329-326.delta" sparkle:version="329" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="2008318" type="application/octet-stream" sparkle:edSignature="JWHakD/eA4SaxnD2yiW5sdn5JOhlg8sPzh8y/6azy42Djzn0jkC+HbklSFYdcXGeBetvH7MPV8WkXRQzuNQODg=="></enclosure>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator-0.3.0-329.zip" sparkle:version="329" sparkle:shortVersionString="0.3.0" length="477516193" type="application/octet-stream" sparkle:edSignature="S20Kh1Bbv9QFlv7Zj5O+LJCFiD0tb9+lB1z0EjBKpdryZJqwrWOpCC2sNaT5xGyBSHU0wKqtogW9iubMDLCVCQ==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator329-325.delta" sparkle:version="329" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="2116306" type="application/octet-stream" sparkle:edSignature="jedAYu58qYYaOD7LalZgtn6/M2rcytEMeC0p/RObPzehRakt85456RdRUIxKw+DcQ+lz9PPBpkIVbLpQb1gYCQ==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-329/Variator329-326.delta" sparkle:version="329" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="2008318" type="application/octet-stream" sparkle:edSignature="JWHakD/eA4SaxnD2yiW5sdn5JOhlg8sPzh8y/6azy42Djzn0jkC+HbklSFYdcXGeBetvH7MPV8WkXRQzuNQODg==" />
         </sparkle:deltas>
-      </enclosure>
     </item>
     <item>
       <title>Version 0.3.0 (327)</title>
       <pubDate>Wed, 09 Sep 2026 22:18:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-327/Variator-0.3.0-327.zip" sparkle:version="327" sparkle:shortVersionString="0.3.0" length="1670413544" type="application/octet-stream" sparkle:edSignature="TRDJDc6GrxQMbeMTqxGauZUDUCvyqtlGsy+fOCrxU5j6z3BMiodK97VRlp3/Ws4t0Jjn014afjZ+y6iQPYtCCw==">
-        <sparkle:deltas>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-327/Variator327-325.delta" sparkle:version="327" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="1223422" type="application/octet-stream" sparkle:edSignature="z0NUomr3Hg3j6RBf9X7MH+9SHFzQpTIv6FtKumE27UVGltC7ihQZTHjJ3ua2UrgIxNr+4z5A+lbHfpPHGXLSAw=="></enclosure>
-          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-327/Variator327-326.delta" sparkle:version="327" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="1078382" type="application/octet-stream" sparkle:edSignature="G6ij6w92YN+5E8YAVzwdz4Q5WbSQ8RYTXRg0Rv5kckDMkeWRca4rYnIMPwV3IqImTsq6ThayvA/sUdyyvjT1Cw=="></enclosure>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-327/Variator-0.3.0-327.zip" sparkle:version="327" sparkle:shortVersionString="0.3.0" length="1670413544" type="application/octet-stream" sparkle:edSignature="TRDJDc6GrxQMbeMTqxGauZUDUCvyqtlGsy+fOCrxU5j6z3BMiodK97VRlp3/Ws4t0Jjn014afjZ+y6iQPYtCCw==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-327/Variator327-325.delta" sparkle:version="327" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="325" length="1223422" type="application/octet-stream" sparkle:edSignature="z0NUomr3Hg3j6RBf9X7MH+9SHFzQpTIv6FtKumE27UVGltC7ihQZTHjJ3ua2UrgIxNr+4z5A+lbHfpPHGXLSAw==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-327/Variator327-326.delta" sparkle:version="327" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="1078382" type="application/octet-stream" sparkle:edSignature="G6ij6w92YN+5E8YAVzwdz4Q5WbSQ8RYTXRg0Rv5kckDMkeWRca4rYnIMPwV3IqImTsq6ThayvA/sUdyyvjT1Cw==" />
         </sparkle:deltas>
-      </enclosure>
     </item>
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: hR00sW/yFvXsQYP3XT/EVSuDDlyAk5zFF0feRP3JSuSIeN5830Blv5vjaCLWFGnhxz+LB6q50s2cNbCVvd4qAA==
-length: 12247
+edSignature: IlwCQFmxSdmcqgbU6/iHpYCSl+RMlN8xV1dwApMsvVpYOf7rmM1hgCK31wv7EOE2iXee0LxpwNRuEi7VIEL2Aw==
+length: 12042
 -->
