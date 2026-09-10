@@ -7,6 +7,57 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (343)</title>
+      <pubDate>Thu, 10 Sep 2026 15:09:45 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Build 343</h2>
+<p>This update brings essential stability fixes, powerful batch queue multi-selection, automatic storage permission recovery, and major UI refinements.</p>
+
+<h3>🎯 Queue Multi-Select & Batch Re-run</h3>
+<ul>
+  <li><strong>History Multi-Selection:</strong> Select individual or multiple completed jobs in the History tab with new checkboxes and live selection counters.</li>
+  <li><strong>Instant Re-run:</strong> Re-enqueue selected historical jobs directly into the active render queue with one click via <em>Re-run Selected (N)</em>.</li>
+  <li><strong>Clearer Folder Picker:</strong> Export directory dialog now explicitly prompts <em>Set Export Destination</em> to eliminate file-vs-folder confusion.</li>
+</ul>
+
+<h3>🛡️ Storage & Permission Resilience</h3>
+<ul>
+  <li><strong>3-Tier Fallback:</strong> Automatically falls back to Caches or Temporary storage if Application Support has restricted permissions.</li>
+  <li><strong>Active Write-Probe:</strong> Pre-tests disk write access before starting exports to prevent mid-render permission crashes.</li>
+  <li><strong>Permission Repair Tool:</strong> Includes a one-click macOS repair command (<code>Fix_Variator_Permissions.command</code>) to restore folder permissions.</li>
+</ul>
+
+<h3>✨ UI Polish & Timeline</h3>
+<ul>
+  <li><strong>Docked Scene Timeline:</strong> Timeline is cleanly positioned directly below the video viewport with high-contrast scene markers.</li>
+  <li><strong>Zero Letter-Wrapping:</strong> Strict single-line constraints prevent button and badge text clipping across all window sizes.</li>
+  <li><strong>Deactivated Inactive Controls:</strong> Unused tracking buttons are disabled cleanly to eliminate confusing click targets.</li>
+  <li><strong>English Localization:</strong> All remaining UI strings, alerts, and badges standardized to clean English.</li>
+</ul>
+
+<h3>🔊 Audio & Pipeline Stability</h3>
+<ul>
+  <li><strong>Voice Separation Fallback:</strong> Gracefully falls back when vocal isolation models are unavailable without aborting the render.</li>
+  <li><strong>Flexible Transitions:</strong> Safe deserialization handles custom scene transitions without decode failures.</li>
+  <li><strong>Log Throttling:</strong> Diagnostics stream capped to 512 KB to prevent disk and memory bloat during batch exports.</li>
+</ul>
+
+<h3>🚀 Sparkle Auto-Update Invariants</h3>
+<ul>
+  <li><strong>Universal Version Fallback:</strong> Seamless update path for clients on any prior build (Build 326, 327, 328, 329, 330).</li>
+  <li><strong>Full Runtime Restoration:</strong> Delivers complete standalone bundle with all bundled binaries, ffmpeg, and node runtime.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator-0.3.0-343.zip" sparkle:version="343" sparkle:shortVersionString="0.3.0" length="1609289355" type="application/octet-stream" sparkle:edSignature="pgVWB9CZgeDqAyTLdw6CXBBcharhlVYO/3NJeh2iNqq8U1yFWQCBhy+eIF7EYxlhbItAzyC4eOKDoa0clH20Bw==">
+        <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-330.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="330" length="897028086" type="application/octet-stream" sparkle:edSignature="0B4kns8XmUldqTF0xIia9gBFzy9VkcTy4EuuU4xJlr6Y3+alxJdja0vtQR8kPTEv4YLOsHa1a0h+GeIaHyoLDw=="></enclosure>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-329.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="329" length="897063782" type="application/octet-stream" sparkle:edSignature="SViine7VR6OfZWzfGLpa/Z1mzBLYy7KiJjWiy55K5UXyqVpCUNEVPX8Ca4m19yZjxa9nH3tVpKdyD863Prs1DA=="></enclosure>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-343/Variator343-326.delta" sparkle:version="343" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="1768578" type="application/octet-stream" sparkle:edSignature="scek25YrReLDdvu+78JQ0IczK/GWIlWHK23yCkdq33N2BDrmI8jFVksYYz1Ysw4uYMVbG/rdVxMSr0kt0v4pAA=="></enclosure>
+        </sparkle:deltas>
+      </enclosure>
+    </item>
+    <item>
       <title>Version 0.3.0 (330)</title>
       <pubDate>Thu, 10 Sep 2026 13:50:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -43,6 +94,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2Bd9ZEcMddvUWAeWyxROy7ywywXpUSHOQQk/jiIBFKAcoeDNNnS6R5a/7b194tN3O5XUclOIvJmpuY48Iy/LCQ==
-length: 5235
+edSignature: W7239evcJ3HVPUnsSPprxHjvuo0Evc9qg3yzQEGiVUV9S5R/IuWYAAqntK1SnAZW1aznpfV/8Kc27MRjV2JMCw==
+length: 9759
 -->
