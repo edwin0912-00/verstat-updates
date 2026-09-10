@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (345)</title>
+      <pubDate>Thu, 10 Sep 2026 17:24:56 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 345)</h2>
+<p>This update hardens diagnostics telemetry synchronization, enhances git push resilience during concurrent fleet device sync, and resolves UI button label wrapping across footers and modal sheets.</p>
+
+<h3>🛡️ Fixed Diagnostics Sync</h3>
+<ul>
+  <li><strong>SSH Deploy Key Permissions:</strong> SSH deploy key now enforced with strict <code>0600</code> POSIX permissions in Application Support to prevent permission denied rejections by OpenSSH.</li>
+  <li><strong>Unattended Sync Reliability:</strong> Eliminates SSH authentication errors and guarantees consistent, automated telemetry upload across fleet devices.</li>
+</ul>
+
+<h3>🔄 Enhanced Push Resilience</h3>
+<ul>
+  <li><strong>Automatic Rebase Retry:</strong> Added automatic rebase retry before git push to cleanly handle concurrent device sync.</li>
+  <li><strong>Zero Non-Fast-Forward Collisions:</strong> Seamlessly synchronizes remote diagnostic branches before pushing, preventing rejection during concurrent fleet updates.</li>
+</ul>
+
+<h3>✨ UI Layout Anti-Wrapping</h3>
+<ul>
+  <li><strong>Cancel Button Label Protection:</strong> Prevented 'Cancel' button labels from wrapping letter-by-letter in rendering footers and modal sheets.</li>
+  <li><strong>Layout Stability:</strong> Enforced robust single-line constraints to preserve clean, unclipped action buttons across all window and sheet dimensions.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-345/Variator-0.3.0-345.zip" sparkle:version="345" sparkle:shortVersionString="0.3.0" length="1609296725" type="application/octet-stream" sparkle:edSignature="7SOodIKiqV9VbitVxqxoE1Vr36alBEn4euO+I0RQKrNGGHo3eITxh++CWLcArK1pO7PAtLEgFn/7lMnq4/c7Dw==">
+        <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-345/Variator345-343.delta" sparkle:version="345" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="343" length="574046" type="application/octet-stream" sparkle:edSignature="/TmpxxbizONm2HKS+fJmVORbiriHWz8PwZntnS6lz0vsg4LI2Mnnkapek5xEi0/sA8WNGL0brz3Lwqrjl7j2BQ=="></enclosure>
+        </sparkle:deltas>
+      </enclosure>
+    </item>
+    <item>
       <title>Version 0.3.0 (343)</title>
       <pubDate>Thu, 10 Sep 2026 15:09:45 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -94,6 +126,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: W7239evcJ3HVPUnsSPprxHjvuo0Evc9qg3yzQEGiVUV9S5R/IuWYAAqntK1SnAZW1aznpfV/8Kc27MRjV2JMCw==
-length: 9759
+edSignature: hR00sW/yFvXsQYP3XT/EVSuDDlyAk5zFF0feRP3JSuSIeN5830Blv5vjaCLWFGnhxz+LB6q50s2cNbCVvd4qAA==
+length: 12247
 -->
