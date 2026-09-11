@@ -6,7 +6,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://edwin0912-00.github.io/verstat-updates/astra-dev-alpha/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
-    <item>
+        <item>
+      <title>Version 0.3.0 (358)</title>
+      <pubDate>Fri, 11 Sep 2026 14:35:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 358)</h2>
+<p>This release delivers critical batch queue rendering and UI interaction stabilization, completely resolves hover flickering across card rows, neutralizes profile export duration drift, eliminates scroll lag on large job queues, and fixes card jump reordering upon status transitions.</p>
+
+<h3>🖥️ Batch Queue UI Stabilization & Glitch Elimination</h3>
+<ul>
+  <li><strong>Row-Local Hover Isolation:</strong> Replaced pane-level hover tracking with <code>QueueRowHoverContainer</code>, eliminating list-wide O(N) re-renders and resolving 0.83s periodic hover card flickering.</li>
+  <li><strong>Zero-Lag Main-Thread Scrolling:</strong> Implemented in-memory status caching (<code>fileStatusCache</code>) with automatic eviction, completely eliminating synchronous disk I/O and JSON parsing on the main thread during scrolling.</li>
+  <li><strong>Stable Row Order:</strong> Replaced destructive <code>removeAll/append</code> with in-place row updates (<code>replaceAstraQueueJob</code>), preventing waiting cards from jumping to the bottom when status changes.</li>
+  <li><strong>Decoupled Candidate Previews:</strong> Allocated isolated <code>AVPlayer</code> instances in preview coordinators to eliminate audio mute inversions and layer conflicts.</li>
+  <li><strong>Frame 0 Seek Clamp:</strong> Bound playback start at true time zero rather than an artificial 0.5s offset.</li>
+</ul>
+
+<h3>🛡️ Profile Export Duration Drift Neutralization</h3>
+<ul>
+  <li><strong>Non-Fatal Export Warnings:</strong> Replaced fatal duration tolerance checks in profile exports with non-fatal diagnostic warnings, guaranteeing uninterrupted exports across all social aspect profiles.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-358/Variator-0.3.0-358.zip" sparkle:version="358" sparkle:shortVersionString="0.3.0" length="1609327650" type="application/octet-stream" sparkle:edSignature="IMpVfUNrrJy7zupW50sPYmEK4vvVV4n2NPnt6OhFQuM2px7a1Ge3P7DuoAw31OrxNooAbJIBTgb/WW7Gf80CCg==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-358/Variator358-357.delta" sparkle:version="358" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="508314" type="application/octet-stream" sparkle:edSignature="OkNHdyOaEOlMxh4IZb/It7DH+EJjm7HCVa4uO9WYsGgfCr2+prE0t+oS1tyladlNYdomK80zvlrIy3brxi0SAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-358/Variator358-356.delta" sparkle:version="358" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="502038" type="application/octet-stream" sparkle:edSignature="e9iw3INjgwcvo08FDUF7sNe05VG4jvjFLtgn0Tl2vQKts0gnrZv56KLl/mUeWF3A1FfSjVuDuqZ1L6sDPBOZCw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-358/Variator358-345.delta" sparkle:version="358" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="345" length="775606" type="application/octet-stream" sparkle:edSignature="RJTz1RQl0iqF6JyPseanXxbqyu6naa1EE3zAS1f2SAMpws9j9AP3QOJVNLGXHRvzROf00DatpcJVwuaa1H40Cw==" />
+      </sparkle:deltas>
+    </item>
+<item>
       <title>Version 0.3.0 (357)</title>
       <pubDate>Fri, 11 Sep 2026 13:00:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -181,6 +210,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: fRQTKOeFvuc7+fgHTqnnwpUxeuUX6uaHQuFYFsj2A/vn3peuyNbF/XjAlPCdbhdU3iAa6L7Buxc5xGPdKng3BQ==
-length: 17937
+edSignature: LiDp7sB4atoxz+MJ78VZ5s/rfLQDtj/E49CzkQeVQ32S5hnxkojTab/09MEEuYWKWUBb2Y37ZWe15e1ncHsjBg==
+length: 21437
 -->
