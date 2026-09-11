@@ -7,6 +7,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (356)</title>
+      <pubDate>Fri, 11 Sep 2026 10:47:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 356)</h2>
+<p>This update introduces canonical structured export naming with source video stems and compact change tags, eliminates fragile A/V frame synchronization rejections with a 250ms safe tolerance floor, and delivers full table ergonomics for queue displays.</p>
+
+<h3>🏷️ Structured Export Naming</h3>
+<ul>
+  <li><strong>Original Stem First:</strong> Exported files now preserve the original video basename as the first token, ensuring immediate source recognizability.</li>
+  <li><strong>Compact Parameter Tags:</strong> Clear, concise abbreviations for all variations applied: <code>C&lt;pct&gt;%</code> for crop (e.g. <code>C2%</code>, <code>C4%</code>), <code>L&lt;preset&gt;</code> for look (<code>Lwarm</code>, <code>Lclean</code>, <code>Lhc</code>), <code>T&lt;frames&gt;f</code> for micro-trim (<code>T1f</code>), and <code>F</code> for fades.</li>
+  <li><strong>Unique Plan Hash:</strong> Appends a short 6-character unique plan hash at the end for effortless searchability across large export libraries.</li>
+  <li><strong>UI Anti-Blowout:</strong> Added middle truncation (<code>.truncationMode(.middle)</code>) and removed rigid horizontal sizing across queue rows and banners.</li>
+</ul>
+
+<h3>🛡️ Bulletproof A/V Tolerance Gate</h3>
+<ul>
+  <li><strong>250ms Safe Floor:</strong> Replaced fragile 1-frame duration checks with a generous 250ms safe floor for container and audio streams (150ms for video).</li>
+  <li><strong>Zero AAC Quantum Errors:</strong> Eliminates false-positive rejections caused by discrete 1024-sample AAC priming or container interleaving noise while catching genuine playback desync.</li>
+  <li><strong>Fleet Tested:</strong> 100% pass on historical drift incidents across macOS Sequoia fleet MacBooks.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-356/Variator-0.3.0-356.zip" sparkle:version="356" sparkle:shortVersionString="0.3.0" length="1610894555" type="application/octet-stream" sparkle:edSignature="Dus6USAxq1okNK1JV3Wa1qA3fqrF5rlKBA8rDsrDzEWoAQAF1EqbpAFGa+0yQ9oGY6f1Vvag2kf2RY+vXx9NCQ==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-356/Variator356-345.delta" sparkle:version="356" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="345" length="716762" type="application/octet-stream" sparkle:edSignature="Qett2NjULvZknG3CDZUKds4z8kLnNH3rBO15qdn3/MKJqlxlLjnFVyeIHi+gEPAnRy8iHxWxgq2GInNtcuekAw==" />
+        </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (345)</title>
       <pubDate>Thu, 10 Sep 2026 17:24:56 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -121,6 +149,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: IlwCQFmxSdmcqgbU6/iHpYCSl+RMlN8xV1dwApMsvVpYOf7rmM1hgCK31wv7EOE2iXee0LxpwNRuEi7VIEL2Aw==
-length: 12042
+edSignature: 8zM4v7E9rGC5okgnf0FaTmvWqIkQ94CtSeCn4pEa/TglVu3XPUj5K7mBui3POXsia6ozoF76T/wmaYFburhRBw==
+length: 14871
 -->
