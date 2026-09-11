@@ -7,6 +7,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (357)</title>
+      <pubDate>Fri, 11 Sep 2026 13:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 357)</h2>
+<p>This update neutralizes audio/video duration drift gates to guarantee uninterrupted exports, establishes structured export file naming for effortless clip identification, and hardens FFmpeg process timeouts against premature termination during heavy renders.</p>
+
+<h3>🛡️ Complete Neutralization of A/V Duration Gates</h3>
+<ul>
+  <li><strong>Non-Fatal Drift Warnings:</strong> Converted probe duration drift checks to non-fatal warnings; exports and renders never abort due to container or audio padding drift.</li>
+  <li><strong>Uninterrupted Queue Processing:</strong> Eliminates false-positive assembly aborts triggered by AAC discrete packet quanta (1024 samples) and container remainder offsets while preserving stream synchronization.</li>
+</ul>
+
+<h3>🏷️ Structured Export Naming</h3>
+<ul>
+  <li><strong>Canonical Naming Template:</strong> Standardized export filenames to <code>&lt;OriginalBasename&gt;_light_C&lt;pct&gt;%_L&lt;preset&gt;_&lt;hash&gt;.mp4</code> for clear, predictable file tracking.</li>
+  <li><strong>Preserved Source Identity:</strong> Retains original clip basename at the start, followed by concise operator tags and a short unique plan hash.</li>
+</ul>
+
+<h3>⚡ PERF-01 Render Timeout Hardening</h3>
+<ul>
+  <li><strong>600s Execution Floor:</strong> Increased FFmpeg process timeout to a 600s floor to eliminate premature process termination on heavy Medium renders on MacBook Air.</li>
+  <li><strong>Thermal &amp; Compute Headroom:</strong> Accommodates extended transcoding cycles and thermal throttling on fanless Apple Silicon hardware without pipeline failures.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-357/Variator-0.3.0-357.zip" sparkle:version="357" sparkle:shortVersionString="0.3.0" length="1610894376" type="application/octet-stream" sparkle:edSignature="xuSfNBVGVgVWNjSUp/kZWcHk34hTALlCs+6VUxrgW0IK7oi4Hzkl7F67j5tFdCFJ1YPvG7HwOw3gAyBe39qADw==" />
+      <sparkle:deltas>
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-357/Variator357-356.delta" sparkle:version="357" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="277226" type="application/octet-stream" sparkle:edSignature="UX6oXruRWgNVQknJs6jWmtXyDbCrAC7sOKVE9hLe0jBS8no9ZXY6CdsrCWFI2JDscgnEM/eFuP4q1sF2biEFDQ==" />
+          <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-357/Variator357-345.delta" sparkle:version="357" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="345" length="729186" type="application/octet-stream" sparkle:edSignature="h/LGPSqVoPz57BoM3Ve4Zewu7rbT7IP1QYZ9UZcVe+l4nm/hQ8ixJb3hU0ppNyNJf8eDraZEvRMUT5qfrJEsCA==" />
+        </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (356)</title>
       <pubDate>Fri, 11 Sep 2026 10:47:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -149,6 +181,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8zM4v7E9rGC5okgnf0FaTmvWqIkQ94CtSeCn4pEa/TglVu3XPUj5K7mBui3POXsia6ozoF76T/wmaYFburhRBw==
-length: 14871
+edSignature: fRQTKOeFvuc7+fgHTqnnwpUxeuUX6uaHQuFYFsj2A/vn3peuyNbF/XjAlPCdbhdU3iAa6L7Buxc5xGPdKng3BQ==
+length: 17937
 -->
