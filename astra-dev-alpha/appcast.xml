@@ -6,6 +6,125 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://edwin0912-00.github.io/verstat-updates/astra-dev-alpha/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
+    <item>
+      <title>Version 0.3.0 (376)</title>
+      <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 376)</h2>
+<p>Batch Queue Multi-Select Overhaul (⌘A Toggle & Pearl Status), Laser Comet 360° Dock Animation, Expanded 9:16 Portrait Synchronized Previews, Dual-ASIC VideoToolbox Hardware Pipeline, and Base 356/358 Delta Support.</p>
+
+<h3>⚡ Base 356 & 358 Direct Delta Updates</h3>
+<ul>
+  <li><strong>Direct Upgrades:</strong> Direct binary delta updates from installed Base 356 and previous Base 358 releases, reducing update payloads to ~2.4 MB with bit-for-bit reconstruction.</li>
+</ul>
+
+<h3>🎯 Batch Queue & Ergonomics</h3>
+<ul>
+  <li><strong>⌘A Selection Toggle:</strong> Added global pane shortcut to select/deselect all queued items.</li>
+  <li><strong>Pearl White Queued Status:</strong> High-contrast pearl status indicator replacing secondary gray for clear queue state awareness.</li>
+  <li><strong>9:16 Portrait Preview Expansion:</strong> Video players expand up to 680pt in synchronized preview, eliminating black pillarboxing.</li>
+</ul>
+
+<h3>💫 Dock Tile & Visual Polish</h3>
+<ul>
+  <li><strong>360° Laser Comet Completion:</strong> Perfect cycle completion ensuring comet and twin spark effects reach top-center before settling.</li>
+  <li><strong>Window Header Traffic Light Clearance:</strong> Adjusted padding to guarantee 76pt minimum clearance from macOS window controls.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-376/Variator-0.3.0-376.zip" sparkle:version="376" sparkle:shortVersionString="0.3.0" length="1611688103" type="application/octet-stream" sparkle:edSignature="HBqGIpHKJ5l08OocjldS4HJie9/4eFO+VFhtQ+1nqZTeOM7vWvuG+d5ox7bRNHb96asWebMjCZppMObRlEAkCA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-376/Variator376-356.delta" sparkle:version="376" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="2435346" type="application/octet-stream" sparkle:edSignature="ggzzLeONHDnQFJDTC8qK6V3Pd1xbtz9e6h83Y/ec/4KdAjXC+RM5V356GgDTLHBRhO9gTVxQQdZ8zVL6+QcnCQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-376/Variator376-358.delta" sparkle:version="376" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="2392030" type="application/octet-stream" sparkle:edSignature="YBcp/D5o/rPStAqe/2JiKU2ulz7oIAenaZu5Rk/svHLsfAOTJLDLKW5Wh6GY2r0GZE1xdFrXBpsYwRvod0roDA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
+      <title>Version 0.3.0 (373)</title>
+      <pubDate>Sat, 12 Sep 2026 20:05:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 373)</h2>
+<p>Hyper-Optimized Base Tier Silicon Purity Showcase (Neon Emerald Glow), Dual-ASIC Max Tier Concurrency Mode, and Interactive Xcode Previews.</p>
+
+<h3>🟢 Base Tier: Maximum Silicon Purity</h3>
+<ul>
+  <li><strong>100% Hyper-Optimized:</strong> Highlighted base hardware tier with glowing emerald accents, zero memory bloat, native APFS Copy-on-Write (0 MB disk duplication), and fanless silent operation.</li>
+  <li><strong>Autonomous NLE Sentry:</strong> Yields background render tasks to PRIO_DARWIN_BG when Final Cut Pro, Premiere, or DaVinci Resolve are actively editing.</li>
+</ul>
+
+<h3>⚡ Max & Ultra Tier: Dual Hardware ASICs</h3>
+<ul>
+  <li><strong>2 Parallel Hardware VideoToolbox Encodes:</strong> Directly targets dual VideoToolbox AVE ASICs for concurrent renders without CPU load.</li>
+  <li><strong>Interactive Simulator & Xcode Canvas:</strong> Added interactive tier switching directly in HardwareSpeedFeaturesSheet and live Xcode Canvas previews.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-373/Variator-0.3.0-373.zip" sparkle:version="373" sparkle:shortVersionString="0.3.0" length="1611688138" type="application/octet-stream" sparkle:edSignature="4b30ojlqXGtjKhJ57KEht47L0zQ9zYhfvkiKi5BaXgTK8pwn+4QXSiZRCvYgaNrKUk1zxp1rU1VySTQJuNugDg==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-373/Variator373-372.delta" sparkle:version="373" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="372" length="2690318" type="application/octet-stream" sparkle:edSignature="BI1uJizdxUF67rg5cxn/jit5VbpVGiurBUrD+FvpnOnjW+k/NhWzTtVzv3+03WE3n6Ude0FirtTBmspaZt9cAQ==" />
+      </sparkle:deltas>
+    </item>
+        <item>
+      <title>Version 0.3.0 (372)</title>
+      <pubDate>Sat, 12 Sep 2026 19:35:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 372)</h2>
+<p>Hardware-Aware Silicon Optimization, M2 Max 38-Core GPU Introspection, System Resource Governor with NLE Activity Sensing, and Interactive Xcode SwiftUI Visual Previews.</p>
+
+<h3>⚡ Apple Silicon Hardware Understanding & 38-Core GPU Introspection</h3>
+<ul>
+  <li><strong>Precise GPU Core Detection:</strong> Added direct IOKit IORegistry hardware introspection for exact GPU core counts (identifying 38-core M2 Max delivering 13.6 TFLOPS compute).</li>
+  <li><strong>Hardware Speed Features Sheet:</strong> Interactive inspector (⌘⌥H) visualizing 9 speed mega-features, silicon topology, live memory footprint, and thermal status.</li>
+  <li><strong>Dual-ASIC VideoToolbox Acceleration:</strong> Integrated hardware encoding parameters with 29.3x fewer CPU instructions and 4.5x lower RAM footprint.</li>
+</ul>
+
+<h3>🛡️ Autonomous System Resource Governor</h3>
+<ul>
+  <li><strong>Zero-TCC NLE Activity Sensing:</strong> Detects foreground Final Cut Pro, Premiere Pro, and DaVinci Resolve to automatically prioritize editing responsiveness.</li>
+  <li><strong>Mach Memory Pressure Protection:</strong> Intercepts critical memory events to suspend background workers and eliminate Out-Of-Memory crashes.</li>
+</ul>
+
+<h3>🛠️ Developer Ergonomics & Xcode Previews</h3>
+<ul>
+  <li><strong>Native Xcode Project:</strong> Added UnificVariatorApp.xcodeproj with ENABLE_DEBUG_DYLIB=YES for interactive SwiftUI Canvas visual editing.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-372/Variator-0.3.0-372.zip" sparkle:version="372" sparkle:shortVersionString="0.3.0" length="1611715991" type="application/octet-stream" sparkle:edSignature="Aowl5XIVkjnejNvadXt0QG6hPy4eYcok+l/xnK916woYB5I5E49Py3OHjoV6vPs1W+Eg1J2t3DLzzPzqigyFAg==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-372/Variator372-365.delta" sparkle:version="372" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="365" length="3878670" type="application/octet-stream" sparkle:edSignature="y4b2Kyo0LpgAhI7QNGzEAvYT52QDdfd7owU/TuIixpEkM4weZeIN9TPSOUQem3ItMGHiV0N6eAo36tiEIbe+Ag==" />
+      </sparkle:deltas>
+    </item>
+    <item>
+      <title>Version 0.3.0 (365)</title>
+      <pubDate>Fri, 11 Sep 2026 16:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 365)</h2>
+<p>Levels 1, 2, and 3 pipeline performance optimizations, batch variations execution engine, Apple Native 2-stem voice isolation, and stream-copy export acceleration.</p>
+
+<h3>⚡ Pipeline Performance Optimizations</h3>
+<ul>
+  <li><strong>Fast-Path Presets &amp; Probe Cache:</strong> Applied fast encoding presets across assembly pipelines and added memory-cached media probing to eliminate redundant disk metadata reads.</li>
+  <li><strong>Stream-Copy Instant Export:</strong> Instantaneous export when target profile matches candidate dimensions, bypassing re-encoding.</li>
+  <li><strong>Apple Native Voice Isolation:</strong> Integrated native 2-stem DSP voice isolation in VisionHelper with persistent CoreML ModelRegistry.</li>
+</ul>
+
+<h3>🛡️ Batch Queue &amp; Verification Hardening</h3>
+<ul>
+  <li><strong>2-Stage Batch Pipelining:</strong> Pipelined batch variation execution with concurrent generation and pre-rendering.</li>
+  <li><strong>Strict Manifest Integrity:</strong> Guaranteed clean export verification and tamper-proof manifest generation.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-365/Variator-0.3.0-365.zip" sparkle:version="365" sparkle:shortVersionString="0.3.0" length="1609346524" type="application/octet-stream" sparkle:edSignature="BWdTNVlnaqqMhX/gyRgRxcyc0h9dAXh5MWpjeIXLqwSEjz38M7Q9tsb/LqEnrrsSxxNEEyV2rEVYyJEDgkUZCQ==" />
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-365/Variator365-358.delta" sparkle:version="365" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="66346" type="application/octet-stream" sparkle:edSignature="9ohPmxkgotzBd2CNhHnmGNpOmZeu5sSA1BVWmtk4Ch4Lli6hfnRSA19/uL5AmuSD2+qdajR7eRrhw4J0zTHwAw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-365/Variator365-357.delta" sparkle:version="365" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="563418" type="application/octet-stream" sparkle:edSignature="ho6cXFDKVBYqfylVEF37BCBphFq2gc+QZWcQ2XlGbIAwwEwEvOQ2+54dF7OxwkKxr6pNR2xb8s1v6bYMXOgNAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-365/Variator365-356.delta" sparkle:version="365" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="556298" type="application/octet-stream" sparkle:edSignature="HKsiC37OXdcNqDGXEq6cXRNmDhcrK+VEvTD6pgYN0xuo7syBERzk82nfRpnW3fHf0HiAH2ZtqMGeSZ2Tu+PlDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-365/Variator365-345.delta" sparkle:version="365" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="345" length="812726" type="application/octet-stream" sparkle:edSignature="We1oq7TC+48CI8foUy5K/zU/5V6AZpiew6nVjHpp4sVwoqw8r1jDUvMJpjPMbB/ZPiDRusZR93gdTXsCBCcPDw==" />
+      </sparkle:deltas>
+    </item>
         <item>
       <title>Version 0.3.0 (358)</title>
       <pubDate>Fri, 11 Sep 2026 14:35:00 +0000</pubDate>
@@ -210,6 +329,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: LiDp7sB4atoxz+MJ78VZ5s/rfLQDtj/E49CzkQeVQ32S5hnxkojTab/09MEEuYWKWUBb2Y37ZWe15e1ncHsjBg==
-length: 21437
+edSignature: VfLShGBxbU63hBNw9hFoqjEvjjfeXVmU1SnD7E6C72OyPZk87/YuYWQB3uDNfGTi1KqlZPtBOadwZdderEsKDw==
+length: 32217
 -->
