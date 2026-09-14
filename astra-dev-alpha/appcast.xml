@@ -7,6 +7,91 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (387)</title>
+      <pubDate>Mon, 14 Sep 2026 23:20:07 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 387)</h2>
+<p>Universal Zero-Clipping Two-Tier Header Bar, Instant 0ms Mode Switching (Single ↔ Batch), 60fps Queue Performance, and Multi-Base Delta Upgrades.</p>
+
+<h3>📐 Universal Zero-Clipping Two-Tier Header Bar</h3>
+<ul>
+  <li><strong>CANON-01 & CANON-06 Compliance:</strong> Header width threshold adjusted to 1180pt, ensuring reliable two-tier layout below 1180pt down to 620pt and 360pt minimums without overflow.</li>
+  <li><strong>Zero Text Truncation:</strong> Buttons relocate as complete indivisible units across tiers; zero clipped button labels ("Fee...", "Exp...", "Sav...").</li>
+</ul>
+
+<h3>⚡ Instant 0ms Desktop Mode Switching</h3>
+<ul>
+  <li><strong>Zero-Lag Mode Transitions:</strong> Purged sluggish animation wrappers and animation collisions from mode toggle buttons. Mode transitions between Single and Batch are now instant (0ms).</li>
+  <li><strong>Eliminated Idle CPU/GPU Redraws:</strong> Removed infinite 24/7 background pulse animation in hardware tier badge, reducing idle WindowServer load.</li>
+</ul>
+
+<h3>🏎️ 60fps Queue & Main-Thread Optimization</h3>
+<ul>
+  <li><strong>Zero Compositor Overhead:</strong> Replaced heavy backdrop blur materials with solid AppSurface panel, eliminating multi-pass GPU Gaussian blur during scrolling.</li>
+  <li><strong>Stripped Off-Screen Shadows:</strong> Removed dynamic per-row glow shadows in queue list, preserving crisp borders and fluid scrolling.</li>
+  <li><strong>Snappy Micro-Interactions:</strong> Tuned queue chevron and section expansions from slow 0.35s curves to responsive 0.10s.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades</h3>
+<ul>
+  <li><strong>Direct Delta Support:</strong> Bit-for-bit verified delta updates from Base 326 (root), Base 357 Victor, Base 356, Base 358, Base 383, and Base 385.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator-0.3.0-387.zip" sparkle:version="387" sparkle:shortVersionString="0.3.0" length="1614173324" type="application/octet-stream" sparkle:edSignature="b66lZfMj93sEh1f5tNO+Kq6pdwSDM3pkl/zI0CYs1wSJamKgjlL63i735ULIefXWq8qCzIcN0pneA8UBE9QaAA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator387-326.delta" sparkle:version="387" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="4042118" type="application/octet-stream" sparkle:edSignature="v6x4TUNKuftxEf7Ie83iRewWbZJip/S5wChbxDGgKA5oazGjK+Rj+qFkHZ9jYtTog8pjkXLjDbqI5jUSuWeJCw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator387-357.delta" sparkle:version="387" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="3708482" type="application/octet-stream" sparkle:edSignature="Yn+RUPN0ktpXS+NeimVhpcDw02DbdS/CU5dhp3xzVv4VzAelZmzaLCGpGMcO1YOsC8JLZRUyAEHw5Xq48rPaDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator387-356.delta" sparkle:version="387" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="3701430" type="application/octet-stream" sparkle:edSignature="L+6h9jRIGUXFOogLsWKmst1oxQHRnH8SUdtJzWfRr2exwZXbPFUFdB96TqQmchU0RprQjE+xXNbANX5CtITsDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator387-358.delta" sparkle:version="387" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="3695334" type="application/octet-stream" sparkle:edSignature="cwmVu2PF54JW8JPZMt/TIytYqyAjbmC41hiR8fAUYwoyJc+ngUoe3NyYxB0GSCg+M/euXbc1yyl69RE536dvDA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator387-383.delta" sparkle:version="387" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="2589242" type="application/octet-stream" sparkle:edSignature="K016OVDSqaaB5h+e8Vz0HTOr7FkArCAiffaGh8m5GmvXDhobD2ZwrYPPD7QBHYRyDAqPVrY3IwNoJj+m702XBw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-387/Variator387-385.delta" sparkle:version="387" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="385" length="4292058" type="application/octet-stream" sparkle:edSignature="lqj8a+Nttn3SX+Dm1p6Oqi9wCqnrst17acenwI23lvb0YRp3Y3hHVlcQ5fQ8+khtnOsBJsSbyBA316CaSZe9Bg==" />
+      </sparkle:deltas>
+
+    </item>
+    <item>
+      <title>Version 0.3.0 (385)</title>
+      <pubDate>Mon, 14 Sep 2026 22:54:21 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 385)</h2>
+<p>Real-Time 60/120fps Smooth Timeline Scrubbing, Instantaneous Zero-Stall Video Transitions (Original ↔ Variation & Technical ↔ Visual Modes), and Multi-Base Delta Upgrades.</p>
+
+<h3>⚡ Real-Time 60/120fps Timeline Scrubbing</h3>
+<ul>
+  <li><strong>Sub-Millisecond Seek Latency:</strong> Apple QA1820 Chase-Time engine with 0.05s keyframe snap during active mouse drag delivers 4.6x to 10.4x faster seeking (0.68ms/seek) without decoder stalls.</li>
+  <li><strong>Zero Invalidation Storms:</strong> Eliminated 1000Hz view tree invalidation churn from high-frequency playback telemetry.</li>
+  <li><strong>Tug-of-War Elimination:</strong> Playhead thumb follows cursor 1:1 with zero latency; playback clocks strictly suppressed during active user scrub.</li>
+  <li><strong>Background I/O Suppression:</strong> Heavy subprocesses and disk operations disabled while scrubbing.</li>
+</ul>
+
+<h3>🎬 Instantaneous Zero-Stall Video Transitions</h3>
+<ul>
+  <li><strong>Seamless A/B Comparison:</strong> Swapping between Original and Variations maintains active playback state without pause flickers or decoder teardown.</li>
+  <li><strong>Single Structural Canvas Identity:</strong> Unified video player CALayer identity across Technical Variations and Visual Editing modes prevents NSView recreation and black screen flashes.</li>
+  <li><strong>CoreAnimation Lag Elimination:</strong> Suppressed implicit 250ms CATransaction layout lag on AVPlayerLayer.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades</h3>
+<ul>
+  <li><strong>Direct Delta Support:</strong> Bit-for-bit verified delta updates from Base 326 (9.4 MB), Base 357 Victor (9.3 MB), Base 356 (9.3 MB), Base 358 (9.3 MB), and Base 383 (9.1 MB).</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-385/Variator-0.3.0-385.zip" sparkle:version="385" sparkle:shortVersionString="0.3.0" length="1620222365" type="application/octet-stream" sparkle:edSignature="tqBCVOaKMpoY45wwwNap9TANXTQoWYo9y0LgSXX0UPbu92cLJ/PSgQA1dJgwkdlsDBU5etc/xkdLO/oW64ruDQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-385/Variator385-326.delta" sparkle:version="385" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="9401702" type="application/octet-stream" sparkle:edSignature="QCiAxog/JOgwtNmSw9WAxF+wCa+qiFZxWkQ8jUtOa5uWPyaiaO/V+W/Qc3H2dD7BW3oKPAC4xXUNHGnKYB4JCg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-385/Variator385-357.delta" sparkle:version="385" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="9323790" type="application/octet-stream" sparkle:edSignature="wsxjyKHlOinC+VTllAgDhr3k0v4fYQvYYJ+KhQpSlt8mZAyJ8w3e/aXFrSrt5yOvbHVl08MEwDukeI2bZ7OYAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-385/Variator385-356.delta" sparkle:version="385" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="9319438" type="application/octet-stream" sparkle:edSignature="ehUgb0AMdjao9gEYIWxtCU9JBDwf4JuoaUjekfX25soNQ86RJ4ZFFNPqU4d+QhiYba0sbTmLFXpuLmt+tVcADA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-385/Variator385-358.delta" sparkle:version="385" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="9322382" type="application/octet-stream" sparkle:edSignature="tpY++wTuazOSS7On2ry5iteTSAVGEiYsGp6lqTDNbFhKHjnf7JSUw0UJcmj5SBbkHfa0P4eEj96C6xktWdLZAw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-385/Variator385-383.delta" sparkle:version="385" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="9105070" type="application/octet-stream" sparkle:edSignature="cRn6//Y1y8U2MaZ7ZuC9A9iibZX43R4RO8icAKT1KyTSw1KnJDE6V2Iqrd/op47N997dWv/RnuAnCrZSQYNNBQ==" />
+      </sparkle:deltas>
+
+    </item>
+    <item>
       <title>Version 0.3.0 (383)</title>
       <pubDate>Mon, 14 Sep 2026 20:07:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -382,6 +467,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: NCHf3O/GLiHD39xZrMZDYL0D68T4lUepxfTRNECaoaoxwm6juqEJiTWBXUQwiHg9S8L4PVO1WeVru4z5yzWSBQ==
-length: 37476
+edSignature: kK6aIu3at5ZixsjITsNuRHBymDKeeAG28sBCtxwI1XmeaKNLP1um7TmxxW42yMTS6BD5n8HGj96acU3t7zEMBw==
+length: 46884
 -->
