@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (382)</title>
+      <pubDate>Mon, 14 Sep 2026 00:28:19 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 382)</h2>
+<p>Fix duration drift in A/V exports and added user-intent telemetry for variations.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-382/Variator-0.3.0-382.zip" sparkle:version="382" sparkle:shortVersionString="0.3.0" length="1611267424" type="application/octet-stream" sparkle:edSignature="SnuciyVChLeWP+RDuysspOKnpPTk5f0GyvicvL/ZPI8lWboK3qFeLg+vQCMWmigmkX02RRHZI1yCjkkerLWKBg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-382/Variator382-356.delta" sparkle:version="382" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="1295058" type="application/octet-stream" sparkle:edSignature="OafiMBmH+0KPMZz/e5HRcxCoLqb7RmOHxZ9uj05e7f+EKEx3AJnnUaJBajfa3PBqjTClYSy9PiKm1FLjAdOqAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-382/Variator382-358.delta" sparkle:version="382" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="1275782" type="application/octet-stream" sparkle:edSignature="bJhnMPbzwefHxp/+KbZz69JHkuSj8ID4AyV7sFsJvmgMVNlDI7q6Wa6yzc7QtZhSg27Z9AP2Dl/CsM5aZc9DCg==" />
+      </sparkle:deltas>
+
+    </item>
+    <item>
       <title>Version 0.3.0 (376)</title>
       <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -329,6 +346,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: VfLShGBxbU63hBNw9hFoqjEvjjfeXVmU1SnD7E6C72OyPZk87/YuYWQB3uDNfGTi1KqlZPtBOadwZdderEsKDw==
-length: 32217
+edSignature: YoaX4da5qSAYNZm8UZmnxr+KzQ9cK/BbFCKOQown9m2yMkSBjMaHsEdb3Woo5dNt4LEmopq+C3jEkx1ZbL9EAQ==
+length: 33947
 -->
