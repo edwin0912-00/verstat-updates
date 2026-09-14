@@ -7,6 +7,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (383)</title>
+      <pubDate>Mon, 14 Sep 2026 20:07:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 383)</h2>
+<p>Queue Card UI Overhaul, Standalone Direct Export (Zero Re-render), CANON-04 Anti-Clipping Guarantees, and Base 357 (Victor) Direct Delta Upgrade.</p>
+
+<h3>⚡ Base 357 (Victor) Direct Delta Updates</h3>
+<ul>
+  <li><strong>Victor Release Upgrade:</strong> Direct binary delta upgrade from installed Base 357 (1.8 MB payload) with bit-for-bit target reconstruction, strict codesign, and Node runtime verification.</li>
+  <li><strong>Multi-Base Delta Support:</strong> Full delta updates also generated and verified for Base 356 and Base 358.</li>
+</ul>
+
+<h3>🎯 Queue Card UI & Progress Indicators</h3>
+<ul>
+  <li><strong>Unobscured Cards:</strong> Removed invasive card-covering overlays, ensuring filename, subtitle, and action buttons remain 100% visible and interactive.</li>
+  <li><strong>Rosy-Pink Laser Scanner:</strong> Distinct animated edge scanner pulse during analysis phase without confusing render percentage text.</li>
+  <li><strong>Integrated Heatmap Progress:</strong> Embedded Silicon Core micro-matrix track seamlessly placed within the card layout for render tracking.</li>
+</ul>
+
+<h3>💾 Standalone Direct Export (Zero Re-render)</h3>
+<ul>
+  <li><strong>Instant Export:</strong> Exporting selected completed jobs or variants directly links/copies output MP4 and subtitle files without invoking FFmpeg re-rendering.</li>
+  <li><strong>Persistent Destination:</strong> Remembers last chosen export directory across app launches with quick "Change Folder" and "Open Folder" actions.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-383/Variator-0.3.0-383.zip" sparkle:version="383" sparkle:shortVersionString="0.3.0" length="1611639442" type="application/octet-stream" sparkle:edSignature="jk06iF9TAouQcDPKAbJKfNJqXhFLWkeXbZbW7TgwRVMblBfF6xXHspMQshW7b4ukWkkUnNhMNctyzVg5SJIBBQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-383/Variator383-357.delta" sparkle:version="383" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="1888066" type="application/octet-stream" sparkle:edSignature="R8FqPqxcS0hiK1GRkvirem1k8ZQOo7ZDYTPNks/yawXzVA7qw5PYZhqGLRVr8HJWq/LMRJs5vMVKud6L2OJGDg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-383/Variator383-356.delta" sparkle:version="383" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="1885430" type="application/octet-stream" sparkle:edSignature="+Qztn6t2xJamli45DI5fF/66hETBRowgtcRQb8XpbMffwI64P6BW/dsg1AU3SyEOyIgohE0YntQveQE2+hbjBQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-383/Variator383-358.delta" sparkle:version="383" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="1879110" type="application/octet-stream" sparkle:edSignature="3/27/jX15Dwcjcb+wDG6HTkiggwSBgwrkGmm1JR2QfM8CKJQZQCJ+1p3EwNrvk1kGc8XsSMUfVzJnXD6HCELCA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (382)</title>
       <pubDate>Mon, 14 Sep 2026 00:28:19 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -346,6 +382,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: YoaX4da5qSAYNZm8UZmnxr+KzQ9cK/BbFCKOQown9m2yMkSBjMaHsEdb3Woo5dNt4LEmopq+C3jEkx1ZbL9EAQ==
-length: 33947
+edSignature: NCHf3O/GLiHD39xZrMZDYL0D68T4lUepxfTRNECaoaoxwm6juqEJiTWBXUQwiHg9S8L4PVO1WeVru4z5yzWSBQ==
+length: 37476
 -->
