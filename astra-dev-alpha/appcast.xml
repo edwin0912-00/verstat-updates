@@ -7,6 +7,49 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (390)</title>
+      <pubDate>Tue, 15 Sep 2026 21:09:04 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 390)</h2>
+<p>Full Medium Creative Variation Suite (Opening Hook Swap S2→S1, Climax Teaser, Hook Text Banner, Punch Zoom), CANON-07 Deterministic Video Export Naming, and Multi-Base Delta Upgrades.</p>
+
+<h3>🎬 Medium Creative Variation Suite</h3>
+<ul>
+  <li><strong>Opening Hook Swap (S2→S1):</strong> Algorithmic scene inversion that tests secondary scenes as opening hooks with curated boundary transitions (cross-dissolve, dip-to-black, whip-pan, light-flash).</li>
+  <li><strong>Climax Visual & Audio Teaser:</strong> Dynamic extraction of highest-energy dramatic scenes prepended before Scene 1 with synchronized audio and anti-pop micro-fades.</li>
+  <li><strong>Hook Text Banner:</strong> Top/Mid/Low banner overlay clamped to safe zones with customizable font sizes and box opacities.</li>
+  <li><strong>Punch Zoom:</strong> Per-block crop reframing with live intensity controls (1.05x–1.30x) and instant presets.</li>
+</ul>
+
+<h3>🏷️ CANON-07 Structured Export Naming</h3>
+<ul>
+  <li><strong>Deterministic Syntax:</strong> <code>[BaseName]_[DateCode]_[Depth]_[OperatorTags]_[Hash6].mp4</code> with compact <code>DDMY</code> date encoding and 6-hex SHA256 plan hash suffix.</li>
+  <li><strong>Full Conformance:</strong> Validated across all aspect-fit social profiles (-9x16, -1x1, -16x9).</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades</h3>
+<ul>
+  <li><strong>Direct Delta Support:</strong> Bit-for-bit verified delta updates from Base 326 (root baseline), Base 357 Victor, Base 356, Base 358, Base 383, Base 385, Base 387, Base 388, and Base 389.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator-0.3.0-390.zip" sparkle:version="390" sparkle:shortVersionString="0.3.0" length="1614310090" type="application/octet-stream" sparkle:edSignature="7eSuc0fV3vE9fNAhIsoUI07wF1K8rOa4Xo8vVyAq6WZiV8+BsqsiKDcGYhC3mFxDprgnEjOah/lYYN1J0/YmBg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-326.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="4195190" type="application/octet-stream" sparkle:edSignature="pSwgP++wQyOGObR11eTVxopmuzdpJ458jrRvnaAdXH6GDqDn0aX0QAe1IGazSy6eKysBr9KRc0OVRi+D1RP7Aw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-357.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="3878630" type="application/octet-stream" sparkle:edSignature="GviTbpEp8Om2AkxnYHDh7yZk6CvByOK2dCB7JChpJ4PT+YwVzgKXeASzopT9hOTwAHBxIyTOc7SMWetsuMyjBA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-356.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="3864734" type="application/octet-stream" sparkle:edSignature="MqtQydyPwsbb/+qp+WtRp9UY4xg39+PhDJOIvbH80GuhWXW6pTgnFs4DPCgMNN1s2/jOP6wTyNKYdfPIkpjNCA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-358.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="3868650" type="application/octet-stream" sparkle:edSignature="nQTzm3YgLLTS8Hi9iUfksPxHDLcs+5YnjNzMhFCF3kcF94pNEtfLBZ01YuEqg4gSAtVZyfJZxT6JyBDCVIvvDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-383.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="2954406" type="application/octet-stream" sparkle:edSignature="VNDONSOmbD2hFmbYu1ngBYQ5wWBihL2bEeW+YusXu7DVCJlrJhj+YL8eFdBN07d4Bti77ZZKQJnV5k9HfH5+Bw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-385.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="385" length="4443798" type="application/octet-stream" sparkle:edSignature="9eF4U1j3f2vQ2nXb0H4J4AYK1aQFqk8Z1wGGaU57kAGSSCWBBb+5rDDVYkar4dtppq6DjUDE/kawhE8MwGw1AQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-387.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="387" length="1552694" type="application/octet-stream" sparkle:edSignature="cvyimXCNq85oSSytUqL5zD7ln3Pa1/m6Ny3TmJnrBk4B10NXuZFCFht+t2eNcuKENo7WKUBumV86wOprcXpQDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-388.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="388" length="1549738" type="application/octet-stream" sparkle:edSignature="R/OrpvbM3mdzd2HE+Gu7EFQfV0T61CUZO1puPe7b7/3HFrKngedDG9/mTm/kI+970sm7kYj51/+Z5OuLvLzzAQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-390/Variator390-389.delta" sparkle:version="390" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="389" length="1379398" type="application/octet-stream" sparkle:edSignature="yCn+qZXaeKP5TkPO/BlW+uZDvF46tMziD7zv/wKFEhac2HGpsSsC2LkURa0UwikPwVYOyGETCSUY/P8BS7wJCw==" />
+      </sparkle:deltas>
+
+    </item>
+    <item>
       <title>Version 0.3.0 (389)</title>
       <pubDate>Tue, 15 Sep 2026 20:32:11 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -552,6 +595,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: We58dx5pc1ua+Bt4+jpeYUU3m0SqXvtRPnIJ2oft50y7cMhJkIY/WXF0/YGI4713kmzSWGILi3YMs2cP8TP3Ag==
-length: 57056
+edSignature: IMRcFjMaK/BZxF+Y38IhFcwsaA3qRup5MtlL4ZrfA7+i8TMpLgG3soqCicbyPP6tX1Y/h5LsMrelNMCMVV2oCQ==
+length: 62883
 -->
