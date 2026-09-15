@@ -7,6 +7,57 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (388)</title>
+      <pubDate>Tue, 15 Sep 2026 07:45:25 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 388)</h2>
+<p>Active Batch Job Pinning, Zero-Lag Instant Mode Switching (Single ↔ Batch), 60fps Queue Performance, Audio Engine Purity, and Multi-Base Delta Upgrades.</p>
+
+<h3>📌 Active Batch Job Pinning</h3>
+<ul>
+  <li><strong>Top Priority Pinning:</strong> Active processing jobs now stay pinned to the very top of the batch queue list across all state changes, preventing scroll jumps and lost focus during multi-item runs.</li>
+  <li><strong>Deterministic Sorting:</strong> Verified with comprehensive test suite ensuring running jobs always precede completed and queued jobs.</li>
+</ul>
+
+<h3>⚡ Zero-Lag Instant Desktop Mode Switching</h3>
+<ul>
+  <li><strong>Cached View Tree Architecture:</strong> Mode transitions between Single and Batch use cached view tree ZStack with seamless cross-fade, eliminating view destruction and re-creation latency.</li>
+  <li><strong>Zero Memory Collisions:</strong> Ensured clean model and visual journey state lifecycle on workspace changes.</li>
+</ul>
+
+<h3>🏎️ 60fps Queue & Main-Thread Optimization</h3>
+<ul>
+  <li><strong>Solid AppSurface Rendering:</strong> Replaced GPU-taxing backdrop blurs with solid AppSurface panel, eliminating multi-pass Gaussian blurs during fast scrolling.</li>
+  <li><strong>Stripped Off-Screen Shadows:</strong> Removed dynamic per-row glow shadows, preserving crisp 120Hz/60Hz scrolling across 140+ batch items.</li>
+</ul>
+
+<h3>🎵 Audio Engine & Variation Purity</h3>
+<ul>
+  <li><strong>State Validation Fix:</strong> Resolved empty array decoding in AstraStateValidation to cleanly support audio-only and custom family selections.</li>
+  <li><strong>Prerequisite Detection:</strong> Accurate Studio Voice availability reporting on silent or non-conforming sources.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades</h3>
+<ul>
+  <li><strong>Direct Delta Support:</strong> Bit-for-bit verified delta updates from Base 326 (root baseline), Base 357 Victor, Base 356, Base 358, Base 383, Base 385, and Base 387.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator-0.3.0-388.zip" sparkle:version="388" sparkle:shortVersionString="0.3.0" length="1614196043" type="application/octet-stream" sparkle:edSignature="xvHyhX6EF8zg1KdmAuaw4s96eec5kYz6GemOY91Sb8QC53t2nMWO0cvz/2MXuQOMr76W11zKRYtdo+7sC7bsCA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-326.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="326" length="4082010" type="application/octet-stream" sparkle:edSignature="JoQ5h33NjCog2zvxFrran162c4uJVPY7W90fhVJCdnrrOi6DPad+02sNpK5xDFg3xgFtXZBOP5BV8OxmvQ2ECg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-357.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="3731798" type="application/octet-stream" sparkle:edSignature="oIKiVXopsqp+m19p+IdwiR0jJyDWG7qCRgOASu/DhT+tuC6I/9akTOCZfeB+s5rkgeCSStqIkS8EoWg6agmtAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-356.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="356" length="3725242" type="application/octet-stream" sparkle:edSignature="L0UVQHf1vw0G0rIvKciBDdVYQgFcsyW+1BlpRgsXmmVAEf//FioNhfdOBJUq1zgAbp5TmBiuVjK7Vll04Mk2DA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-358.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="3729734" type="application/octet-stream" sparkle:edSignature="BOjcFT3dXpZB8aBVwIzA2K0Oo+bXWRaBWJ+ILaa3CpzVjj0DbpQDLN/hYi8GKjZ7KTovBpXWZ6m1w0jHTehLAw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-383.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="2624282" type="application/octet-stream" sparkle:edSignature="RLMFZIRq236YI9YpcGL7CnadqR+eFigBzAGIoJSxG9urrAsJw+9dfcaZmC/tYKZFes29BowKPA0hXC2PglS7BA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-385.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="385" length="4314810" type="application/octet-stream" sparkle:edSignature="V4xAUhdU+TXhkXrfgls/YxCmd7JZcDtdC3MQgWCGrZ6/7Ra+5DVRe/3q2SzgxXeJqohq09sWbNOhUMS7x6QPCQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-388/Variator388-387.delta" sparkle:version="388" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="387" length="865622" type="application/octet-stream" sparkle:edSignature="aId7PuDMGSyZ6xzoYNU6oXlEPH7hSPoA2t0OxcHlAgjN/LC5gIrJVEeCk1jpQzM6wbIfL0P9OJU826W7KPkTAw==" />
+      </sparkle:deltas>
+
+    </item>
+    <item>
       <title>Version 0.3.0 (387)</title>
       <pubDate>Mon, 14 Sep 2026 23:20:07 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -467,6 +518,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kK6aIu3at5ZixsjITsNuRHBymDKeeAG28sBCtxwI1XmeaKNLP1um7TmxxW42yMTS6BD5n8HGj96acU3t7zEMBw==
-length: 46884
+edSignature: JiPL1m5COfSSWbHFKh3M6Ivq5lebKy3omwQQtw2Wc0fgc/BpI8HAkEPXIprWqTkmxZlVe+hLoqhlJr2MdODuBw==
+length: 52384
 -->
