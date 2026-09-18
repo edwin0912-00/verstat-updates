@@ -7,6 +7,59 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (424)</title>
+      <pubDate>Fri, 18 Sep 2026 17:37:18 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 424)</h2>
+<p>Batch Queue Compact Space Footer (CANON-15), 2D TikTok Sticker Positioning & Scaling (CANON-14), Startup Auto-Update Check (UPDATE-01), Fleet Feedback Pipeline (FEEDBACK-01), Standalone macOS Installer (.pkg), and Multi-Base Delta Upgrades.</p>
+
+<h3>📐 Batch Queue Space Compaction (CANON-15)</h3>
+<ul>
+  <li><strong>Optimized Vertical Clearance:</strong> Collapsed sprawling footer from ~250pt down to 88–96pt, freeing 150+ vertical pixels and reserving >85% window height for queue items.</li>
+  <li><strong>Compact Telemetry Strip:</strong> Replaced bloated 4-line progress card with a sleek 2-line telemetry strip and condensed status badges.</li>
+  <li><strong>Downsized Controls:</strong> Clean .controlSize(.regular) primary action buttons with zero clipping.</li>
+</ul>
+
+<h3>🎯 2D TikTok Sticker Positioning & Scaling (CANON-14)</h3>
+<ul>
+  <li><strong>Full 2D X/Y Repositioning:</strong> Independent continuous X (100–980px) and Y (100–1600px) sliders with direct interactive drag on the player canvas.</li>
+  <li><strong>One-Click Spatial Presets:</strong> Instant alignment presets (Left, Center, Right, Top, Middle, Lower).</li>
+  <li><strong>Dynamic Typography Scale:</strong> Granular sticker scale presets (XS 14pt up to XL 72pt) with center-anchor FFmpeg overlay parity (CANON-09).</li>
+</ul>
+
+<h3>🔄 Proactive Auto-Updates on Startup (UPDATE-01)</h3>
+<ul>
+  <li><strong>Background Startup Check:</strong> Automatically checks for updates 2 seconds after app launch without blocking UI or requiring manual check.</li>
+</ul>
+
+<h3>📬 Resilient Fleet Feedback Pipeline (FEEDBACK-01)</h3>
+<ul>
+  <li><strong>Multi-Format Image Support:</strong> Extended feedback attachment ingestion to support .heic, .tiff, .png, and .jpeg formats with guaranteed valid byte conversion.</li>
+  <li><strong>Fleet Dispatcher POST:</strong> Direct non-blocking telemetry integration with Fleet Dispatcher daemon.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades & Standalone macOS Installer</h3>
+<ul>
+  <li><strong>macOS .pkg Installer:</strong> Standalone installer package for one-click installation to /Applications.</li>
+  <li><strong>Direct Sparkle Deltas:</strong> Bit-for-bit verified delta updates from Base 357, 358, 383, 385, 387, 388, 389, and 423.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator-0.3.0-424.zip" sparkle:version="424" sparkle:shortVersionString="0.3.0" length="1614873812" type="application/octet-stream" sparkle:edSignature="LKOU2G4i7PuDCj1oa10DDsKXk5l6IzrtgimpTHbs7y7g26DXRs9eKmCzdFmzkxFRtSsWtsJ8OxDeYwp/o2Y1DQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-357.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="4451714" type="application/octet-stream" sparkle:edSignature="/HeyZtsKSLo79fqJnGdtxvy01/hzCbTykAx7+mnjj684yRycsZlaRKszSejOqBpeTDq9x1B0NiK7tkZiTLPgDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-358.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="4453074" type="application/octet-stream" sparkle:edSignature="Q0A4q0gRY67RNKSnqsq9ahMQ/i8zILmyeNXtVZavJl6kjq9URm5hKrrx7t0v+MVlqjsuIruSe+G2tOxwGluPBg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-383.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="3635846" type="application/octet-stream" sparkle:edSignature="g0UEl3yMooqasV/C7FaRR9tVTvUQYTXaYoti9zIM3mQst0bPLXuQUPZEP2qMHXZ2panRxPpuBAxJxomPxjOQAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-385.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="385" length="5041762" type="application/octet-stream" sparkle:edSignature="/G2HUDYnevPHCwElB+pkWD3pzYp12KdbQTwGrEMVicA8sNuJFLfy1vevkpcIaDPAN2XimFp97Qi7fxUEROgHAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-387.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="387" length="2494930" type="application/octet-stream" sparkle:edSignature="sA9uX8bbUMQlA3TTXSzaTEDe1sOm9OKggjb55p7UOPm3cL8iJ3Lmmc2Dz30HuFdHTOYO2KRytT53+nEXOA+tAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-388.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="388" length="2451906" type="application/octet-stream" sparkle:edSignature="zSFvy090trDWGNDjluaV02sX4mGC79UdobynZXEOa3vT/ZsR19yfQdVl3+3p9DYqi59jxUtNpBwYSXQMByujDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-389.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="389" length="2386486" type="application/octet-stream" sparkle:edSignature="YSiULJimjlh//JPlmzSFK4j17bVPrPiRXsl6lUmfxXu+he3nEQ3BAxq3K1z9IFKLoFFvP8Bi4zwV93iC1GAUBA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-424/Variator424-423.delta" sparkle:version="424" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="423" length="1349154" type="application/octet-stream" sparkle:edSignature="B6viWbz+1GqjTldiCJfWFiA0nBzPf28uzksb63uq48sy362HM2lpXfEGjldWiyNiB9FtIPxYuVJqDoRYIpWbAQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (423)</title>
       <pubDate>Fri, 18 Sep 2026 14:21:47 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -640,6 +693,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: whcz2zTvyftpAYdB2HQ1PlUQ46n+9M0JEyq0Y0xYBsUBmwRGskhcTgjyudnEWYTNwcogxoVjQH86tkOEEwvTCA==
-length: 68235
+edSignature: Eduy60ZiJwJ9wVQ8VHFw2R30LMUW+uVa6h5X6k5iGZrOWw/JqYdEa1q4UoJ7T7X+tlz1D5JZ9MtiXsg3lo9DAg==
+length: 74399
 -->
