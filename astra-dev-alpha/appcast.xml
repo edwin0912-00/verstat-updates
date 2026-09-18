@@ -7,6 +7,51 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (423)</title>
+      <pubDate>Fri, 18 Sep 2026 14:21:47 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 423)</h2>
+<p>TikTok Reply Dynamic Scale & Vertical Positioning, Batch Recipe Editing Unlock, 1-Video Batch-to-Single Sync, Live Resize Optimization (CANON-05), and Multi-Base Delta Upgrades.</p>
+
+<h3>💬 TikTok Reply Dynamic Scale & Positioning</h3>
+<ul>
+  <li><strong>WYSIWYG Sticker Parity (CANON-13):</strong> Full parity between SwiftUI live canvas and final rendered export.</li>
+  <li><strong>Dynamic S/M/L Sizing:</strong> Font and card scale adjustable from 24pt to 72pt with compact multi-line text wrapping without clipping.</li>
+  <li><strong>Vertical Repositioning:</strong> Continuous Y-offset slider (100–1600px) with center-anchor parity (CANON-09).</li>
+</ul>
+
+<h3>📋 Batch Queue & Workflow Enhancements</h3>
+<ul>
+  <li><strong>Recipe Editing Unlocked:</strong> Edit Recipe button in Batch Queue remains fully active and editable during queue preparation.</li>
+  <li><strong>1-Video Auto-Sync:</strong> Seamlessly switch 1-video jobs between Batch and Single modes without re-dragging files.</li>
+</ul>
+
+<h3>⚡ Performance & Resize Stability</h3>
+<ul>
+  <li><strong>CANON-05 Live Resize Optimization:</strong> Eliminated resize lag via subpixel deadbands and scale factor quantization.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades</h3>
+<ul>
+  <li><strong>Direct Delta Support:</strong> Bit-for-bit verified delta updates from Base 326 (root baseline), Base 357 Victor, Base 358, Base 383, Base 385, Base 387, Base 388, Base 389, and Base 390.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator-0.3.0-423.zip" sparkle:version="423" sparkle:shortVersionString="0.3.0" length="1614844883" type="application/octet-stream" sparkle:edSignature="4UZrH5WWJRHQHxYMuceqJYJmXfid+OJTFdFrVBYC8umaoURQbHqeqlqSzeaZjovpF1Ojfit+FkZCMh+qYmHhDA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-357.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="4404098" type="application/octet-stream" sparkle:edSignature="VEtdrF63uMdYxKiZxxFIJ1HUioiO9DAJkVothwQwmGDdW3ctyOfD42myq/xcP+3z76r2X1YNB4vQt7KrdKBgAw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-358.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="4386550" type="application/octet-stream" sparkle:edSignature="eP4K1yMt+xne1fRAHqK3DYQlY2oMC/EWfaDmgd6Uz29b1OkA9LheQtNK8WVOe4XcyUNQBpNZmyVDqKh1E3fQBg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-383.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="3585562" type="application/octet-stream" sparkle:edSignature="axRREDDFLJVV+8gaT7LXiSWtYqGFMYBtuSoTcc0uHoi87wGBE1f4XwdUIZRtizIGt/hW2L+LXaBHcRZykTQWCw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-385.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="385" length="5018902" type="application/octet-stream" sparkle:edSignature="DTtb7vV33o14V1/2EkvZS3cCIOPIvrtnqKg1H3r3NBuclBbJK8ChqZle8RKB9Eo59bNakrqjoUhoPqGEVGuzCQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-387.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="387" length="2443214" type="application/octet-stream" sparkle:edSignature="y446VdqcWkpsHWUxu5juvPa2ZqI4woS5sRcw6CtrbHCC+KtYqmubnIbxbuY4RqsrgxgvWAIsjA8dSOXHtT7eAw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-388.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="388" length="2422022" type="application/octet-stream" sparkle:edSignature="wEQ2kBqWk6MG8vTCh7bU2e0x3ZdqyEFxywzZye9+SIBaGck5x5EIld/8QE8hfgVPnge2xXMIoEkqeuMAPVIADg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-389.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="389" length="2351074" type="application/octet-stream" sparkle:edSignature="ltEBXspYhktiNqxAcwbXaR6s8ifpwEGvfB7u1Ke2//8h7ZaE36BaRupgFRgTdkivIRd9bs0IrSROkq13xGFwBw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-423/Variator423-390.delta" sparkle:version="423" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="390" length="2253106" type="application/octet-stream" sparkle:edSignature="JQjrPD2/S/GvdrXhkGuvoxxByFsHiUaM3u/PIDhVYYr6VBHAaxX0oIQbzDdEMNUpQve8WrsuetTkJWx23GvUAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (390)</title>
       <pubDate>Tue, 15 Sep 2026 21:09:04 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -595,6 +640,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: IMRcFjMaK/BZxF+Y38IhFcwsaA3qRup5MtlL4ZrfA7+i8TMpLgG3soqCicbyPP6tX1Y/h5LsMrelNMCMVV2oCQ==
-length: 62883
+edSignature: whcz2zTvyftpAYdB2HQ1PlUQ46n+9M0JEyq0Y0xYBsUBmwRGskhcTgjyudnEWYTNwcogxoVjQH86tkOEEwvTCA==
+length: 68235
 -->
