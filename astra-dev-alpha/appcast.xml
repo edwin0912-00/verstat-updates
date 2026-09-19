@@ -7,6 +7,58 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0 (427)</title>
+      <pubDate>Sat, 19 Sep 2026 19:56:40 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.3.0 (Build 427)</h2>
+<p>Security Audit Hardening, CANON-16 Zero-Black Initial Video Canvas Codification, Base 426 Micro-Delta Support, and Media Pipeline AAC Audio Preservation Parity.</p>
+
+<h3>🔒 Security Audit Hardening &amp; Sandboxing</h3>
+<ul>
+  <li><strong>Zero Hardcoded Secrets:</strong> Verified zero leaked credentials or private tokens; all keychain interactions use <code>kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly</code>.</li>
+  <li><strong>Safe Subprocess Spawning:</strong> All external command executions (FFmpeg, helper tools) use isolated argument arrays with zero shell interpolation.</li>
+  <li><strong>Hermetic Metadata Sanitization:</strong> Audio and video delivery pipelines enforce strict metadata stripping (ID3, EXIF, comment tags) preventing user path leakage.</li>
+</ul>
+
+<h3>🎬 CANON-16: Zero-Black Initial Video Canvas</h3>
+<ul>
+  <li><strong>Safe Forward Seek Snapping:</strong> Eliminated initial black/blank player frame by automatically seeking to 0.033s with forward tolerance when playhead is at zero.</li>
+  <li><strong>Hardware Decoder Preroll:</strong> Apple Silicon hardware decoders are primed immediately via <code>player.preroll(atRate: 0.0)</code> upon becoming ready to play.</li>
+  <li><strong>Poster Thumbnail Fallback:</strong> Seamless fallback frame generated via <code>AVAssetImageGenerator</code> rendered until <code>playerLayer.isReadyForDisplay</code> flips true.</li>
+</ul>
+
+<h3>🎵 Media Pipeline Audio Preservation Parity</h3>
+<ul>
+  <li><strong>Bit-for-Bit Source AAC Preservation:</strong> Restored strict Phase 3 assembler preservation of original AAC elementary stream for non-reordered creative variations.</li>
+  <li><strong>Manifest Verification Parity:</strong> Full compliance across all 1,070 test suite gates with 100% green status.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades &amp; Base 426 Micro-Delta</h3>
+<ul>
+  <li><strong>Ultra-Compact Delta from Build 426:</strong> Only 8.5 KB download to upgrade from Build 426!</li>
+  <li><strong>Direct Sparkle Deltas:</strong> Bit-for-bit verified delta updates from Base 357, 358, 383, 385, 387, 388, 389, 423, 424, 425, and 426.</li>
+  <li><strong>Full Standalone Installer (.pkg):</strong> Standalone macOS installer package with complete runtime.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator-0.3.0-427.zip" sparkle:version="427" sparkle:shortVersionString="0.3.0" length="1614929544" type="application/octet-stream" sparkle:edSignature="NfivPDjwD1gc5Gq5ujdbrn2RmEOMcB7+/qfaMDJFjg21UveVNSU2eYkzzyhAc8cm7kz2dm7R5cchMAigvWY1CQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-357.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="357" length="4518458" type="application/octet-stream" sparkle:edSignature="PDarBoNt4jmyTKX3G+nSqOw5v2wXq6fGJ+btI3GlSm4NSB0bXUt3KZTOroiE9iWeV0j8OJLyJTp0qNeGmEeOAQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-358.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="358" length="4495126" type="application/octet-stream" sparkle:edSignature="gNnmFExegBo56ijGiUE65GPuyBxzsYMFOw/bM5MyZY/fcAtGCYaR3QFnkALfKIYhbaSv74dTyNdg/rEMIq/wCw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-383.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="383" length="3754490" type="application/octet-stream" sparkle:edSignature="fR3xoHJ10LQ+oAzzmdwFheql13N/P6dLD8rxhhikL4SGWlZzfiacmeghTMfq/x9d7p0ZbGGkrWDXo7viBEFACg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-385.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="385" length="5090678" type="application/octet-stream" sparkle:edSignature="gHaREc3kdcppx8d64yfhh7nfeZkP9VpLDayFq6U7OXMZYlquaOD4DZ7puYM7FX36ugF2kMVobMoJm4132r4ACQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-387.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="387" length="2612910" type="application/octet-stream" sparkle:edSignature="WsLE9yHKdinBx7QgL03NhKsvZBBVS9AgXUAZm9R356W5ZD0cc3jIlqPwAFHuMKZK7EIOOjDrSVhAyprCFl7XCQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-388.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="388" length="2582474" type="application/octet-stream" sparkle:edSignature="PXZjyx9OebGJy9RZufW6RJjBVBXb2FayUEer/SyaFwzVvg5UJ0RUI175yNTA9dCw1n6j3t3GO4zkj/BYktxcDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-389.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="389" length="2527582" type="application/octet-stream" sparkle:edSignature="JmLNYBpLXJViR/8HDqcdTGHTks5qeNaLOPzgOvEuHxTpkQKK5gjSUoPAdJ4/fB22b7KpncqnLPzdu7k/ixcRDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-423.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="423" length="1640366" type="application/octet-stream" sparkle:edSignature="cWxNDsL21jT1O0orQMAFDKcfxhTd85oFgoxQFEPW+u4Uh9sPD0U472NQMR2Mav1UFkngzp+4TQ4Hy7XbeQS9Dw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-424.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="424" length="1548118" type="application/octet-stream" sparkle:edSignature="oiMzQRWm0Oc9YpnDnqRzt62dBJEMBa5dOKs9D02aQiTBvNpwz36PVErqln/mAyxNWzkN3wuzBLjgoBYY1u/yAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-425.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="425" length="1139398" type="application/octet-stream" sparkle:edSignature="vDKtA9xBKKSVjwm564RZ4yJyxknAQ1wMNb8KpBx1EaiYb+aV33bbzLBoO/FASaggiPlJqqKvLU+cs42XLL5WDg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.3.0-427/Variator427-426.delta" sparkle:version="427" sparkle:shortVersionString="0.3.0" sparkle:deltaFrom="426" length="8538" type="application/octet-stream" sparkle:edSignature="/TLFtUibXfnNi0zuY5DZBy1SSxHCxb4Cr98kTu73cklfQ2ZcJnF06IXieNq7hE7t6Na6pVyVxIdz9jE3Az/PAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (426)</title>
       <pubDate>Sat, 19 Sep 2026 16:17:42 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -798,6 +850,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Mtz3pL1rIWH7OrkGnMMq+whR7lyAU+ywzicCcBlCbwArRgGD9lXtQ8sjU1XL7PyuZt2jrJIc7OwGadwirsUMCA==
-length: 87881
+edSignature: 67VN6q11s5WskpNVK3QPGSVsNxeztghDF4zhZPEWTDZfiZUYMVLQSG12gCHWQO8XWvpW/41M23nk89CiTq81CA==
+length: 95154
 -->
