@@ -7,6 +7,52 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (471)</title>
+      <pubDate>Thu, 24 Sep 2026 10:11:13 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 471)</h2>
+<p>Chapter 4 (v0.4.0) Major Release: Market Localization &amp; 20-Language Catalog, Safe Font Matrix, Emoji Rasterization, Window Layout &amp; Opacity Invariants.</p>
+
+<h3>🌐 Market Localization &amp; Translation Subsystem (CANON-24)</h3>
+<ul>
+  <li><strong>20-Market Language Catalog:</strong> Comprehensive multi-market language presets, font routing, and localized speech transcription.</li>
+  <li><strong>Vision Client &amp; Subtitle Pipelines:</strong> Enhanced caption styling, translations, and multi-language verification.</li>
+</ul>
+
+<h3>🔤 BundledFontManager &amp; Safe Font Matrix (CANON_FONT_SAFE_MATRIX)</h3>
+<ul>
+  <li><strong>Zero-Tofu Typography Invariants:</strong> Safe dynamic font fallback matrix covering non-Latin and localized scripts.</li>
+  <li><strong>Preflight Font Resolution:</strong> Automatic resolution of system and bundled fonts with safe offline fallbacks.</li>
+</ul>
+
+<h3>😀 Emoji Rasterizer &amp; Keyword Mappings</h3>
+<ul>
+  <li><strong>Dynamic Caption Visuals:</strong> Contextual emoji keyword matching and high-resolution sticker rasterization.</li>
+  <li><strong>WYSIWYG Parity:</strong> Synchronized preview canvas and export rasterization.</li>
+</ul>
+
+<h3>🖥️ Window Layout &amp; Opacity Invariants (CANON-23, CANON-05)</h3>
+<ul>
+  <li><strong>Opaque Canvas Backing:</strong> Elimination of window bleed-through and semi-transparent ghosting artifacts.</li>
+  <li><strong>Live Resize Fluidity:</strong> Fast deadband debouncing and high-performance resize handling.</li>
+</ul>
+
+<h3>📦 Multi-Base Delta Upgrades &amp; Standalone Package</h3>
+<ul>
+  <li><strong>Micro-Deltas:</strong> Fast incremental deltas from Base 426 (1.6 MB) and Base 427 (1.6 MB).</li>
+  <li><strong>Standalone Installer:</strong> Full 1.58 GB .pkg installer and 1.61 GB release archive with complete bundled runtime.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-471/Variator-0.4.0-471.zip" sparkle:version="471" sparkle:shortVersionString="0.4.0" length="1612617431" type="application/octet-stream" sparkle:edSignature="4/abfeUGZ6axAvaeJSI49yyf7PqUuGNPZJDli4CQFlZIVAuK+xoUir1fdyixnAhFua+GFcea0RipqUUwaHeLAA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-471/Variator471-426.delta" sparkle:version="471" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="426" length="1691642" type="application/octet-stream" sparkle:edSignature="y47aAGmS1oJwD4feZ1rAS7eqGdpF5FNZ3PJ4Ob0jv0pU7pIdrBimHx90rGFjwcOoEF95dkY7FfHMwxnd7x4dCQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-471/Variator471-427.delta" sparkle:version="471" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="427" length="1690950" type="application/octet-stream" sparkle:edSignature="vGF99tFfJ+Q5q3uUX7rTM2FxZxddrZw7vPmwNMLKaPwvG7vEjKiRXfXomOkYWAACKhH37pEkIAFqBv38AXe+BQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.3.0 (427)</title>
       <pubDate>Sat, 19 Sep 2026 19:56:40 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -850,6 +896,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 67VN6q11s5WskpNVK3QPGSVsNxeztghDF4zhZPEWTDZfiZUYMVLQSG12gCHWQO8XWvpW/41M23nk89CiTq81CA==
-length: 95154
+edSignature: 7KYOBzZxf1ukEleIgkacRa8XxVz+MWpBloAm63Z4Ytq74qfBGzpP4lC976D7Pvubt3lpn0PJ5wHt012JEScTDQ==
+length: 98651
 -->
