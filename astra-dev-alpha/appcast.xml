@@ -7,6 +7,36 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (487)</title>
+      <pubDate>Fri, 25 Sep 2026 10:38:42 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 487)</h2>
+<p>Public Stability &amp; Feature Gating (CANON-26), Multi-Base Deltas &amp; Performance Hardening.</p>
+
+<h3>🔒 Public Build Feature Gating &amp; Stability (CANON-26 / GATE-01)</h3>
+<ul>
+  <li><strong>Public Stable Mode:</strong> Uncertified experimental features are cleanly grayed out and locked in production public builds.</li>
+  <li><strong>Internal Mode Toggle:</strong> Option-click on the app header version activates internal mode with tactile audio feedback and visual indicator.</li>
+  <li><strong>State Persistence:</strong> Unlocked state safely persists across launches and auto-activates in developer environments.</li>
+</ul>
+
+<h3>📦 Standalone Release &amp; Incremental Deltas</h3>
+<ul>
+  <li><strong>Micro-Deltas:</strong> Clean deltas from Base 471 (2.95 MB), Base 427 (2.68 MB), and Base 426 (2.68 MB) with bit-for-bit verified reconstruction.</li>
+  <li><strong>Full Standalone Package:</strong> Full 1.58 GB .pkg installer and 1.61 GB standalone release archive with zero external runtime dependencies.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-487/Variator-0.4.0-487.zip" sparkle:version="487" sparkle:shortVersionString="0.4.0" length="1615720941" type="application/octet-stream" sparkle:edSignature="vMyngPOWFY3FeGIuJocVYybdpayFVl0RimThrFzQxERfZomGgV38sPYKdlfzukrehuET7itOnI3Nq4Y0hhnnDA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-487/Variator487-426.delta" sparkle:version="487" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="426" length="2687110" type="application/octet-stream" sparkle:edSignature="NY1eRAEj7eVvLovaq14fdX/QPJOag6f/AkhPjqA4PfKuPtXuw+6IxlvXA9VUNYRtOcBGc0xLT1zoCa3ESgqgCg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-487/Variator487-427.delta" sparkle:version="487" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="427" length="2688646" type="application/octet-stream" sparkle:edSignature="nQcxWUVglWDkSemdklunKoaOX5vNCkVji+HUKUgLr9J6K8EVdf7uALHkvJJsaZmsWpzpv7eLeZcH/kr0uTZpBA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-487/Variator487-471.delta" sparkle:version="487" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="471" length="2955054" type="application/octet-stream" sparkle:edSignature="GPFhNLstaLwYXYTNJmJxzHeBpN1B7WCNPQcXtQCowMmvJZcFgntSY19L1C3D2Vd1Q7+qPK7ZJTeUCgAlwxlHBw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (471)</title>
       <pubDate>Thu, 24 Sep 2026 10:11:13 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -896,6 +926,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7KYOBzZxf1ukEleIgkacRa8XxVz+MWpBloAm63Z4Ytq74qfBGzpP4lC976D7Pvubt3lpn0PJ5wHt012JEScTDQ==
-length: 98651
+edSignature: F52w4Lpig2uuyFigL+n8iJ3FQogc8xTa54zg2JnkJgY1++i3XRpibYfucfTZLhIo71mGbmxUs3Rizo5jmKZxBg==
+length: 101704
 -->
