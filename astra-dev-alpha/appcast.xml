@@ -7,6 +7,46 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (959)</title>
+      <pubDate>Fri, 02 Oct 2026 15:23:36 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 959)</h2>
+<p>Media Crop &amp; Zoom Tuning, Zero-Clipping Ergonomics (CLIP-01), Scene Pinning &amp; Clean Canvas Across Scenes (SCENE-PIN-01), Focused Inspector (Option A), and Micro-Deltas from Base 487.</p>
+
+<h3>🖼️ Media Crop &amp; Zoom Precision Controls</h3>
+<ul>
+  <li><strong>Aspect Ratio Framing:</strong> 1:1, 9:16, 16:9, and 4:5 presets with instant preview and accurate pixel framing.</li>
+  <li><strong>Zoom &amp; Pan Calibration:</strong> Fine-grained pan X/Y and 1.0x–3.0x zoom sliders for secondary and showcase elements without canvas drift.</li>
+  <li><strong>Multi-Engine Parity:</strong> Synchronized coordinate mapping across native Swift CanvasModel and TypeScript pipeline.</li>
+</ul>
+
+<h3>🛡️ Mechanical Zero-Clipping Gate (CANON-04 / CLIP-01)</h3>
+<ul>
+  <li><strong>Zero Text Truncation:</strong> Guaranteed unclipped buttons and labels across all window widths down to 620x620 physical clamp.</li>
+  <li><strong>Indivisible Layout Units:</strong> Header, inspector, and audio controls relocate cleanly without right-edge overflow or ellipsis truncation.</li>
+</ul>
+
+<h3>🎬 Scene Pinning &amp; Focused Inspector (Option A / SCENE-PIN-01)</h3>
+<ul>
+  <li><strong>Scene Pinning:</strong> Canvas elements can be locked to individual scenes or pinned globally across the entire video.</li>
+  <li><strong>Focused Inspector Mode:</strong> Selecting an item presents only relevant parameters, eliminating 35 clutter buttons and preventing layout jumps.</li>
+</ul>
+
+<h3>📦 Standalone Release &amp; Incremental Deltas</h3>
+<ul>
+  <li><strong>Sparkle 2 Micro-Delta:</strong> Clean 24.4 MB delta update from Base 487 with bit-for-bit verified reconstruction and Node runtime integrity.</li>
+  <li><strong>Full Standalone Package:</strong> Relocatable 1.65 GB archive and 1.61 GB standalone .pkg installer.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-959/Variator-0.4.0-959.zip" sparkle:version="959" sparkle:shortVersionString="0.4.0" length="1650611912" type="application/octet-stream" sparkle:edSignature="I4S1Ckbcj6NiDLNU8msxj8DEe+pQ17kdVy5Z/0LgQDF21j7GaIYsQFTNy5DlbgKHrdOCtAkyCvEU+4yxXF1AAg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/astra-v0.4.0-959/Variator959-487.delta" sparkle:version="959" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="487" length="24442138" type="application/octet-stream" sparkle:edSignature="4KnCGn1vBPW0H7892x9LYW60IgZe0L9bzoJo4/9x+Xy5UmuHMKhU6Ejh/w2Mpwtmlkqhe7tHhClGkw61PsRcAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (487)</title>
       <pubDate>Fri, 25 Sep 2026 10:38:42 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -926,6 +966,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: F52w4Lpig2uuyFigL+n8iJ3FQogc8xTa54zg2JnkJgY1++i3XRpibYfucfTZLhIo71mGbmxUs3Rizo5jmKZxBg==
-length: 101704
+edSignature: BPg2xjNrK/jAlvGneBM5oNetXJQZi9idTv0U5mIY5KSF5ow3/92F8fPK4HkaUtqRoO6iLgZx0sOkgjh29qCLBA==
+length: 104805
 -->
