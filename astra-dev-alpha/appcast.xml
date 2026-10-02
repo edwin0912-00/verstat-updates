@@ -7,6 +7,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (968)</title>
+      <pubDate>Fri, 02 Oct 2026 21:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 968)</h2>
+<p>Complete Variator Brand &amp; Feed Canonicalization, Media Crop &amp; Canvas Framing, Floating Toolbar Viewport Clamp, Zero-Clipping Ergonomics, and 1.47 MB Micro-Delta.</p>
+
+<h3>🏷️ Variator Brand &amp; Updates Canonicalization</h3>
+<ul>
+  <li><strong>Pure Variator Identity:</strong> Complete migration to canonical Variator feeds and Keychain signing.</li>
+  <li><strong>Sparkle 2 Micro-Deltas:</strong> Ultra-fast 1.47 MB delta from Build 959 and 24.4 MB delta from Build 487 with bit-for-bit verified reconstruction and Node runtime integrity.</li>
+</ul>
+
+<h3>🖼️ Media Crop &amp; Canvas Framing</h3>
+<ul>
+  <li><strong>Aspect Ratio Framing:</strong> 1:1, 9:16, 16:9, and 4:5 presets with instant preview and accurate pixel framing.</li>
+  <li><strong>Zoom &amp; Pan Calibration:</strong> Fine-grained pan X/Y and 1.0x–3.0x zoom sliders for secondary and showcase elements without canvas drift.</li>
+  <li><strong>Floating Toolbar Clamp:</strong> Guaranteed bounding inside preview viewport.</li>
+</ul>
+
+<h3>🛡️ Layout &amp; OCR Robustness (CLIP-01 / LOC-07)</h3>
+<ul>
+  <li><strong>Zero Text Truncation:</strong> Guaranteed unclipped buttons across all window widths down to 620x620 clamp.</li>
+  <li><strong>Short Glyphs OCR Tolerance:</strong> Resilient subtitle inpainting for CJK and short title tokens.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-968/Variator-0.4.0-968.zip" sparkle:version="968" sparkle:shortVersionString="0.4.0" length="1650599260" type="application/octet-stream" sparkle:edSignature="30yUFWAPCtXC5XofMKArzgOQ9eM2F+Sm6bckQg0G5pIZbyOtZOjKXh4JYfK0sKTUoCFoTD9shrPZL09XPJa8Dw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-968/Variator968-487.delta" sparkle:version="968" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="487" length="24425974" type="application/octet-stream" sparkle:edSignature="tCV2sz3Ppq7GQxASqiS+TBxIXjsN1TCOEf1cqdmEfAg4wtAeavSdUx1oIqqYmAHXrc4Bj4MNAcVYp1Yspn2+DQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-968/Variator968-959.delta" sparkle:version="968" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="959" length="1470910" type="application/octet-stream" sparkle:edSignature="mFVYTo2SxueElcDxWHe3U9KHvConhzymrS1nfU/BJPDTcdQgkvf8xUxZ0L/pVbRTq2EWmdo2wtnm+iiN0xthBA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (959)</title>
       <pubDate>Fri, 02 Oct 2026 15:23:36 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -966,6 +1001,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: s9gSg1/DZe/W8IXP9jtqhxgT6R8aUMdmF9IFIAvxXn/JwEXlnRCxjlUAsJCPyxKV0VukDSsekLTPIyXQLXoCCA==
-length: 104795
+edSignature: ojt1nX/HssxXltvnS24OQH8EAI8Yx8hKWHRdxgPeJ5XcvGux9p4WXpFbzsqtDllmStl2ER+GlPVvDodniIb+Ag==
+length: 107760
 -->
