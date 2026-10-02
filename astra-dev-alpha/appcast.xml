@@ -2,7 +2,7 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>Variator Astra Changelog</title>
+    <title>Variator Changelog</title>
     <link>https://edwin0912-00.github.io/verstat-updates/astra-dev-alpha/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
@@ -966,6 +966,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 5cPRk3JMW7S3aNkc6XnBqjmf0mxZL0dnrYSTI0S4YVH4HLJtMX2Z2LsP/aycDYEm3+lldyrHVI/VhNShZgPQCg==
-length: 104801
+edSignature: s9gSg1/DZe/W8IXP9jtqhxgT6R8aUMdmF9IFIAvxXn/JwEXlnRCxjlUAsJCPyxKV0VukDSsekLTPIyXQLXoCCA==
+length: 104795
 -->
