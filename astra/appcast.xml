@@ -7,6 +7,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1505)</title>
+      <pubDate>Fri, 09 Oct 2026 13:14:26 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1505)</h2>
+<p>Single-mode drag and drop directly loads videos without plussing or switching to Batch (IMPORT-SINGLE-NO-BATCH-01), mechanical LamaGate (CANON-LAMA-01 / CANON-38) inpainting with zero TELEA fallback, and standalone relocatable release packaging.</p>
+
+<h3>🎬 Single Mode Drag &amp; Drop (IMPORT-SINGLE-NO-BATCH-01)</h3>
+<ul>
+  <li><strong>Direct Single Loading:</strong> When in Single video mode, dropping a new video replaces the canvas directly in Single mode without plussing with previous clips or switching to Batch. Dropping multiple videos directly enqueues only the dropped files in Batch.</li>
+</ul>
+
+<h3>🎨 Neural Inpainting &amp; LamaGate (CANON-LAMA-01 / CANON-38)</h3>
+<ul>
+  <li><strong>Mechanical LaMa Gate:</strong> Guaranteed non-empty hole masks for burned-in captions, &gt;=10px emoji margins, and zero cv2.INPAINT_TELEA fallback smear.</li>
+  <li><strong>Standalone Emoji Tracks:</strong> Automatic detection and cleanly isolated healing for emoji sequences without alphanumeric text.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1505/Variator-0.4.0-1505.zip" sparkle:version="1505" sparkle:shortVersionString="0.4.0" length="1643146066" type="application/octet-stream" sparkle:edSignature="3iYI1Rg/p+dROV14TCTYilHNTqL5VlPRwapZw+jTmf7LCySaZKjwWEFkzdgBYhQDX39PuwRVLPo7sgNWazlNCg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1505/Variator1505-487.delta" sparkle:version="1505" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="487" length="32316938" type="application/octet-stream" sparkle:edSignature="jx2CQ4P91LkO18tR17TpMVfyNRbjA4V168ljGtkINxrAs99au3LH5NvALupAA0IEzl3LwSiWfrt6bUsC6MVPCg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1505/Variator1505-959.delta" sparkle:version="1505" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="959" length="29852358" type="application/octet-stream" sparkle:edSignature="HPzJcFiiFvBwfDiL/wXvHJjcJzrK2ZVMz3EaiPcB+5Ex9c078PLghBY/3sJ7ggnwheZ8YL5jAt7U7z1TthWgCA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1505/Variator1505-968.delta" sparkle:version="1505" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="968" length="29843522" type="application/octet-stream" sparkle:edSignature="B+mvnsKglI4ml1gYJVD8lzhc7RKG5DW6kJCkI9c570Vsz7oKUKVwNRkLSuWm4br9sv/Pt3Y8EG+nwI4Q4mj2Aw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1505/Variator1505-1496.delta" sparkle:version="1505" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1496" length="7546846" type="application/octet-stream" sparkle:edSignature="jmxud3f/+mqS3J9Vx8SbuX3xQnWIuD3XupfSt5ugZ4q+zfvHNYbhfLaBSfbEyUz7YsuDIdLETDoFxSCp7G3oDA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1505/Variator1505-1497.delta" sparkle:version="1505" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1497" length="1217154" type="application/octet-stream" sparkle:edSignature="L2bcQcTFKhzqCCmDvSWcTRpS1IT8A0wo0/Ke1TPBq99peHkXokkFlWHDBbcoF1DbwsoI+gvZTQ7lLsCImsiOCQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (968)</title>
       <pubDate>Fri, 02 Oct 2026 21:30:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1001,6 +1032,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /hzn8hEoYuYHLAdnW4WePPkhbg/KKr5Z7Uu7e2Bl7+q/Gad8mlQUEiU3f1vcY3x4qyjzaZADKFy7n7KXbgUCAw==
-length: 107750
+edSignature: QVUVdP+FuGHvPfQdoYSflBnQvcsmaZSBvjZeUpXiYzkCL9FAkw+AFQpm/PfGOiqrqnpVOHyUKsiz68GOVlEoCQ==
+length: 111599
 -->
