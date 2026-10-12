@@ -7,6 +7,53 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1526)</title>
+      <pubDate>Mon, 12 Oct 2026 17:20:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1526)</h2>
+<p>Final Cut Pro frame-accurate realtime scrubbing, zero-tolerance chase-time seeking, inspector control deduplication, live full batch queue with direct Finder export reveal, and studio developer recipe presets.</p>
+
+<h3>⏱️ Final Cut Pro Frame Scrubbing Parity</h3>
+<ul>
+  <li><strong>Rational Frame Grid:</strong> Scrubbing and playhead are locked strictly to exact video frame boundaries: snappedTime = round(t * fps) / fps.</li>
+  <li><strong>Zero-Tolerance Chase-Time Seeking:</strong> Elimination of 0.04s tolerance jitter. Uses toleranceBefore: .zero, toleranceAfter: .zero with coalesced inFlightSeek / pendingSeek loop.</li>
+  <li><strong>FCP Keyboard Stepping:</strong> Left/Right arrow keys step exactly 1 frame (1.0/fps); Shift + Left/Right step exactly 10 frames (10.0/fps).</li>
+  <li><strong>Held-Mouse Realtime Responsiveness:</strong> Removed stale throttling, ensuring the playhead immediately displays the exact frame under the cursor during continuous dragging.</li>
+</ul>
+
+<h3>⚡ UI Performance &amp; Responsiveness</h3>
+<ul>
+  <li><strong>Coarsened Preview Publishing:</strong> Reduced full-view SwiftUI invalidations during dragging from 120 Hz to &lt;= 5 Hz, eliminating UI freezes and slider latency.</li>
+  <li><strong>Asynchronous Logging:</strong> Dedicated background queue for DiagnosticsLog disk I/O, completely freeing the Main Actor.</li>
+</ul>
+
+<h3>🎛️ Inspector Deduplication</h3>
+<ul>
+  <li><strong>Consolidated Speed &amp; Pitch:</strong> Redundant duplicate speed and pitch sliders removed from "Look &amp; sound", standardizing canonically in the dedicated "Speed &amp; Pitch" card with instant presets.</li>
+</ul>
+
+<h3>📦 Batch Queue &amp; Studio Dev Presets</h3>
+<ul>
+  <li><strong>Full Batch Queue Visibility:</strong> Scrollable, live-updating variant queue list during rendering with per-job status and individual progress.</li>
+  <li><strong>Export All to Folder:</strong> Clear post-render button that transfers all outputs to the chosen folder and instantly reveals them in Finder.</li>
+  <li><strong>Studio Dev Recipe Presets:</strong> Save and load winning multi-scene variation recipes to easily scale top-performing ad creatives.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator-0.4.0-1526.zip" sparkle:version="1526" sparkle:shortVersionString="0.4.0" length="1630715109" type="application/octet-stream" sparkle:edSignature="U5a+ftv3d6pleICGidouS9SXtEsxZLZUsOrOamUQQzfpP8PSGAQnfZCNYmi0IgxnS6FBJ7Qu37g5+Ah+HPSbBg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator1526-487.delta" sparkle:version="1526" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="487" length="36784434" type="application/octet-stream" sparkle:edSignature="kX0cPHg+WVsNF0L4PIMVpihA4vMCWB+Riz7DaA0Ep7tJmfTlHfBe2YDtJangHsvsP+bkMmPKFxxZyDqdl/o5Dw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator1526-959.delta" sparkle:version="1526" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="959" length="33291174" type="application/octet-stream" sparkle:edSignature="tmU8Vq/cgQVBgzCYOir7G0mxUqGPl514iGQaIoLRUZQHyya9LWPUrYfr12NoYFtE9m1KgkNHrEJinD8qJylgAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator1526-968.delta" sparkle:version="1526" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="968" length="33291102" type="application/octet-stream" sparkle:edSignature="4LamkYkVDAVsr21ZNhBzkJeMvUUdG35xSzo7KTq5RhNIpshrotwB35Xz6/2NKKwS0q8HjNzdFmb4i3nWLJ+PAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator1526-1496.delta" sparkle:version="1526" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1496" length="12632526" type="application/octet-stream" sparkle:edSignature="r6MoeTDS9WTZybqY36/ISB3iM5Q+V4REI+6Ip++r/uAQiTHXR6kpwbvhc5nYwKtfiRF7+Y7x39ZpPB4IJAtkDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator1526-1497.delta" sparkle:version="1526" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1497" length="7386446" type="application/octet-stream" sparkle:edSignature="16S+VA/hGzzuW4r1/WuIseMJS5qToT+iCXbwuYnDauxyQKss9eBsD1FkN69FayKKb0APm2yko2gyqCe39VR/AA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1526/Variator1526-1505.delta" sparkle:version="1526" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1505" length="7333602" type="application/octet-stream" sparkle:edSignature="i4sfHU9KfxofIEBLZ4RLEyyKwKjDtcmZj6RmSiu4ThlXv/i8ODPYdfYOHIGfOQojPFZeJ9HoEfF0u6mCRKMdCg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (968)</title>
       <pubDate>Fri, 02 Oct 2026 21:30:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1001,6 +1048,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 5Dtqu88qbJTTUYRvkIHWcaN3Q6K4tvBGGuN3j2kE8QgmsJyCie2Bfg/SZLlirP1MnxNRtIce0s/UfE7Dl0J9CA==
-length: 107753
+edSignature: uIYP2BwhC4GqFuf6iGVPU7kOvHq0yxAgF0S7UwXtMbolYDJZjt77R5t6OVubqeQE0Di8F7HwqwKj5eApzMVQBg==
+length: 113156
 -->
