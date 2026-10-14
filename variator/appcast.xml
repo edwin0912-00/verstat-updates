@@ -7,6 +7,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1550)</title>
+      <pubDate>Wed, 14 Oct 2026 12:20:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1550)</h2>
+<p>Zero-Hang SwiftUI Snapshot Architecture, .MOV SSIM Accurate Gray-Frame Recovery, Universal Market LaMa Pre-Flight Guard, Serialized Self-Healing Diagnostics Git Sync, and Adaptive Multi-Lane Batch Concurrency.</p>
+
+<h3>⚡ Zero-Hang SwiftUI View Body &amp; Snapshot Architecture</h3>
+<ul>
+  <li><strong>Pure Read-Only View Evaluation:</strong> Eliminated <code>@Published</code> state mutations and full queue validation inside <code>makeAstraCreativeSettings()</code> and <code>validatedAstraCreativeSettings()</code> during SwiftUI <code>View.body</code> passes, preventing MainActor feedback loops and UI hangs.</li>
+  <li><strong>Adaptive Multi-Lane Batch Concurrency:</strong> Dynamic batch lane scaling based on Apple Silicon tier, recipe complexity, and video complexity (up to 4 parallel lanes on M-Max, 6 on M-Ultra) without foreground mouse/window starvation.</li>
+</ul>
+
+<h3>🎬 .MOV SSIM Robustness &amp; Universal Batch Recipes</h3>
+<ul>
+  <li><strong>Accurate Gray-Frame SSIM Recovery:</strong> Explicit primary video stream selection (<code>[0:v:0]</code>/<code>[1:v:0]</code>), single-frame trim, and automatic post-input accurate gray-frame fallback for iPhone HEVC VFR <code>.MOV</code> containers.</li>
+  <li><strong>Universal Batch Recipe Adaptation:</strong> Full propagation and per-video adaptation of Voiceover (ElevenLabs Change Voice / Dubbing), Hook Collage, Brand Logo word-snapping, Color Grading, and Hook Remove/Rewrite across all batch clips.</li>
+</ul>
+
+<h3>🛡️ Localization Guard &amp; Self-Healing Telemetry Sync</h3>
+<ul>
+  <li><strong>All-Market LaMa Weight Guard:</strong> Automatic fallback to canvas overlay when local LaMa weights are absent across all market languages, eliminating <code>--local-models-weights</code> CLI blockers.</li>
+  <li><strong>Serialized Git Sync with FETCH_HEAD Auto-Heal:</strong> Thread-safe lock serialization and stale <code>.git/FETCH_HEAD</code> pruning prevent <code>Cannot rebase onto multiple branches</code> errors during background telemetry sync.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1550/Variator-0.4.0-1550.zip" sparkle:version="1550" sparkle:shortVersionString="0.4.0" length="1643705817" type="application/octet-stream" sparkle:edSignature="wWRdF6KCZNlW6TczcXr82KGuolUWRzyngHDIKRMT7EoUncocLxE+B3z3fe5MATjI4iNPM5jetG8VqIJfaNIlBw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1550/Variator1550-1526.delta" sparkle:version="1550" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1526" length="2283554" type="application/octet-stream" sparkle:edSignature="hLIbBKyH3IMqP/YApnFABlCNvqKIh2+Fxzd6Ifh+3+3/lUrk55FWztmXqga1dMyVxy79F6ac3jLZBAluei+bCQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1550/Variator1550-1548.delta" sparkle:version="1550" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1548" length="7870782" type="application/octet-stream" sparkle:edSignature="iZMjzEliG1/obUAWwglt0mI7rrRmTy3aCTe0JgXu65FWqiL4gbz3iVLEv2UFw8VYsl1JQUf+yb+cDyeTeS4rCQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1548)</title>
       <pubDate>Wed, 14 Oct 2026 02:10:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1084,6 +1119,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /Ajvg/gSue0j+pxoxePrHLE/juINhInaDeKZiuLtSBw80NDrmNBuiNSDXJWHvHPkQZQ1UgrpqPpRbkIID0esCg==
-length: 116945
+edSignature: tNpxvmzeFpdi0hJ2Luivf79JhHr9sn5x3g5wwPIaH5AVJmtMNwFjjSkWa0DRQbXnpaSDmc0XDce4OF+Xo4cxAQ==
+length: 120700
 -->
