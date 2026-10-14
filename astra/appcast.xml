@@ -3,9 +3,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Variator Changelog</title>
-    <link>https://edwin0912-00.github.io/verstat-updates/astra/appcast.xml</link>
+    <link>https://edwin0912-00.github.io/verstat-updates/variator/appcast.xml</link>
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
+    <item>
+      <title>Version 0.4.0 (1553)</title>
+      <pubDate>Wed, 14 Oct 2026 16:45:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1553)</h2>
+<p>Proportional Hook/Body Timeline Split Before &amp; After Analysis, Localization Crash Fix (textSimilarity), and Seamless Background Self-Updating with Multi-Build Deltas (1548 &amp; 1551).</p>
+
+<h3>⏱️ Proportional Hook / Body Timeline Split (TIMELINE-SINGLE-BLOCK-HOOK-01)</h3>
+<ul>
+  <li><strong>No Full-Video Hook Stretching:</strong> Before analysis or in Quick mode on single-take videos (&gt;4.0s), the timeline now splits proportionally into <code>Hook (0.0s – 3.0s)</code> and <code>Body (3.0s – end)</code> instead of labeling the entire video duration as <code>Hook</code>.</li>
+  <li><strong>Bounded Hook Layer Geometry:</strong> Hook-scoped canvas items and overlays strictly respect the 3.0s hook cut instead of inheriting a full-video 1-block <code>endMs</code>.</li>
+</ul>
+
+<h3>🌐 Localization Pipeline Crash Fix (LOC-TEXT-SIMILARITY-01)</h3>
+<ul>
+  <li><strong>Fixed <code>textSimilarity is not defined</code>:</strong> Imported <code>textSimilarity</code> from <code>./captions.ts</code> in <code>src/localization/localize.ts</code> so caption translation and localization complete without runtime ReferenceErrors.</li>
+</ul>
+
+<h3>🔄 Seamless Background Auto-Update &amp; Disk Space Guard (UPD-AUTO-BACKGROUND-01)</h3>
+<ul>
+  <li><strong>True Sparkle Background Staging &amp; Auto-Install:</strong> Enabled <code>SUAllowsAutomaticUpdates</code> and <code>SUAutomaticallyUpdate</code>, removed synthetic progress simulation in production, added automatic temporary SSD cleanup before update downloads, and enabled automatic background self-relaunch when idle.</li>
+  <li><strong>Direct Binary Deltas from Build 1548 &amp; 1551:</strong> Included both <code>Variator1553-1548.delta</code> (~12.6 MB) and <code>Variator1553-1551.delta</code> (~5.9 MB) for instant updates.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1553/Variator-0.4.0-1553.zip" sparkle:version="1553" sparkle:shortVersionString="0.4.0" length="1649695514" type="application/octet-stream" sparkle:edSignature="d+Whm/AuHPQ8P4OEVHcbaXNe7si7QAWL8zaZOD+u9sLltdDnTZv+XMqkdrV5EBvukOZclsCiLy4HM+SqE8mtCg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1553/Variator1553-1548.delta" sparkle:version="1553" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1548" length="12668722" type="application/octet-stream" sparkle:edSignature="yLVgHN96UZEiUJibiNi/17YQmKbydfRqgV7eCU8P3EUESzU2NKX5IN9kzsPZ5hM5AGMONOAlg6xUFyQljBgPBA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1553/Variator1553-1551.delta" sparkle:version="1553" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1551" length="5973906" type="application/octet-stream" sparkle:edSignature="duiCDME6GIaWCQMpaYWGnc2N6E7aldGDaXI+CMwWqF86wCKP6s7HDsubNYR/VmDS6YuQqppJQkd2xqLEyNpEDg==" />
+      </sparkle:deltas>
+    </item>
     <item>
       <title>Version 0.4.0 (1551)</title>
       <pubDate>Wed, 14 Oct 2026 13:32:00 +0200</pubDate>
@@ -1154,6 +1188,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: d8y8swO5SeGh3DirMX9XXAK1CLa+z2mrCl3dGoQeu1nYXRYoozz1+S5splaCGyWzzIOZWwRvqWDSror01jN4Dg==
-length: 124197
+edSignature: 8A7bId9e5tTkWZykimSDOPMnJxIVrcKNPQOHkENwRByU1LDgRthLYh1yyr2qq7U0DbQG2an2MJwHvU0+d2wjCg==
+length: 127723
 -->
