@@ -7,6 +7,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1551)</title>
+      <pubDate>Wed, 14 Oct 2026 13:32:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1551)</h2>
+<p>Accurate Hook Collage Timeline Geometry &amp; Batch Collage Toggle, Canonical Brand Logo Timing Law (Never First 2s / Never Full Video), and Synchronized Batch A/B Spacebar Playback with Low-Volume Audio Routing.</p>
+
+<h3>🖼️ Hook Collage Timeline &amp; Batch Toggle (BATCH-HOOK-COLLAGE-01)</h3>
+<ul>
+  <li><strong>True Hook Duration on Timeline:</strong> <code>Collage Photo 1/2/3</code> timeline tracks now span strictly their active hook window (<code>0.0s .. 3.0s</code>) instead of stretching across the entire Scene 1 duration, and automatically hide when Hook Collage is turned off.</li>
+  <li><strong>Quick Mode &amp; Batch Collage Rendering:</strong> Passed <code>--manual-override</code> in Quick (<code>.auto</code>) mode and preserved post-analysis synthesized <code>hook-collage-card-*</code> items during Batch execution.</li>
+  <li><strong>Dedicated Batch Collage Toggle:</strong> Added a direct <strong>Hook Collage</strong> switch in Batch Recipe settings and inline job controls so Collage can be toggled on/off independently in Batch.</li>
+</ul>
+
+<h3>🛡️ Brand Logo Timing Law (LOGO-TIMING-01)</h3>
+<ul>
+  <li><strong>Zero First-2-Seconds Commercial Placement:</strong> Brand logos are strictly forbidden from appearing in the first <code>2.0s</code> (<code>startMs &gt;= 2000</code>) across all automatic placements, word-snapping, and recipe presets.</li>
+  <li><strong>Bounded Interval Only (Never Full Video):</strong> Eliminated full-video logo duration across Swift and TypeScript planners/assemblers; logos always render in bounded <code>1.8s–2.5s</code> intervals.</li>
+</ul>
+
+<h3>🎬 Batch A/B Preview Spacebar &amp; Audio Ergonomics (BATCH-AB-SPACE-SYNC-01)</h3>
+<ul>
+  <li><strong>Synchronized Spacebar Playback:</strong> Pressing <code>Space</code> inside Batch A/B Comparison plays/pauses both Original and Variation players simultaneously with automatic drift resync.</li>
+  <li><strong>Comfortable Default Audio Levels:</strong> First video (Original) is muted by default (<code>volume = 0</code>), and second video (Variation) plays at a soft <code>25%</code> volume level (<code>volume = 0.25</code>).</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1551/Variator-0.4.0-1551.zip" sparkle:version="1551" sparkle:shortVersionString="0.4.0" length="1643726464" type="application/octet-stream" sparkle:edSignature="u/jlBqt/Aff6XS7gvB4VcUVr2XX4XQwfMwfbSQDaQIJSSr1cGYgpi5uc3+dnOGkwvDgxE8pkWwSU+i00iAFQDw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1551/Variator1551-1550.delta" sparkle:version="1551" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1550" length="1403890" type="application/octet-stream" sparkle:edSignature="4oVZtCyd5jv5fdfJJzOFAsLGG+pc/9rKHue/dV5v69CE61ywFvT/sR0p2/duBayvYA1ckE1LmD+C9fL5Uyi/AA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1550)</title>
       <pubDate>Wed, 14 Oct 2026 12:20:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1119,6 +1154,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: EXBPlkSdAbe/vN2b4UUnLm5WvJB9u/quTZYMZ4yfkeo1sYOjCbsk+8hQb1f54XQYCLmlH4vqL3g0nxucBCs1Ag==
-length: 120707
+edSignature: aj/3EQkuo6KbH78WHFN+rPq4t4a7v8XcxrN9mmWhex7fQRVrxULbVR2tUO3pWSzNwgQ80nlRjTK//C4e59EIAQ==
+length: 124207
 -->
