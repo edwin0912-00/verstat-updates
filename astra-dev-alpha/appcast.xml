@@ -7,6 +7,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1548)</title>
+      <pubDate>Wed, 14 Oct 2026 02:10:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1548)</h2>
+<p>Bulletproof Diagnostics &amp; Auto-Update Telemetry Sync (SYNC-KEY-DELTA-01), Cross-Context Pipeline Auto-Heal across all 17 variation &amp; localization edge cases, instant Startup Restore Cancellation, and bit-for-bit verified micro-deltas from Builds 968 and 1526.</p>
+
+<h3>📡 Auto-Update Telemetry &amp; Deploy Key Persistence (SYNC-KEY-DELTA-01)</h3>
+<ul>
+  <li><strong>Guaranteed Deploy Key Across All Updates:</strong> Bundled telemetry deploy key is verified in every standalone archive and delta update, and automatically persisted to Application Support on first run so diagnostics sync never drops after Sparkle updates.</li>
+  <li><strong>Full Sparkle Lifecycle Telemetry:</strong> Automatic background log sync across update check, download, ready-to-install, Sparkle installation handoff, and first launch on the new build.</li>
+  <li><strong>Self-Healing Git Transport:</strong> Automatic recovery from corrupt or empty FETCH_HEAD state during background branch push.</li>
+</ul>
+
+<h3>🛡️ Cross-Context Pipeline Auto-Heal (17 Edge Cases Eliminated)</h3>
+<ul>
+  <li><strong>Cross-Video State Sanitization:</strong> Importing a new video or applying a batch recipe automatically scrubs stale scene IDs, voice hashes, and incompatible caption track rules from previous clips.</li>
+  <li><strong>Seamless Audio &amp; Music Mixing:</strong> Short custom music tracks automatically loop to match delivery duration, and background music mixes cleanly under source speech without manual overrides.</li>
+  <li><strong>Resilient Localization &amp; QA:</strong> Same-language caption rules auto-downgrade to keep without failing, CLI translation engines gracefully fall back to local dictionary/Apple translation, and all-gray initial SSIM frames self-heal by sampling representative frames.</li>
+</ul>
+
+<h3>⚡ Startup Restore Control</h3>
+<ul>
+  <li><strong>Instant Restore Cancellation:</strong> New Cancel button on the "Restoring project" startup screen immediately aborts slow session restoration and opens a clean workspace with zero error banners.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1548/Variator-0.4.0-1548.zip" sparkle:version="1548" sparkle:shortVersionString="0.4.0" length="1681407054" type="application/octet-stream" sparkle:edSignature="pOjklm7pm0/lgWoBo3WJBpkgnlPCNnHfBhcfE9dQMtxLDZ+aleW1aNlSEm30DgpbpYn3GueqU2yX/x5+QQPlDw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1548/Variator1548-968.delta" sparkle:version="1548" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="968" length="38715618" type="application/octet-stream" sparkle:edSignature="ZqQ70v2EcLGZhctiC5+Z5hEjo5yoP85XxV9Y8qWXdi4NUnpxgGXiWGurqV5qwcEgMLFOQi369pGGt0LYN2M1Cw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1548/Variator1548-1526.delta" sparkle:version="1548" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1526" length="29515298" type="application/octet-stream" sparkle:edSignature="dXctj9pl+4JJJBU4Uyxpv2CC5+7Hg04Jdb30qcpP7AaSTz5PMG+4qrogXPNMG09cRkbvGVyC6ScBi9c6EgJPAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1526)</title>
       <pubDate>Mon, 12 Oct 2026 17:20:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1048,6 +1084,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: C8a7tFsFRxmSzb9PWV2Y1+J2b4Nltq91ls4x+0rV0lZY9LfIO9STo+cb9uTWckxUagZvwUUFZp8JUBiOxXXNDA==
-length: 113163
+edSignature: piLgLn+ry/0yjIdGQsHbomMZui7q1nheo2QpZ+tGcKIsMFjXkiIxgNXOyE/Bn3cO7ij4Fwu7N0aZoqhAKGZQBw==
+length: 116952
 -->
