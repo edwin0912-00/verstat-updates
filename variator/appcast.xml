@@ -7,6 +7,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1556)</title>
+      <pubDate>Thu, 15 Oct 2026 00:26:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1556)</h2>
+<p>Single-Burn Hook Translation Deduplication (HOOK-DUP-02) &amp; Automated HookDeduplicationGate (Check #23).</p>
+
+<h3>🎯 Single-Burn Hook Translation Deduplication (HOOK-DUP-02)</h3>
+<ul>
+  <li><strong>No Double Hook Overlay After Translation:</strong> When translating burned-in captions (e.g. Spanish → French) in Localization or Quick mode, <code>HookReplacementPreview</code> now detects that the translated hook is already baked into <code>localizedWorkingInputPath</code> and suppresses the duplicate canvas overlay unless the user manually edits the hook text or style afterwards.</li>
+  <li><strong>Template Look Preservation &amp; Stale Selection Cleanup:</strong> Preserved explicit template look across <code>.translate</code> synchronization and automatically cleared stale <code>hook-replacement-preview</code> canvas selection on localization completion.</li>
+  <li><strong>Mechanical Gate #23 (HookDeduplicationGate):</strong> Added <code>script/verify_hook_deduplication_gate.sh</code> enforcing both TypeScript planner deduplication (<code>HOOK-DUP-01</code>) and Swift live preview deduplication (<code>HOOK-DUP-02</code>).</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1556/Variator-0.4.0-1556.zip" sparkle:version="1556" sparkle:shortVersionString="0.4.0" length="1643725850" type="application/octet-stream" sparkle:edSignature="GSpMXyaSsiBV78C6AMMDDidBJ8+GTXmXTHGyS8YFPR3QN3e43E/3e4zCukiuqwc8JhOIkG5/22zoeJ5Pa3U1Bw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1556/Variator1556-1553.delta" sparkle:version="1556" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1553" length="847510" type="application/octet-stream" sparkle:edSignature="l7v16re+/CMXF5yLDILyPBMoO+uPHxl0hih0j5NuogK7dGL+mBD6O5uB4WnBS+sFmyBhjvh/EymvKt5X3wJpDg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1553)</title>
       <pubDate>Wed, 14 Oct 2026 16:45:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1188,6 +1211,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8A7bId9e5tTkWZykimSDOPMnJxIVrcKNPQOHkENwRByU1LDgRthLYh1yyr2qq7U0DbQG2an2MJwHvU0+d2wjCg==
-length: 127723
+edSignature: xuzxHctqQ7pyGpgvHZTkk16njd7y2FUytq9eC6R1hHQo7S95wvZ5ru7GTFg1fp0tYrsYKL624xVTs0QU9dliCA==
+length: 130218
 -->
