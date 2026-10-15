@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1582)</title>
+      <pubDate>Thu, 15 Oct 2026 17:30:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1582)</h2>
+<p>Talking Head &amp; B-Roll Background Removal Memory Optimization (Zero 16GB RAM Spike), Live Video Cutout Preview Playback, Crop Epsilon Tolerance, Spotlight Range Alignment, and Automatic Diagnostics Log Sync Recovery.</p>
+
+<h3>🎬 Talking Head &amp; B-Roll Cutout Engine (CUTOUT-RAM-01 &amp; CUTOUT-PREVIEW-01)</h3>
+<ul>
+  <li><strong>Zero 16GB RAM Spike During Background Removal:</strong> Streaming per-frame <code>autoreleasepool</code> segmentation in both <code>TalkingHeadCutoutEngine</code> and <code>vision-helper</code> with 1280p decoding cap, 30fps throttle, and disabled <code>CIContext</code> intermediate caching prevents memory bloat on 4K/60fps videos.</li>
+  <li><strong>Live Video Playback &amp; Aspect Ratio Fidelity on Canvas:</strong> Cutout and B-Roll video layers now advance frames in real time on the canvas with automatic <code>#00FF00</code> chroma-key transparency and preserve true source aspect ratio without stretching.</li>
+  <li><strong>Timeline, Inspector &amp; Per-Video State Sync:</strong> Talking Head / B-Roll layers now appear on the timeline with purple <code>Talking Head · &lt;filename&gt;</code> tracks, sync with the <code>Product Showcase &amp; B-Roll</code> inspector card, ignore accidental <code>0.05×0.05</code> corner micro-crops, and cleanly reset when switching videos.</li>
+</ul>
+
+<h3>🛠️ Spotlight Range Alignment &amp; Fleet Log Sync</h3>
+<ul>
+  <li><strong>Spotlight Source Range Fix (SPOTLIGHT-01):</strong> Aligned <code>create-hard-plans.ts</code> and <code>assertSpotlightTimeline</code> when a block spans multiple planned timeline segments.</li>
+  <li><strong>Automatic Log Sync Recovery (SYNC-LOGS-01):</strong> Auto-recovers stale git rebase/merge locks in diagnostics worktrees and uses <code>git pull --no-rebase</code> to prevent <code>logs failed</code> on fleet machines.</li>
+</ul>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1582/Variator-0.4.0-1582.zip" sparkle:version="1582" sparkle:shortVersionString="0.4.0" length="1682019615" type="application/octet-stream" sparkle:edSignature="p++FG6QZ8TrWVrswCB0mqfAWKjYuLMalaS6vEmvOZtIMd9f/6zhO8qE+rHSxzGi8UOLjrt5+uGu3r1b0Cfk1DQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1582/Variator1582-1556.delta" sparkle:version="1582" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1556" length="27194266" type="application/octet-stream" sparkle:edSignature="TPLiQYfia9UO6442NbwiXMDfv8DF0d7Z0YJ8oQeRhWGZOfh3UjsmD5MQ/l1p4WoDGPewJdb0UWi3ewztSESBCA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1556)</title>
       <pubDate>Thu, 15 Oct 2026 00:26:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1211,6 +1240,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: xuzxHctqQ7pyGpgvHZTkk16njd7y2FUytq9eC6R1hHQo7S95wvZ5ru7GTFg1fp0tYrsYKL624xVTs0QU9dliCA==
-length: 130218
+edSignature: C/DEw6sASqt9bymsIOK1+By1G2KmZiWR7CSePRqI7xS/gef9Y4ENFc8hDMjXHcTRb7MaKgfUgOESSij9H2cQCQ==
+length: 133421
 -->
