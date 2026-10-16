@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1591)</title>
+      <pubDate>Fri, 16 Oct 2026 11:50:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1591)</h2>
+<p>Trim video elements with live frame preview and mixed audio, drag and resize layer bars on the timeline with scene snapping, use Structure controls in Studio, and run smart Studio recipes across Batch queues.</p>
+<h3>Trim video elements and mix their audio.</h3>
+<p>Cut a specific start and end range of a Talking Head or video overlay with a dual-handle range bar and live frame preview. Background removal segments only the trimmed range, and the element's speech or sound is mixed into the final video at its timeline offset.</p>
+<h3>Move and resize layer bars on the timeline.</h3>
+<p>New elements snap to the active scene by default. Drag a layer bar horizontally to place it anywhere on the timeline, or drag its left and right edges to adjust its start and end times with magnetic snapping to scene boundaries. Selecting a layer opens Elements on video in the inspector.</p>
+<h3>Structure controls in the Studio timeline.</h3>
+<p>The Structure menu in the Studio timeline header lets you add a Climax Teaser at the start, a Loop Hook at the outro, or promote another scene to the opening hook, with live status badges on the player and timeline.</p>
+<h3>Steadier object tracking and cleaner object removal.</h3>
+<p>Tracked elements hold their last valid pose across brief occlusions and can be repositioned on the canvas relative to the tracked path. Object removal bridges short tracking gaps and smooths background texture across consecutive frames.</p>
+<h3>Studio recipes adapt cleanly to every video in a Batch.</h3>
+<p>Copying a Studio setup to Batch preserves colour grading, audio mix, pitch, karaoke subtitles, structure edits, and video overlays, while adapting hook text, language detection, and scene positions to each video in the queue.</p>
+<h3>Clean top header, Thermal dock icon, and What's New intro.</h3>
+<p>The top header sits level with the window controls without extra space above it, the startup screen folds recent projects into a compact card, the dock icon uses the Thermal mark with live render motion, and the What's New window opens with the hardware-decoded Variator intro and feature board.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1591/Variator-0.4.0-1591.zip" sparkle:version="1591" sparkle:shortVersionString="0.4.0" length="1690786840" type="application/octet-stream" sparkle:edSignature="gNeG05lVlLCnddS/u+9A7gSz7S3FvNQ0J4FqdlURX/LPFDWBES+ykJ/Q1Tc0dQF4/ffTg3qo20yB3IanwYw2CQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1591/Variator1591-1548.delta" sparkle:version="1591" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1548" length="26736098" type="application/octet-stream" sparkle:edSignature="VIfDkJX2SLG2ojF5dnngwGRgd6ZjnQXzVzVqM8E6k15T1VtqmR+G6AhOpNqTBrvqrenCeRWMGFT+qWz0+iVbAQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1591/Variator1591-1582.delta" sparkle:version="1591" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1582" length="16733126" type="application/octet-stream" sparkle:edSignature="hBmTYdonUl9sESvlezECpnlLz8YKIU95B3tJ2aLy7gwkVqT6eJz1chZkZbGskD+Rj8a0KaPJQXn2j4Jx0cTNAQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1582)</title>
       <pubDate>Thu, 15 Oct 2026 17:30:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1240,6 +1269,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: C/DEw6sASqt9bymsIOK1+By1G2KmZiWR7CSePRqI7xS/gef9Y4ENFc8hDMjXHcTRb7MaKgfUgOESSij9H2cQCQ==
-length: 133421
+edSignature: jbYB6BEeDBsTXOdJ3lY7wZLkfENBzrPAfKSE6uw5gk2bmlla9OTjFrB+NHiLrT+z+tUmJlhtfrjIMQ+rjFoWDQ==
+length: 137268
 -->
