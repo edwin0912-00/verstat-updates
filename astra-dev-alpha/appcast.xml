@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1647)</title>
+      <pubDate>Tue, 20 Oct 2026 00:25:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1647)</h2>
+<p>Welcome Cloud intro and live board updates, unified Quick mode translation suite with live header market status, Full Disk Access first-launch fix with localized System Settings locator, in-flight job cache protection, and unified Variator storage paths and About metadata.</p>
+<h3>Welcome opens with the Variator cloud and shows live release highlights.</h3>
+<p>The welcome screen opens with a soft-edged cloud where the Variator wordmark forms before transitioning into the main window, and the What's New board dynamically reads the latest build highlights.</p>
+<h3>Full translation suite in Quick mode and live market status in the header.</h3>
+<p>Quick mode now includes the full translation suite directly in the inspector while the top header bar displays a live market localization status indicator.</p>
+<h3>Reliable Full Disk Access detection, protected in-flight translation caches, and unified Variator storage.</h3>
+<p>Fixed the first-launch Full Disk Access loop with localized System Settings navigation, protected active jobs/translate output directories during session cache cleanup, and unified Variator storage paths with About Variator metadata.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1647/Variator-0.4.0-1647.zip" sparkle:version="1647" sparkle:shortVersionString="0.4.0" length="1679537402" type="application/octet-stream" sparkle:edSignature="Tmr8XasZZaXR39y3vyPhGlYknBjR/x0m5KDRDMhHUhfZIRAXj6fozpdFJG6Zyqo+QIZIkpF05r8gp7U88mfjCw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1647/Variator1647-1617.delta" sparkle:version="1647" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="23857594" type="application/octet-stream" sparkle:edSignature="JOdvZ//6mazHxLVuGXKvnXp01miZM+sMrZ0i9Sy8e1iwLQsIprDUvNabQgyqQTWC+3RTNVe3KsNQ65/gwUmlBg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1647/Variator1647-1631.delta" sparkle:version="1647" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1631" length="20833070" type="application/octet-stream" sparkle:edSignature="Sn1Fcp8a12aqD1P/CSfiBlvzxP0YYi7TBnPaQh9WkS/knZgLLCaj2S32Y0q5HIBEprCBSuK9a7koOuV9SNaaBQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1647/Variator1647-1636.delta" sparkle:version="1647" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1636" length="20770682" type="application/octet-stream" sparkle:edSignature="W/Gy2x42osaYXM4kJoMjiSzdEBsUTL1lDl5FqJW1qedupWqui2EHIDYFBPePis4qj+mFeF0GcdDoatkd+U3HDA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1636)</title>
       <pubDate>Mon, 19 Oct 2026 22:05:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1360,6 +1384,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: DpJAPMKIr7rTW52e60hS+2nWhKdqmgc8D21F+YNpTdsFW/X0GO9Ko/I7LOdO4lujGY1gQwwYUDywaObcTv0KCw==
-length: 150006
+edSignature: JzndABFC4vdg6tDxLsh4IMMn3zoJh4Obxkm5VZNB0pjBrvaFVU0/C90fL7o9ArUWsSkYCMR1Q4eTNz3K4ZJwAw==
+length: 153264
 -->
