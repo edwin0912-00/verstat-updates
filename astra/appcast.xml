@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1631)</title>
+      <pubDate>Mon, 19 Oct 2026 20:40:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1631)</h2>
+<p>Context-pure viral hook generation that strictly extracts context from spoken transcript and on-screen OCR captions without ever reading or leaking the video filename, synchronized live preview and look preset cards, plus Hook Collage activation in shortPunchy recipes.</p>
+<h3>Context Text and hook suggestions use only real spoken and on-screen content, never the file name.</h3>
+<p>Context Text, Suggest from Context, and smart hook replacement now gather context strictly from spoken transcript, on-screen OCR captions, and detected language (skipping emoji-only rows) and never pass or interpolate the video file name.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1631/Variator-0.4.0-1631.zip" sparkle:version="1631" sparkle:shortVersionString="0.4.0" length="1679418118" type="application/octet-stream" sparkle:edSignature="UEMlwDI2Uk43gCDfK4nyZ0vsKmAk+HNRUOx0l3V5W7g/7/EwkOEDULF+Nip8ifwPCs5ZxlYEdYeO26bglnqVDw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1631/Variator1631-1548.delta" sparkle:version="1631" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1548" length="34993278" type="application/octet-stream" sparkle:edSignature="SiG8knoGKfxPZsGzmgmo3aXV6jxAueo+GFpmbUAZl8cfU+g4ymnjSmdtDDONHptR3dsspuRp2N9xDJ5B+e0cBQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1631/Variator1631-1591.delta" sparkle:version="1631" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="24685790" type="application/octet-stream" sparkle:edSignature="BxrE36x1v6pQiNr4949wTlZdJY5siwojThCfId2CNHsODSS5GENyEI87gH3IpNSKYtM7T5ogyNSxJvlETBRoAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1631/Variator1631-1617.delta" sparkle:version="1631" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="4403430" type="application/octet-stream" sparkle:edSignature="hB4j5RNrLRHcFm5YI5NppalPOOk4P1SO/w5GZi0WtnF8Bc3yfW8xEL08HBChTI5MSsQ+Ir3VlSiXcjkbx8+XDA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1631/Variator1631-1621.delta" sparkle:version="1631" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1621" length="1950402" type="application/octet-stream" sparkle:edSignature="3DVeK2pchcvd0cGYUmwm4IOzcS+TbEK4BuY8DlUkwhlIRWmVsru+Pg7CgVgb1sL9Ovn+esUAZXNDBg2Z7W/GAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1621)</title>
       <pubDate>Mon, 19 Oct 2026 17:35:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1318,6 +1339,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: f4x4yZmu5rWCYe0y1Ylr7lE6hggUqIPg88zxfrCxNDBhGZvOQme6hp9dO0hNyCIIbr5ExFg1FmuAme7IKpTQBQ==
-length: 144258
+edSignature: CosRgDdamfJQAHcrtbizIWsGAlf4GOa0fmzoG7nCQQiKeKAly+5vGRfRGBLWeYY+82UnT7AA+22SX22XxnMmBQ==
+length: 147347
 -->
