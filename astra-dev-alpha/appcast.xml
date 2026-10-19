@@ -7,6 +7,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1617)</title>
+      <pubDate>Mon, 19 Oct 2026 14:05:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1617)</h2>
+<p>Instant frame-accurate timeline scrubbing, clean background plate hook replacement and removal with proportional hook font sizing, two-second Talking Head timeline controls, voiceover subtitle toggle, automatic object tracking with occlusion bridging, adaptive partial-effect rendering with plain warnings, and startup AI model checks.</p>
+<h3>Instant frame-accurate scrubbing and proportional timeline blocks.</h3>
+<p>Dragging across the timeline seeks immediately without main-thread stalls using an all-intra scrubbing stream, keeps live caption and hook overlays visible while scrubbing, and sizes scene blocks, cuts, and active effect lanes at true proportional width.</p>
+<h3>Clean background plate for Replace, Remove, and Keep hook modes.</h3>
+<p>Choosing Replace scans the opening frame and erases the burned-in hook onto a cached clean video plate through the final frame of the hook cut, while rendering your controllable replacement hook on top at its natural font size. Switching between Replace, Remove, and Keep updates the player immediately without stacking duplicate text.</p>
+<h3>Two-second Talking Head clips on the timeline and voiceover subtitle toggle.</h3>
+<p>Apply a trimmed two-second Talking Head clip directly to the active cut and drag or resize its bar anywhere on the timeline without looping the whole video. In Subtitles, toggle Include Voiceover in Subtitles to build captions from your voiceover or keep the original video speech.</p>
+<h3>Automatic object tracking on release and adaptive fallback renders.</h3>
+<p>Click or draw around any object on the video to start tracking immediately across frames with automatic occlusion bridging and live mask preview. When a single effect cannot pass a safety check on a clip, Variator adapts or skips only that effect, finishes the render with all other active effects, and explains the adjustment in plain language.</p>
+<h3>Startup local model check, automatic session cache cleanup, and outside-click close.</h3>
+<p>Variator verifies local inpainting and matting models on launch and installs missing weights automatically, cleans temporary render caches after every session under the Variator support folder, coalesces Roll Variations into Apply Recipe when a recipe is active, and closes What's New or Guide when clicking outside the sheet or card grid.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1617/Variator-0.4.0-1617.zip" sparkle:version="1617" sparkle:shortVersionString="0.4.0" length="1668564338" type="application/octet-stream" sparkle:edSignature="Or17giGYieo+vCPaq592kN3agDA0+kEvtFJnVUHYVHBwhPNu/2KEy5xkdvBk9fowxO39/rwLB4rQrdWrKJ8rCQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1617/Variator1617-1548.delta" sparkle:version="1617" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1548" length="32469570" type="application/octet-stream" sparkle:edSignature="CdZ2LsQWr6sIrSMnuXjGLXdNgKPbEl9iCGa/4VdEqKtciDWX1Hu5b0ed+XGUbUIICZCfM7ZWPNFTNIg8dYvLCg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1617/Variator1617-1591.delta" sparkle:version="1617" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="21983106" type="application/octet-stream" sparkle:edSignature="l3gqk2h5PutdYYTNB/d2hgiFNNMQdFbWLd3gZfBXAmWUERzOtU6gbbBuHAouuGFLVaBrn8Fec0jbKUal38QcBw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1591)</title>
       <pubDate>Fri, 16 Oct 2026 11:50:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1269,6 +1296,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: jbYB6BEeDBsTXOdJ3lY7wZLkfENBzrPAfKSE6uw5gk2bmlla9OTjFrB+NHiLrT+z+tUmJlhtfrjIMQ+rjFoWDQ==
-length: 137268
+edSignature: T0u92bDe7UWfl8nJwt/bps5/iGeI2IK4PVtKAldQ3ekxjiSzqg9EDH3TJqRGkARR3Ud1sADq0tVmEuXvaziPBQ==
+length: 141324
 -->
