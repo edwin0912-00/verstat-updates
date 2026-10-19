@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1636)</title>
+      <pubDate>Mon, 19 Oct 2026 22:05:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1636)</h2>
+<p>Live Lifted and Erased Hook Collage preview, immediate LaMa hook erase on Replace, Erase, and Collage with clean plate reset across video imports, context-pure hook generation that never reads the video filename, and mechanical automated gates CANON-41 through CANON-45.</p>
+<h3>Immediate LaMa hook erase and live Hook Collage in the player preview.</h3>
+<p>Choosing Replace, Erase, or Hook Collage immediately runs LaMa inpainting to produce the clean video plate, renders Lifted and Erased collage cards live in the player preview, and resets cached clean plates when importing a new video.</p>
+<h3>Context Text and hook suggestions use only real spoken and on-screen content, never the file name.</h3>
+<p>Context Text, Suggest from Context, and smart hook replacement gather context strictly from spoken transcript, on-screen OCR captions, and detected language (skipping emoji-only rows) and never pass or interpolate the video file name.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1636/Variator-0.4.0-1636.zip" sparkle:version="1636" sparkle:shortVersionString="0.4.0" length="1679434105" type="application/octet-stream" sparkle:edSignature="Rp8bcGpTpV+axaVF7Hg18AsIDKyWqiLC3Fc8vib78mkEsUIFkhWwXbQlKgakXGMdKr+EUI4M3L+JTyglxN1LAQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1636/Variator1636-1617.delta" sparkle:version="1636" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="4433654" type="application/octet-stream" sparkle:edSignature="i8uk4boLiFyNy53khF9UhiOqXoiUk/OwAyBCTjkbxaqbh84cz+D6sy2wDx4zuwuKQXw4QbXLVmTTVcpeEw3hCg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1636/Variator1636-1631.delta" sparkle:version="1636" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1631" length="974550" type="application/octet-stream" sparkle:edSignature="oz3QLIz2MAxzVbcazy96SgAoCVKfAJPQruZfOF/TJtxBSqTyZsyZwQI575xp1BT/ULhfv5LZR8eKOhcm6ozeBg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1631)</title>
       <pubDate>Mon, 19 Oct 2026 20:40:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1339,6 +1360,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: CosRgDdamfJQAHcrtbizIWsGAlf4GOa0fmzoG7nCQQiKeKAly+5vGRfRGBLWeYY+82UnT7AA+22SX22XxnMmBQ==
-length: 147347
+edSignature: DpJAPMKIr7rTW52e60hS+2nWhKdqmgc8D21F+YNpTdsFW/X0GO9Ko/I7LOdO4lujGY1gQwwYUDywaObcTv0KCw==
+length: 150006
 -->
