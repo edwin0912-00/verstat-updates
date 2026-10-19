@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1621)</title>
+      <pubDate>Mon, 19 Oct 2026 17:35:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1621)</h2>
+<p>100% reliable local model installation with automatic system curl fallback and TLS proxy resilience, hardened preview proxy directory creation, and cleaned pipeline stderr warnings.</p>
+<h3>Reliable local AI model download across VPNs and corporate proxies.</h3>
+<p>Local picture models (ViTMatte and LaMa) now download reliably on any Mac regardless of local VPNs, corporate firewalls, or custom SSL certificates. If Node fetch encounters certificate or issuer validation errors, Variator automatically falls back to system curl with full cryptographic SHA-256 integrity verification.</p>
+<h3>Hardened All-Intra scrubbing proxy creation.</h3>
+<p>Realtime scrubbing stream encoding now ensures the temporary proxy directory exists immediately before ffmpeg runs, preventing transient file creation failures during intense timeline scrubbing.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1621/Variator-0.4.0-1621.zip" sparkle:version="1621" sparkle:shortVersionString="0.4.0" length="1678400002" type="application/octet-stream" sparkle:edSignature="/qTIVFvROGPwQFvcofufQHrygoNdTPKP2l7LoSStOY26wGeHUNjfHypnPO/VNeAQovGyM7LysFN0zwTpv7EpDA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1621/Variator1621-1548.delta" sparkle:version="1621" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1548" length="40031578" type="application/octet-stream" sparkle:edSignature="LJfoRBHpMFFbLlbKvaE+U+4hS9XhVAmmCuFH+BMh/grY8qiz/zo8NbtZeFFRWnBeSGDAILjRJT5hhzvKGEsLCA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1621/Variator1621-1591.delta" sparkle:version="1621" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="29571458" type="application/octet-stream" sparkle:edSignature="6CT1xZNVHlUpYlfiaQQz9ltSYSNId2werfY9k+PsZLwSMxPlF5CKxkV050Q3IL53C25pYLvSOiGHXtaKnWH+DQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1621/Variator1621-1617.delta" sparkle:version="1621" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="8493730" type="application/octet-stream" sparkle:edSignature="5Txl6XxHGwcTSlCMjLo9FkndkAOwvFbLwjvutjNQN+PTJKUyoxx4QU5AbXXoommZe1zJMe5RpAO513HOe0aJAQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1617)</title>
       <pubDate>Mon, 19 Oct 2026 14:05:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1296,6 +1318,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: T0u92bDe7UWfl8nJwt/bps5/iGeI2IK4PVtKAldQ3ekxjiSzqg9EDH3TJqRGkARR3Ud1sADq0tVmEuXvaziPBQ==
-length: 141324
+edSignature: f4x4yZmu5rWCYe0y1Ylr7lE6hggUqIPg88zxfrCxNDBhGZvOQme6hp9dO0hNyCIIbr5ExFg1FmuAme7IKpTQBQ==
+length: 144258
 -->
