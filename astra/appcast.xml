@@ -7,6 +7,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1690)</title>
+      <pubDate>Tue, 20 Oct 2026 20:04:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1690)</h2>
+<p>Pinned the top header toolbar below the 28pt macOS titlebar zone with zero upward shift when notices or banners appear, eliminated redundant localization and second LaMa hook erase passes when rendering in Quick mode, renamed player switcher tabs to Edit, Render 1, and Render 2, and hardened standalone TikTok link downloads on clean Macs.</p>
+<h3>Pinned Layer 2 header controls below the 28pt titlebar with zero upward shift on notices.</h3>
+<p>Moved all interactive header controls (Import, Single/Batch, Quick/Market/Studio, Logs, Update, Feedback, Settings, More) onto Layer 2 below the 28pt macOS WindowServer titlebar strip and anchored mainContent to .topLeading with flexible workspace minHeight so appearing NoticeStrip or error banners never push the header upwards onto the window traffic lights.</p>
+<h3>Eliminated redundant localization and duplicate LaMa hook erase passes during Quick render.</h3>
+<p>Pressing Render in Quick mode with Market set to Off reuses the already-completed Hook Erase clean plate directly instead of triggering a second LaMa inpainting or localization text-drawing pass.</p>
+<h3>Renamed player switcher tabs to Edit, Render 1, and Render 2.</h3>
+<p>Replaced ambiguous Original (translated) and Quick variant labels in the player switcher with clear Edit, Render 1, and Render 2 tabs for immediate distinction between live canvas editing and rendered outputs.</p>
+<h3>Reliable TikTok video downloads on clean client Macs without external Python packages.</h3>
+<p>Bundled macOS system CA certificates, standalone curl_cffi, and direct TikTok web session stream extraction so TikTok link imports succeed on clean client machines.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator-0.4.0-1690.zip" sparkle:version="1690" sparkle:shortVersionString="0.4.0" length="1710015394" type="application/octet-stream" sparkle:edSignature="Wc9Naasd74VpDIo5WNHnltV6cfjz75W4XOYqC/Gxyj4Q7m+Bo9AGI7MAgDb2I7e8PjJvIx+d6Tm/nv2A3n7qAQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1591.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="53937518" type="application/octet-stream" sparkle:edSignature="PF7jaC2QNHDPa/IiN27TiDlkwrLkrL1gzw/EGxhwsK8/ghpCNhrD6RdjZFzuZ59cV3yrc2X3ecRnXwCWN4mWBg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1617.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="53855298" type="application/octet-stream" sparkle:edSignature="fcM+0h7hh86OdEEohvN4NOBrGYxBRVYEfh9vyadFG4kP4BobH9saqlwvFiDm8Ym/agq3a80nc7qLsYoG4AaxBg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1631.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1631" length="51303738" type="application/octet-stream" sparkle:edSignature="60bSJXAJXfdPuxcIijbZvssbkTEabvFDSvWv7OFWw+ew6fLXmSj3HVsas0v65Iluiq2Aq93RX/o1pxELXL/ACA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1636.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1636" length="51285566" type="application/octet-stream" sparkle:edSignature="duxSB5As9zlcJuBGrxWLr6602bPpdchEveK5w20Yhc8Xb2rDb0FWV4Fpi/HceUhHmF9GCbFvOgThOX+02TNaDA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1647.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1647" length="32882806" type="application/octet-stream" sparkle:edSignature="TufScATvQwBhjZjeyZmyKZwPy5fmC9knQMrKSen20ft2JOzrf+3kjl9ZEVWUettywS6D7init6rWTMUcGD9LAQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1657.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1657" length="32880746" type="application/octet-stream" sparkle:edSignature="eEA9rskxWHroGopcy+BVlCO5g2+qI8J+iU44h5EDIp1O/JfbQzvUjW53ZuDI4nCWoe0pCsKEUIOY0TxEOIPjBw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1668.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1668" length="18783454" type="application/octet-stream" sparkle:edSignature="Qh5lsK0fQjiQgpBHAQntCu0LOPvR8lQ6r/5nbbWum4efyI2ZJG8tU1Ts6VBorIgYxIF//Com55T78HPeQbP3AA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1690/Variator1690-1674.delta" sparkle:version="1690" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1674" length="4808514" type="application/octet-stream" sparkle:edSignature="fsbym++h9VVdLNr6Jg/kNY07hM3B03a0lE+GG7ik5G4cfGpnftNEzxOwdt/u0uvhwUcaay9SAH6cuW68Q0ZVDA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1683)</title>
       <pubDate>Tue, 20 Oct 2026 17:40:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1465,6 +1496,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bSGRLtcSbUjywDsT5JwoQldKGPP5cD9ASjEIoXIg/O5b+I1AS0ZabCnB2Xvol9T5gR4xzz29RAqGv+u1oCjLDw==
-length: 167344
+edSignature: UrA1CypgqtfBB9wUZHf0qhgNE+LHvK9ObbxkeSNRs0TLmNdrWSShV6GWDfGhtrP/DxOamfUI4jr1pNyJlnzSAA==
+length: 172969
 -->
