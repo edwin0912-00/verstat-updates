@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1674)</title>
+      <pubDate>Tue, 20 Oct 2026 14:40:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1674)</h2>
+<p>2026 native macOS header redesign with single-surface pills, unified status telemetry, titlebar hit-test passthrough, 60fps log sync spinner, instant Quick mode recipe overlays, identity hygiene gate, and 100-scenario verification.</p>
+<h3>Modern 2026 macOS header with flat pills, unified telemetry cluster, and instant titlebar clickability.</h3>
+<p>Replaced legacy AppKit bordered button cells and double-backing scrim plates with flat single-surface pills, consolidated log sync, update status, and feedback into a unified icon cluster with status dot badges, and added titlebar hit-test passthrough with 60fps log sync rotation.</p>
+<h3>Preserved live progressTrack decoding, user voice selection across imports, Diagnostics logs, and sanitized recent-project titles.</h3>
+<p>Fixed PipelineEvent line decoding priority so live progress events retain progressTrack metadata, decoupled Quick mode recipes from heavy LaMa inpainting for instant canvas preview, preserved custom voiceTrackURL selections across normal video imports, exempted Diagnostics and active localization jobs from storage maintenance sweeps, and sanitized legacy recent-project titles.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator-0.4.0-1674.zip" sparkle:version="1674" sparkle:shortVersionString="0.4.0" length="1716008552" type="application/octet-stream" sparkle:edSignature="Of1DF1jCCRCRx5/7OmJs6cBhJjS1wTQ0qcKAij/dPtExwlJuYvkOu/2nrinrCpQAhdEjFKWgFJlCVArwiQLUCg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1668.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1668" length="24161946" type="application/octet-stream" sparkle:edSignature="Aiu87bQLyVguJ3c4LQEvFXyvGNBiZ3eK2wlOFvGf2LM08PFkvnqfIG8ENqI9vVQsNWKo8WCEOJw3SNNEgBplBg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1657.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1657" length="38297006" type="application/octet-stream" sparkle:edSignature="/lS9DTYxabXOwb+qxhBqCqtfFkKpgNbNnVCbIP+yDlw36Zl1BUi5yNCmGn6KROSdKwQDr5qc/KXUuW5xEdywDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1647.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1647" length="38272666" type="application/octet-stream" sparkle:edSignature="b2XDvQf5LtP1UWJzSmynLnwI35+bIEUDSl5jhMM40PenYL2hOD9mYPn3N/xoNoSwUa6XykR4wdITp2H76ypKCA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1636.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1636" length="56705066" type="application/octet-stream" sparkle:edSignature="oItuwgPlxGRbHxAQCk+6/nvojE2rrxLq+GRpDpECItrCjQ4bIQYObfq7+9ES6r1EHco+wky5tZ666JoiYlscDg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1631.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1631" length="56684378" type="application/octet-stream" sparkle:edSignature="56CUoS0VwD7XN+8L0GADOMTI317qsGR6oXrXVgaiPM8TZjVU7YpRn+wBZJ4vdst90UP/Mj0JGZBNMMC8CXlkAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1617.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="59254506" type="application/octet-stream" sparkle:edSignature="DTJ7sa6feWrNy/7ZJ+ELGt5woTZgK45txM32c4/6m7gpxLZAzAZi9CuJGXWjXxCu/cHi3Xef3BU6Tf/OmH8tDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1674/Variator1674-1591.delta" sparkle:version="1674" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="59313566" type="application/octet-stream" sparkle:edSignature="biDm6NDet6kapFDbE5zQ3ioJ93veA7Ak/6u+rmaInlUovdOKi9KSQMizLMnXZFbaElem/143pVbaANMknYvBCQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1657)</title>
       <pubDate>Tue, 20 Oct 2026 11:04:53 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1410,6 +1436,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: rR2GyvLDWuau+8uphpZUO8H2fdIkG8qV2MuZJFIJNlpwmeOmtzRlob7aNbZ1wMPmSyJrWJBEW28DB6vld4z6Bw==
-length: 157038
+edSignature: oG1HAuuYHiFksT4OMa7j2+kR3Z9JIpixHpYJxIg3G+fdQv3u1SNdhWNCURxwNlWdU1BPtoWXhPG/ZasNOKwTBQ==
+length: 161788
 -->
