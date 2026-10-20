@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1683)</title>
+      <pubDate>Tue, 20 Oct 2026 17:40:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1683)</h2>
+<p>Enforced Quick mode by default and eliminated unwanted Market localization hijacking, fixed false-negative Vision OCR readback verification with multi-line target comparison and line deduplication, and synthesized resilient A/B preview fallback when run manifests are pruned.</p>
+<h3>Enforced Quick mode by default and eliminated unwanted Market localization hijacking.</h3>
+<p>Decoupled subtitles toggle from controlMode so enabling subtitles never forces the workspace into Market mode, ensured fresh launches default to Quick mode (.light) rather than restoring stale Localization UserDefaults, and restricted video drop matching to completed queue jobs so dropped videos are not hijacked by failed jobs with stale localization flags.</p>
+<h3>Eliminated false-negative readback verification failures on wrapped multi-line translated text.</h3>
+<p>evaluateTargetPresence now receives targetLinesOf(caption) to accurately evaluate multi-line wrapped text against OCR lines instead of comparing short lines against a single 39-character block, deduplicates observed text lines, and filters overlapping cropped and uncropped OCR detections in verifyCaptionTrackTranslations to avoid artificial Levenshtein score collapse.</p>
+<h3>Prevented missing run.json crashes when previewing queue outputs.</h3>
+<p>prepareAstraQueuePreview now verifies file existence before reading run.json, throwing on corrupted files while synthesizing an AstraGroupPreview directly from outputURL when run manifests are physically removed by storage maintenance, allowing uninterrupted side-by-side comparison of rendered videos.</p>
+]]></description>
+<!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator-0.4.0-1683.zip" sparkle:version="1683" sparkle:shortVersionString="0.4.0" length="1716046669" type="application/octet-stream" sparkle:edSignature="v5TXbrW7l17Cr3bPJMl7YddHtPAniaEcGACBFvCk9bCvNJPN539SP/yF9SD5bItt2agKcyu8QI07AcSDzzphAQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1591.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="59354194" type="application/octet-stream" sparkle:edSignature="1s4CYnH0cY6DZlxdOWReBjVBqNcLVF1+nQZ9bSsXiYwsjzRz+f92pMj//ZficzgyDX+RTKaS+Mo2iZ60unyRDA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1617.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="59286166" type="application/octet-stream" sparkle:edSignature="+4SN8R1qssCCXE9lfvEeWEC1x3+DEmEybsmBheEmxOWjxPwA2EceYeF4RzuNdKS0SGWL/L3ftodkHp06RCN5BQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1631.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1631" length="56708962" type="application/octet-stream" sparkle:edSignature="qFeeGy45yPvdGOqJuzL+douJAxG29xeaEl28YL8qYTtnIVLZaFKisfX6VvyeXUp95pics2PFcw5VGyZRLS/FDQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1636.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1636" length="56733354" type="application/octet-stream" sparkle:edSignature="HP5Yc+TbtWqOthTcdPKuocJcwrTy1AeLbHT6XAXIrNm8omegVkMtVi1GNUm8qWoL15PcEpXKYVfiNSLgU7qXAQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1647.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1647" length="38308358" type="application/octet-stream" sparkle:edSignature="nP6HwSMSCIaJl0/LbTR7LYjfLU0CLtabDo44JAn+HlTFmKp1MZTcYGECdTgyt4oJhRnQjtX9F1dkBHQMA/44Bw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1657.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1657" length="38332086" type="application/octet-stream" sparkle:edSignature="XSv9Gcx6Glq2jrGrhG/xdVJ7ONnU16m+ue4LSkezNmOVg79nMoBGDqwAC2EhvN56A2wXWWi5T1Rux5kf6PMbDA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1668.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1668" length="24217734" type="application/octet-stream" sparkle:edSignature="OSu1qUz3fe3rybJSoFWMB7C+/AtkZix3QaazOCs3yGI/Eqmgi1kQEXdihPRbEQx/9yHNe070Bpy95R22mByWAg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1683/Variator1683-1674.delta" sparkle:version="1683" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1674" length="3245714" type="application/octet-stream" sparkle:edSignature="4UdcS4BmJD9cnSiSIz4P0PvLi6WkY9hMASu18bkvNHx7vkFi7YHE+E1+SlqT2c2I3EWTLmcS+ZQpqNmlQD3vCA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1674)</title>
       <pubDate>Tue, 20 Oct 2026 14:40:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1436,6 +1465,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: oG1HAuuYHiFksT4OMa7j2+kR3Z9JIpixHpYJxIg3G+fdQv3u1SNdhWNCURxwNlWdU1BPtoWXhPG/ZasNOKwTBQ==
-length: 161788
+edSignature: bSGRLtcSbUjywDsT5JwoQldKGPP5cD9ASjEIoXIg/O5b+I1AS0ZabCnB2Xvol9T5gR4xzz29RAqGv+u1oCjLDw==
+length: 167344
 -->
