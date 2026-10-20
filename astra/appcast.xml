@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1698)</title>
+      <pubDate>Tue, 20 Oct 2026 22:58:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1698)</h2>
+<p>Restored smooth native macOS window dragging across the full titlebar and row spacers with double-click zoom, eliminated drag-blocking swizzles, and enforced single-step Sparkle binary deltas.</p>
+<h3>Restored uninhibited native window dragging across the titlebar and row spacers with double-click zoom.</h3>
+<p>Completely removed server-side drag disabling and drag-canceling method swizzles in WindowAccessor, unblocking native WindowServer window dragging via WindowDragHandle with smooth coordinate tracking fallback and double-click zoom while preserving instant hit-testing for all header controls.</p>
+<h3>Enforced fast single-step binary delta generation per SPARKLE-STEP-DELTA-01.</h3>
+<p>Automated Sparkle release packaging to generate single-step binary deltas directly from the latest public release (&gt;= 1690), collapsing release asset assembly time while guaranteeing bit-for-bit target reconstruction.</p>
+<h3>Automated error snapshot telemetry upon red error logs per CANON-47.</h3>
+<p>Integrated automated error snapshot capture for zero-lag defect diagnosis: captures UI mode state, run.json, log tails, and system metrics upon any critical red error log without user intervention.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1698/Variator-0.4.0-1698.zip" sparkle:version="1698" sparkle:shortVersionString="0.4.0" length="1699462789" type="application/octet-stream" sparkle:edSignature="Ul2WJAeJkfGBWDTs+eQvGHtQ0c8s/Ws8Bs7YcardXwpPPBlIThwifV+lG3/vysDNjNi0vdnF1X0LRd6Mr24qAA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1698/Variator1698-1690.delta" sparkle:version="1698" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1690" length="8504206" type="application/octet-stream" sparkle:edSignature="eNL9Jr+/P0rvX9rN7tf+lruh8C8gj5tufLkSCKwLzXYcKmuzpxUwMcVbr4bTxKii2tNjfClm6POs04o5WQObBQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1696)</title>
       <pubDate>Tue, 20 Oct 2026 21:05:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1518,6 +1540,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3HfhG21Z5+XpgYxMdVE+bWNgsNv3WgmF3D5QafekYLTbuZkvcB6Xb7KxaNepyUDGIujdn3bPVKgCyJGqV6MnAw==
-length: 175510
+edSignature: I614i4fo2XcLLddjJWHpZcblhGdFqLSTcdbif3jF9kyg8S6tTYBPOQlK4sSFOVJGlZivWgGu3Y7QyJBKVgkrCQ==
+length: 178051
 -->
