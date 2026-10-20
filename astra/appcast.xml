@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1657)</title>
+      <pubDate>Tue, 20 Oct 2026 11:04:53 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1657)</h2>
+<p>TikTok per-line pills and translation suite polish, AI dubbing preview and live ducking menu, instant Full Disk Access resolution, smooth sync progress bar, in-flight translation cache protection, and storage hygiene invariants.</p>
+<h3>TikTok per-line pills and full translation suite in Quick mode.</h3>
+<p>Added per-line TikTok pills for rapid editing, complete in-inspector translation suite, and context-pure viral hook generation that never leaks the video file name.</p>
+<h3>Quick Dubbing with live ducking and preview.</h3>
+<p>Quick Dubbing now features an interactive action menu with live volume ducking and instant preview before rendering variants.</p>
+<h3>Smooth sync progress bar, storage hygiene, and system settings navigation.</h3>
+<p>Replaced jerky sync progress with smooth continuous animation, protected active translation directories during session cleanup, and fixed System Settings navigation on first launch.</p>
+      ]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1657/Variator-0.4.0-1657.zip" sparkle:version="1657" sparkle:shortVersionString="0.4.0" length="1679553690" type="application/octet-stream" sparkle:edSignature="oxUMwDRtLoa4lWfGioK1YSoqDyAa9e4BMMhjP8kedp0vNhWxXFQY1A3SqeNQ6b07x/VEcOfRte/RU1+HxodeAg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1657/Variator1657-1647.delta" sparkle:version="1657" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1647" length="1462142" type="application/octet-stream" sparkle:edSignature="vC3FeA4wIOB1IOHVP/uJaL1I46c7LLwgEBtnbKI5RGwT+R6mj4eMndBmW2NF3IZsFC+NbHMVEyEPw41EDth2Dg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1657/Variator1657-1636.delta" sparkle:version="1657" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1636" length="20940462" type="application/octet-stream" sparkle:edSignature="gg3sLiYk9WABIn+2bBKT+VL9T9cShMm0rJi6YgB8Dti6iC/C+Oeak+7M8HC/rPg3k96k2eDFd3XikGJg4MasDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1657/Variator1657-1631.delta" sparkle:version="1657" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1631" length="20954134" type="application/octet-stream" sparkle:edSignature="Y4R7zcJ/6awoFkMuQB6q3eBPFPBv1FQmVGVxjH7rGAlGjx2d7yL4ObYVpLUrPFd/3uZVJd/lje4RqwHCBOhJDg==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1657/Variator1657-1617.delta" sparkle:version="1657" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1617" length="23934574" type="application/octet-stream" sparkle:edSignature="UkWByBUeJPwrIv6cK4K/dzxwyfl2de4jcnOKvAQ+qTAnzuqYH8gZ3OBPJ5ql6HbqSn9GarphOEHmP2CHKIlgAA==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1657/Variator1657-1591.delta" sparkle:version="1657" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1591" length="24931802" type="application/octet-stream" sparkle:edSignature="6nsR4DHoezLNbwqcLuNUFFX7Z4myQohtCzxb1oozrKYyNazrayMHXrS0OyKjzCOD2H3T3zVcz9XQ0bx0fFwQAQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1647)</title>
       <pubDate>Tue, 20 Oct 2026 00:25:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1384,6 +1410,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: JzndABFC4vdg6tDxLsh4IMMn3zoJh4Obxkm5VZNB0pjBrvaFVU0/C90fL7o9ArUWsSkYCMR1Q4eTNz3K4ZJwAw==
-length: 153264
+edSignature: rR2GyvLDWuau+8uphpZUO8H2fdIkG8qV2MuZJFIJNlpwmeOmtzRlob7aNbZ1wMPmSyJrWJBEW28DB6vld4z6Bw==
+length: 157038
 -->
