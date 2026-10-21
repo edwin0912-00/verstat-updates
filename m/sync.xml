@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Variator Changelog</title>
+    <link>https://edwin0912-00.github.io/verstat-updates/variator/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.4.0 (1707)</title>
+      <pubDate>Wed, 21 Oct 2026 13:40:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1707)</h2>
+<p>Isolated preview canvas element dragging from window movement while preserving smooth native titlebar dragging across the top header strip.</p>
+<h3>Dragging text, hooks, and stickers on the video preview never moves the window.</h3>
+<p>Window background dragging is disabled on the SwiftUI content view so dragging text overlays, hook banners, stickers, or resize handles in the preview canvas moves only the selected element, while dragging the top header strip moves the window smoothly.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1707/Variator-0.4.0-1707.zip" sparkle:version="1707" sparkle:shortVersionString="0.4.0" length="1703250020" type="application/octet-stream" sparkle:edSignature="qZSNa9p0vIRyru5s0sQHmnmojmW9vEFB0QrgZe5M8cMutCG7wyEx761NU/FwstXQZt+VZolJTMpmaxaWhNbQBw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1707/Variator1707-1705.delta" sparkle:version="1707" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1705" length="6282278" type="application/octet-stream" sparkle:edSignature="6Otm8i9mtZaMJTVLHhTvHyJ7WQK9kwI5IS9eChrE5XX7dtqGniD5H1PW/0J4T0SpGnejyWbzYoib/RjWGYGNAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
+      <title>Version 0.4.0 (1705)</title>
+      <pubDate>Wed, 21 Oct 2026 10:25:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1705)</h2>
+<p>Resilient batch queue asset recovery, concurrent inference lease waiting, opening hook caption deduplication, adaptive multi-line hook wrapping, and pre-decode project snapshot sanitization across 50 replayed production runs.</p>
+<h3>Automatic asset identity refresh and queued inference slot waiting.</h3>
+<p>Batch and TikTok imports automatically refresh updated working assets when the primary source file exists on disk, while concurrent local inference jobs wait cleanly for the active model slot instead of failing immediately.</p>
+<h3>Opening hook track deduplication and natural multi-line fallback layout.</h3>
+<p>Synthesizing a detected opening hook removes overlapping opening caption tracks so two translations never render on top of each other, and long translated hooks fall back to natural multi-line wrapping instead of failing.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1705/Variator-0.4.0-1705.zip" sparkle:version="1705" sparkle:shortVersionString="0.4.0" length="1731760422" type="application/octet-stream" sparkle:edSignature="YPbWF4aOr8+Tjj6zFuELkAuK01RKYF69MGpK8hntC79r5Mmo7i5EeU1mGp1b2FIBi6SfXCi6cxeQEP8yBR6sCg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1705/Variator1705-1704.delta" sparkle:version="1705" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1704" length="6659062" type="application/octet-stream" sparkle:edSignature="cPszYM3sAkYvzlaZTvVJGfZeSsjObY5v6P1IbBADTlYAO9UirOe/saZjSeNvX2iV59kTVK3mhXrbj2o3npKlAw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
+      <title>Version 0.4.0 (1704)</title>
+      <pubDate>Wed, 21 Oct 2026 03:47:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1704)</h2>
+<p>Speed-aware frozen-tail verification for paced exports, full Light command verification with audio pitch and tempo graphs, non-Latin script readback enforcement, and preset/queue clamping hardening.</p>
+<h3>Speed-aware frozen-tail proof and complete Light command verification.</h3>
+<p>Paced Quick and Batch exports now scale source tail boundaries proportionally to the speed factor while verifying full video and audio pitch-preserving filter graphs.</p>
+<h3>Preset clamping across work modes and strict target-script readback.</h3>
+<p>Saving presets and copying settings to Batch automatically sanitize mode-specific bounds and speech flags, while localization verification enforces target-script character presence and outlined emoji preservation.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1704/Variator-0.4.0-1704.zip" sparkle:version="1704" sparkle:shortVersionString="0.4.0" length="1731738068" type="application/octet-stream" sparkle:edSignature="eXskOc7ou+C4w+vb2xXLyUAR0/Y0ZfrjV/qRRtekoO+lm058XkIwZJDMKZSY3natUoMfg9S3A7yuHGkUaE+0DQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+    </item>
+  </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: iPYGoRZtUeCZ0fX2ny7h8lBPJxG9IJ9zTHrp9QZn0R5K/kQbLrW20z4R4lJhKN3WRAm+XytWZQvj1+I7rEzBCw==
+length: 6361
+-->
