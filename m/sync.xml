@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>0.4.0 (1711)</title>
+      <pubDate>Wed, 21 Oct 2026 19:30:17 +0000</pubDate>
+      <sparkle:version>1711</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <description><description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1711)</h2>
+<p>Post-update once-per-day What's New &amp; Presentation launch gate, transition to m/sync.xml Sparkle feed, and dual private source sync.</p>
+<h3>What's New and Presentation open only after an app update, at most once per calendar day.</h3>
+<p>Both the What's New sheet and the Presentation deck now open automatically only when the app build number changes (upgrade) and no post-update presentation has already been shown on the same calendar day. Repeated launches without an update remain completely silent.</p>
+]]></description></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1711/Variator-0.4.0-1711.zip" sparkle:version="1711" sparkle:shortVersionString="0.4.0" length="1715079530" type="application/octet-stream" sparkle:edSignature="RGVMuJLl4y6k/R4J1HKRI5L8PD9mrEZAnMNmb1Q8BQV+cGgJ/aEV2H2zCQ5Z1+DaLc31kRz30LY5xNezxb+SCw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1711/Variator1711-1707.delta" sparkle:version="1711" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1707" length="21141090" type="application/octet-stream" sparkle:edSignature="LuS0lSkmz3+nEvQmeDzF4RUH4dbPwkHlFize1B1e+sQuuf+7IoRB19nI+vOq+eIdqH8a3ue7GM5A5yVPVsKqAQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1707)</title>
       <pubDate>Wed, 21 Oct 2026 13:40:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -64,6 +83,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: iPYGoRZtUeCZ0fX2ny7h8lBPJxG9IJ9zTHrp9QZn0R5K/kQbLrW20z4R4lJhKN3WRAm+XytWZQvj1+I7rEzBCw==
-length: 6361
+edSignature: X8PqPIOPwC7TRE1ZnIBCXt8225SBHeK6UKzxYOSFuDjicxDb7pP6iIulO2tBGGipKiLEn/sXJDis2wjZtN6KCA==
+length: 8271
 -->
