@@ -7,6 +7,69 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1704)</title>
+      <pubDate>Wed, 21 Oct 2026 03:47:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1704)</h2>
+<p>Speed-aware frozen-tail verification for paced exports, full Light command verification with audio pitch and tempo graphs, non-Latin script readback enforcement, and preset/queue clamping hardening.</p>
+<h3>Speed-aware frozen-tail proof and complete Light command verification.</h3>
+<p>Paced Quick and Batch exports now scale source tail boundaries proportionally to the speed factor while verifying full video and audio pitch-preserving filter graphs.</p>
+<h3>Preset clamping across work modes and strict target-script readback.</h3>
+<p>Saving presets and copying settings to Batch automatically sanitize mode-specific bounds and speech flags, while localization verification enforces target-script character presence and outlined emoji preservation.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1704/Variator-0.4.0-1704.zip" sparkle:version="1704" sparkle:shortVersionString="0.4.0" length="1731738068" type="application/octet-stream" sparkle:edSignature="eXskOc7ou+C4w+vb2xXLyUAR0/Y0ZfrjV/qRRtekoO+lm058XkIwZJDMKZSY3natUoMfg9S3A7yuHGkUaE+0DQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1704/Variator1704-1703.delta" sparkle:version="1704" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1703" length="6247802" type="application/octet-stream" sparkle:edSignature="yDl5x04vKFJEZoJKPl0sqOKb+91vv8LDKZwQVt/A73sUC7ALLr9ML9V/rGX29TyVymC4H3BHFozZ9Sx+VrUGAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
+      <title>Version 0.4.0 (1703)</title>
+      <pubDate>Wed, 21 Oct 2026 02:20:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1703)</h2>
+<p>Self-healing session persistence and defensive parameter clamping, effortless window dragging across the top header bar, responsive side-handle text width reflow with two-corner scaling, direct video enqueueing into Batch, and streamlined Quick mode controls.</p>
+<h3>Self-healing project sessions and automatic parameter clamping.</h3>
+<p>Out-of-range canvas widths, crop scales, speed factors, audio gains, and relocated asset paths now clamp and re-anchor automatically during editing, saving, and session restoration without interrupting your work.</p>
+<h3>Responsive window dragging and smooth side-handle text reflow.</h3>
+<p>The application window drags cleanly from any empty area of the top header bar, while canvas text items feature two diagonal scale handles and sixty-hertz throttled side-edge width reflow for lag-free resizing.</p>
+<h3>Add the currently edited video with its custom recipe directly to Batch.</h3>
+<p>A new companion button next to Copy to Batch enqueues your active video along with all its custom canvas items, hook replacements, and recipe settings directly into the Batch queue, while Quick mode focuses purely on fast creative variations.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1703/Variator-0.4.0-1703.zip" sparkle:version="1703" sparkle:shortVersionString="0.4.0" length="1731732335" type="application/octet-stream" sparkle:edSignature="dqQAxLtxriyYpKnyQM3A+/ScO9svy7gUanORuU7vWxpeS6N5bNuHB/DWhXgLzrY9wedfHhR129teqE+DxnrSAg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1703/Variator1703-1698.delta" sparkle:version="1703" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1698" length="22074510" type="application/octet-stream" sparkle:edSignature="t4JxmxKzTO0I1W3r1+ZTVK3PPiS80p+Cl9d3/QwDtpego+xG7EJzS8eamxPnp2+7OtuajQtOOcaXkosQkKfMBw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1703/Variator1703-1700.delta" sparkle:version="1703" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1700" length="6638974" type="application/octet-stream" sparkle:edSignature="n1tkXMq/oAnDlH8GeaMDOq1/71KBzzGR+uesBFOMvOPt8wgZhCc09cffy4vUWuQRJdRX/bJtkmxm+lgoPjtHDA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
+      <title>Version 0.4.0 (1700)</title>
+      <pubDate>Wed, 21 Oct 2026 00:53:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1700)</h2>
+<p>Protected standalone release packages with pre-bundled runtime scripts, stripped symbols on native executables, and verified delta updates with zero raw source distribution.</p>
+<h3>Pre-bundled and protected runtime entrypoints in standalone release packages.</h3>
+<p>Standalone release bundles now ship with self-contained bundled runtime scripts, stripped native executable symbols, and zero raw source files inside the application bundle while preserving instant startup and localization execution.</p>
+<h3>Verified binary delta reconstruction with zero residual source files.</h3>
+<p>Automated delta assembly now applies release protection prior to archiving and verifies that every applied binary delta produces a clean, validly signed application bundle with bundled scripts.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1700/Variator-0.4.0-1700.zip" sparkle:version="1700" sparkle:shortVersionString="0.4.0" length="1731733772" type="application/octet-stream" sparkle:edSignature="+MFZUva8Otwug8Fj6k5XXs1NTQ7aJLY4Dxjp5SWfDO77tlv7Xmug14q17+Sr3xomGfMnfF5jR0OyDrmI63CcBA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1700/Variator1700-1698.delta" sparkle:version="1700" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1698" length="21950850" type="application/octet-stream" sparkle:edSignature="7O2qyGPjX0p3LKI/iSfsSGU55VnFR8icHqfH5V7ZdZt2KK8s5QHrd2Y2Z4N8fp86APDnenCU1s9ajiyowFjbBA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1698)</title>
       <pubDate>Tue, 20 Oct 2026 22:58:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1540,6 +1603,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: I614i4fo2XcLLddjJWHpZcblhGdFqLSTcdbif3jF9kyg8S6tTYBPOQlK4sSFOVJGlZivWgGu3Y7QyJBKVgkrCQ==
-length: 178051
+edSignature: Ib55qWAETJ+dB1lg0BMtWSufH75ei9aIOgjE9FybzKE+zPFh/FRgRkG5DBaAmE2TrLxYRg1j0GWhPFenCheHAw==
+length: 185149
 -->
