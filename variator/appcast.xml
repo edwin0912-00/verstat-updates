@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1707)</title>
+      <pubDate>Wed, 21 Oct 2026 13:40:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1707)</h2>
+<p>Isolated preview canvas element dragging from window movement while preserving smooth native titlebar dragging across the top header strip.</p>
+<h3>Dragging text, hooks, and stickers on the video preview never moves the window.</h3>
+<p>Window background dragging is disabled on the SwiftUI content view so dragging text overlays, hook banners, stickers, or resize handles in the preview canvas moves only the selected element, while dragging the top header strip moves the window smoothly.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1707/Variator-0.4.0-1707.zip" sparkle:version="1707" sparkle:shortVersionString="0.4.0" length="1703250020" type="application/octet-stream" sparkle:edSignature="qZSNa9p0vIRyru5s0sQHmnmojmW9vEFB0QrgZe5M8cMutCG7wyEx761NU/FwstXQZt+VZolJTMpmaxaWhNbQBw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1707/Variator1707-1705.delta" sparkle:version="1707" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1705" length="6282278" type="application/octet-stream" sparkle:edSignature="6Otm8i9mtZaMJTVLHhTvHyJ7WQK9kwI5IS9eChrE5XX7dtqGniD5H1PW/0J4T0SpGnejyWbzYoib/RjWGYGNAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1705)</title>
       <pubDate>Wed, 21 Oct 2026 10:25:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1623,6 +1641,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 1X1/eEOsKrvMPNYEMBivPjWxZ3V5sdf8Ll4Zg2O92iArHmqCxORjan8MT0nDFKd9adVAKjO2Bip//9jKLSEsAw==
-length: 187332
+edSignature: 1jN7TmfH7o51Ef6iVzc5Mp4HVcjsXF27eXANcwcHpb1SuIK44NnxigEZjUnOGQrG54mv/Mufu1nnDrn6P6LGCQ==
+length: 189160
 -->
