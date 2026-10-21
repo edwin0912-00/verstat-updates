@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1705)</title>
+      <pubDate>Wed, 21 Oct 2026 10:25:00 +0200</pubDate>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1705)</h2>
+<p>Resilient batch queue asset recovery, concurrent inference lease waiting, opening hook caption deduplication, adaptive multi-line hook wrapping, and pre-decode project snapshot sanitization across 50 replayed production runs.</p>
+<h3>Automatic asset identity refresh and queued inference slot waiting.</h3>
+<p>Batch and TikTok imports automatically refresh updated working assets when the primary source file exists on disk, while concurrent local inference jobs wait cleanly for the active model slot instead of failing immediately.</p>
+<h3>Opening hook track deduplication and natural multi-line fallback layout.</h3>
+<p>Synthesizing a detected opening hook removes overlapping opening caption tracks so two translations never render on top of each other, and long translated hooks fall back to natural multi-line wrapping instead of failing.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1705/Variator-0.4.0-1705.zip" sparkle:version="1705" sparkle:shortVersionString="0.4.0" length="1731760422" type="application/octet-stream" sparkle:edSignature="YPbWF4aOr8+Tjj6zFuELkAuK01RKYF69MGpK8hntC79r5Mmo7i5EeU1mGp1b2FIBi6SfXCi6cxeQEP8yBR6sCg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1705/Variator1705-1704.delta" sparkle:version="1705" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1704" length="6659062" type="application/octet-stream" sparkle:edSignature="cPszYM3sAkYvzlaZTvVJGfZeSsjObY5v6P1IbBADTlYAO9UirOe/saZjSeNvX2iV59kTVK3mhXrbj2o3npKlAw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1704)</title>
       <pubDate>Wed, 21 Oct 2026 03:47:00 +0200</pubDate>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -1603,6 +1623,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Ib55qWAETJ+dB1lg0BMtWSufH75ei9aIOgjE9FybzKE+zPFh/FRgRkG5DBaAmE2TrLxYRg1j0GWhPFenCheHAw==
-length: 185149
+edSignature: 1X1/eEOsKrvMPNYEMBivPjWxZ3V5sdf8Ll4Zg2O92iArHmqCxORjan8MT0nDFKd9adVAKjO2Bip//9jKLSEsAw==
+length: 187332
 -->
