@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1724)</title>
+      <pubDate>Thu, 22 Oct 2026 23:37:00 +0200</pubDate>
+      <sparkle:version>1724</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1724)</h2>
+<p>Timeline precision click-to-position &amp; 30fps playhead synchronization, 20.8x faster Temporal Lookaround Inpainting with crop/ring guards, unified Inspector ergonomics, and DumbGate 15-contract / 22 Real End-to-End Scenarios verification.</p>
+<h3>Timeline precision click-to-position and 30fps playhead synchronization across all tracks and pills.</h3>
+<p>Clicking anywhere on a timeline track or pill seeks directly to the exact clicked playhead position without jumping to 0.0s, while live playback drives timeline playhead progress smoothly at 30fps.</p>
+<h3>20.8x faster Temporal Lookaround Inpainting with edge-case crop &amp; ring guards and single-pass clean plate fast path.</h3>
+<p>Temporal lookaround inpainting in heal_engines.py now runs 20.8x faster with strict &lt;16px crop and boundary ring guards, paired with a single-pass clean plate fast path and bounded Swift hot-path caches with exact invalidation keys.</p>
+<h3>Deduplicated Erase Region controller, smart accordion routing, natural tab sizing, and 22 Real Scenarios.</h3>
+<p>Selecting a timeline layer automatically opens and routes to the matching inspector accordion group with a single deduplicated Erase Region controller, natural tab sizing in HookFineTuningBlock, an always-visible Font selector, and full DumbGate (CANON-50) 15-contract / 75-probe + 22 Real End-to-End Scenarios verification.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1724/Variator-0.4.0-1724.zip" sparkle:version="1724" sparkle:shortVersionString="0.4.0" length="1703908571" type="application/octet-stream" sparkle:edSignature="cxT3FvtmXQRGrbLd83TZCiLujV7dVHLaI8ioHy0wJLs3LfkCZ5Fj+Peg27TT7tKEP+ZWLZEu2Bbtzvn1i75fAg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1724/Variator1724-1723.delta" sparkle:version="1724" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1723" length="6876082" type="application/octet-stream" sparkle:edSignature="c3vvpvgRUym3xYJfIvYPKixU7fEtcE6s6YNWeyL+aoV4A9rGnw/1K++DQ8vvDxZwzM+3OPF6saszGEQE4CFoBQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1723)</title>
       <pubDate>Thu, 22 Oct 2026 18:42:00 +0200</pubDate>
       <sparkle:version>1723</sparkle:version>
@@ -156,6 +180,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: GpReAKGUdl/faBk98XeEbWj3uwijPUD6CN4Nu9WMhy7NzQIwYwDjxW1M9Mouz1ttJf5W90UaBYJbKFhZRXN5Dg==
-length: 17108
+edSignature: bONh5JWwT9ti0pnHDP33ssA7xwcsT85QVk7WcdHcvyqviQmtjnkuiAG902AjzS3fWrYiBOl3W8LTUum9BjubCw==
+length: 19938
 -->
