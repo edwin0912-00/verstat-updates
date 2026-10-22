@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1712)</title>
+      <pubDate>Thu, 22 Oct 2026 02:20:00 +0200</pubDate>
+      <sparkle:version>1712</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1712)</h2>
+<p>Hero Hook text composer at the top of Hook settings, continuous stepped rounded pill plates with zero letter clipping, and faster preview and pipeline caching.</p>
+<h3>Hero Hook text input at the top of Hook settings and continuous stepped rounded plates.</h3>
+<p>The Hook text composer and font bar now sit right at the top of the Hook card with a high-contrast accent border, while multi-line rounded plates trace a continuous stepped polygon with smooth inner and outer corner arcs and guaranteed horizontal padding so letters are never clipped.</p>
+<h3>Instant position dragging, cached credential and glossary reads, and parallel patch checks.</h3>
+<p>Dragging horizontal and vertical position sliders no longer clears the text bitmap cache, voice credentials and speech glossaries are cached in memory, and inpainting patch verification runs in parallel batches with file hash caching.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1712/Variator-0.4.0-1712.zip" sparkle:version="1712" sparkle:shortVersionString="0.4.0" length="1732021909" type="application/octet-stream" sparkle:edSignature="GLybeKm3550FwS0KrCPivOu8p5oXFVmM1dzFMJmvYUbebznIebdKEjWqZ3wDpNQUVbAqSvVp6M8v6veEZoZUBA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1712/Variator1712-1711.delta" sparkle:version="1712" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1711" length="30028810" type="application/octet-stream" sparkle:edSignature="isB/veL8ZDlAx/0ce3U/Yk/szSzeWX4vgYelvw6Y8DzuAqXvny0qH2uLjtIDeimU2xNlPe59by4ViQu41svjAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1711)</title>
       <pubDate>Wed, 21 Oct 2026 19:30:17 +0000</pubDate>
       <sparkle:version>1711</sparkle:version>
@@ -88,6 +110,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: f4KkMLGTmrnaOaFnDMVODHMgN0NcTvjqZcm+Su5cZQljh7GJvT8pNGyNEnhmd1NVddmdXK2jznrQMvjiuBxSAg==
-length: 8989
+edSignature: 0aW83//pRW4ofvNDFGsLGJB1w/uz8nX+WVZMnWXLaIV0pajMqPMil35q7ZTWYYXZVaWNCgAvRYx5D2U7knJpCQ==
+length: 11335
 -->
