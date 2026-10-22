@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1713)</title>
+      <pubDate>Thu, 22 Oct 2026 09:41:00 +0200</pubDate>
+      <sparkle:version>1713</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1713)</h2>
+<p>120fps player and timeline scrubbing, granular canvas bitmap caching, Esc-to-unfocus keyboard flow, and faster in-memory mask and OCR localization.</p>
+<h3>Zero-hitch 120fps scrubbing, granular bitmap cache, and steady playhead during edits.</h3>
+<p>Player refresh and timeline rendering now use cached presentation dimensions and clip durations instead of synchronous disk or track queries, editing Hook text or style sliders keeps the playhead steady and invalidates only the edited canvas item, and pressing Esc cleanly exits text fields so Space immediately toggles playback.</p>
+<h3>In-memory PNG mask encoding, doubled OCR batches, and self-healing background sync.</h3>
+<p>Caption and plate masks are now encoded directly in memory without spawning FFmpeg subprocesses, OCR batch size is doubled to cut Vision helper startup overhead in half, ASR model hashes and audio capabilities are cached in memory, and background sync automatically cleans up interrupted rebase locks.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1713/Variator-0.4.0-1713.zip" sparkle:version="1713" sparkle:shortVersionString="0.4.0" length="1732073655" type="application/octet-stream" sparkle:edSignature="kkHwHWFDFa3oY+OCKv7L0uewFoj/1CtVysHPeonPLiFQuhPv7ZDpWQxG1I6NnjpBVnhMk2GzKByaP1gT5dzwAg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1713/Variator1713-1712.delta" sparkle:version="1713" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1712" length="6968786" type="application/octet-stream" sparkle:edSignature="2f2Aku0pU35r1zE5xbmIxPWGJL/gZ5MFOpT5Bv4dav7fSU+lHx7FZxi3d1ZNRgE6at1FRhtAZF0NJ9T2ZsLQDQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1712)</title>
       <pubDate>Thu, 22 Oct 2026 02:20:00 +0200</pubDate>
       <sparkle:version>1712</sparkle:version>
@@ -110,6 +132,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 0aW83//pRW4ofvNDFGsLGJB1w/uz8nX+WVZMnWXLaIV0pajMqPMil35q7ZTWYYXZVaWNCgAvRYx5D2U7knJpCQ==
-length: 11335
+edSignature: KoEYp/gJh1iv4iskUJYDcq3+mjyQCpRjyRsYKBYk+WC/YWYu8Kh6FDowePBkgyZj86/lb+U+j7s2p3qqUCDXBg==
+length: 13770
 -->
