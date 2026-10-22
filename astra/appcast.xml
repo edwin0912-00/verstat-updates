@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1723)</title>
+      <pubDate>Thu, 22 Oct 2026 18:42:00 +0200</pubDate>
+      <sparkle:version>1723</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1723)</h2>
+<p>4-stage temporal lookaround inpainting &amp; Semantic Batch Binding, unified Timeline Element Erase/Replace inspector (+ Erase) with 300% text wrap handles &amp; + Media cutout, and post-update disk hygiene with split feedback/snapshot telemetry.</p>
+<h3>4-stage temporal lookaround inpainting engine and Semantic Batch Binding across formats and cuts.</h3>
+<p>Hook and caption erasing now borrows clean pixels across neighbor frames (±8f/12f/18f) using DIS optical flow with a 1.5px forward-backward consistency check, propagates keyframe inpaints, applies motion-compensated temporal median de-flickering, and restores sensor grain. Batch recipes automatically adapt hook/face placement, scene-cut duration clamping, and font safe zones across 9:16, 4:5, 1:1, and 16:9 clips.</p>
+<h3>Unified Timeline Element Erase/Replace inspector (+ Erase), decoupled 300% text wrap handles, and + Media cutout.</h3>
+<p>Clicking any timeline pill or + Erase opens a minimal 1-tab inspector (Keep / Erase / Replace, Mode: LaMa AI / Letters / Box, Margin 0–24px, Feather 0–16px) with a draggable red erase box on the video preview. Corner handles scale text size while side handles control words-per-line up to 300% width, and + Media unifies timeline phase presets (Hook 0–3s, In Pause, Outro, All Video) with multi-tier background cutout.</p>
+<h3>Post-update Sparkle &amp; localize scratch hygiene, 2-file log rotation, 15MB .git compaction, and separated feedback/ vs. snapshots/ channels.</h3>
+<p>First launch after an update purges stale Sparkle update caches and orphaned localize scratch folders (≥15 min old), splits runtime logs into 2 bounded files (512 KB cap) with a 2 MB in-memory stdout/stderr cap, compacts the diagnostics .git index when over 15 MB, and separates human user feedback from automated error snapshots (snapshots/) with inline screenshot previews in Black Box.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1723/Variator-0.4.0-1723.zip" sparkle:version="1723" sparkle:shortVersionString="0.4.0" length="1703864988" type="application/octet-stream" sparkle:edSignature="ptom8LbABtyzRvQHVnkFNOmz141GH+MlOwXuGAIwaLYV6bfyE2Jt8oATbmpR4AASVceTpSHnz4jawqCUCHfEAQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1723/Variator1723-1713.delta" sparkle:version="1723" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1713" length="8211722" type="application/octet-stream" sparkle:edSignature="jucc92XI1CzR842TNQZLQMauZawrjZ6Fil5gTX6BDjSb+IvRlYWdMPXTdgnQeq5Ow1w2/m2Uhju8d7wzkV87Ag==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1713)</title>
       <pubDate>Thu, 22 Oct 2026 09:41:00 +0200</pubDate>
       <sparkle:version>1713</sparkle:version>
@@ -132,6 +156,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KoEYp/gJh1iv4iskUJYDcq3+mjyQCpRjyRsYKBYk+WC/YWYu8Kh6FDowePBkgyZj86/lb+U+j7s2p3qqUCDXBg==
-length: 13770
+edSignature: GpReAKGUdl/faBk98XeEbWj3uwijPUD6CN4Nu9WMhy7NzQIwYwDjxW1M9Mouz1ttJf5W90UaBYJbKFhZRXN5Dg==
+length: 17108
 -->
