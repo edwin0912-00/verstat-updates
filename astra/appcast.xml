@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1727)</title>
+      <pubDate>Fri, 23 Oct 2026 09:54:00 +0200</pubDate>
+      <sparkle:version>1727</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1727)</h2>
+<p>7-game Variator Mini-Arcade with Space Blaster &amp; Cyber Stack (easier physics and 2x level lengths), 18-pattern Force Touch Taptic Engine &amp; Micro-Acoustic Haptics Lab, and per-pool Recipe Roll actions.</p>
+<h3>7-game Variator Mini-Arcade with Space Blaster, Cyber Stack, forgiving physics, and 2x level lengths.</h3>
+<p>Adds Space Blaster (dual auto-laser against 12 aliens) and Cyber Stack (magnetic 10-floor block tower) alongside Pixel Pong, Brick Breaker, Asteroid Dodge, Retro Snake (with wall wrap-around), and Jetpack Runner (150pt gate gap), tuned with forgiving hitboxes and doubled level targets during heavy renders.</p>
+<h3>18-pattern Force Touch Taptic Engine and Micro-Acoustic Haptics Demo Lab across timeline and canvas.</h3>
+<p>Delivers tactile and micro-acoustic feedback across timeline scrubbing, magnetic playhead/layer snaps, and pro controllers, with a live Haptics Demo Lab supporting per-event variant selection, pitch tuning (0.5x–1.8x), and pulse count (1x/2x/3x) customization.</p>
+<h3>Independent per-pool Recipe Roll actions, clarified Video to Batch action, and CANON-50 snapshot bounds.</h3>
+<p>Fixes independent per-pool Roll actions in Recipe pools, clarifies Video to Batch workflow controls, and enforces CANON-49/CANON-50 15%–300% maxWidthPercent clamping across persisted project snapshots.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1727/Variator-0.4.0-1727.zip" sparkle:version="1727" sparkle:shortVersionString="0.4.0" length="1704728295" type="application/octet-stream" sparkle:edSignature="A+0gWpPMAjvhZX+fItX2NQmMedCe3KcuDgn0mVmknqPII8dVjuHCC2x9UifTd4GOit+69lMEvXiKelOqL+9jBw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1727/Variator1727-1724.delta" sparkle:version="1727" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1724" length="7626778" type="application/octet-stream" sparkle:edSignature="qWxZKtSyHeK0MYR3BMobG23GtfuktZA3+nDJNXlSkpphBKYfOGEbMlazO/JpYvHgvMdl+PPlNEXud8rvqBwBCA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1724)</title>
       <pubDate>Thu, 22 Oct 2026 23:37:00 +0200</pubDate>
       <sparkle:version>1724</sparkle:version>
@@ -180,6 +204,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bONh5JWwT9ti0pnHDP33ssA7xwcsT85QVk7WcdHcvyqviQmtjnkuiAG902AjzS3fWrYiBOl3W8LTUum9BjubCw==
-length: 19938
+edSignature: T0wkG0qq0d8x8MGXoM30WC4vyEilrHuzKKI23bYiwxhaGJjdkcDqwmcZJXZJO3gEdKFojbX+eTFMo74HTMQwDw==
+length: 22731
 -->
