@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1730)</title>
+      <pubDate>Fri, 23 Oct 2026 19:15:00 +0200</pubDate>
+      <sparkle:version>1730</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1730)</h2>
+<p>Full-video Hook timeline stretch with static-text coalescing, face-overlap LaMa erase guard, zero unwanted auto-erase on Create Variant, scene-cut localization verification parity, and unified layer z-order reordering.</p>
+<h3>Stretch Hook text across the full video duration without snapping back to the 3.0s cut.</h3>
+<p>Dragging the orange Hook timeline bar past the 3.0s scene cut now smoothly extends across the entire video duration, promotes scope to full-video, persists custom duration, snaps magnetically only within 0.12s of a cut, and coalesces duplicate static 1-frame captions into one bar.</p>
+<h3>Zero unwanted LaMa text erasing on Create Variant and automatic face-overlap protection.</h3>
+<p>Restores the clean original video source whenever Erase was not explicitly requested, prevents Hook Replace or Hook Collage from triggering background LaMa erasing when Market is Off, and blocks default AI erasing when text sits directly over a person's face with an amber plate recommendation.</p>
+<h3>Scene-cut localization verification parity, bright-background outline preservation, and unified layer z-order.</h3>
+<p>Clamps Hook localization verification spans to the first scene cut so post-cut frames never trigger false OCR readback errors, preserves thin dark outlines on bright backgrounds, ignores zero-alpha crop padding during residue checks, and adds unified layer z-order controls across preview, context menu, and inspector.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1730/Variator-0.4.0-1730.zip" sparkle:version="1730" sparkle:shortVersionString="0.4.0" length="1704184246" type="application/octet-stream" sparkle:edSignature="pa5Hj7yieRgtIr1QAUcrWG1uzfQk7mMYbn9Mj+d0dBn2y/zWYlR0n/LeCW3qQdkbZN7MhKWPynZoObHiC9YQAQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1730/Variator1730-1727.delta" sparkle:version="1730" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1727" length="7552734" type="application/octet-stream" sparkle:edSignature="PjfMKqXUH9py560oBeW2fpW/leeB2ZK2dY6uWueRkiys/t3TqRCCTPu2aoAfHZFWSS3xSGRTBIAy7K8iO+VdBw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1727)</title>
       <pubDate>Fri, 23 Oct 2026 09:54:00 +0200</pubDate>
       <sparkle:version>1727</sparkle:version>
@@ -180,30 +204,10 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
       <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
       <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1705/Variator-0.4.0-1705.zip" sparkle:version="1705" sparkle:shortVersionString="0.4.0" length="1731760422" type="application/octet-stream" sparkle:edSignature="YPbWF4aOr8+Tjj6zFuELkAuK01RKYF69MGpK8hntC79r5Mmo7i5EeU1mGp1b2FIBi6SfXCi6cxeQEP8yBR6sCg==" />
       <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
-      <sparkle:deltas>
-        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1705/Variator1705-1704.delta" sparkle:version="1705" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1704" length="6659062" type="application/octet-stream" sparkle:edSignature="cPszYM3sAkYvzlaZTvVJGfZeSsjObY5v6P1IbBADTlYAO9UirOe/saZjSeNvX2iV59kTVK3mhXrbj2o3npKlAw==" />
-      </sparkle:deltas>
-    </item>
-    <item>
-      <title>Version 0.4.0 (1704)</title>
-      <pubDate>Wed, 21 Oct 2026 03:47:00 +0200</pubDate>
-      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[
-<h2>What's New in Variator 0.4.0 (Build 1704)</h2>
-<p>Speed-aware frozen-tail verification for paced exports, full Light command verification with audio pitch and tempo graphs, non-Latin script readback enforcement, and preset/queue clamping hardening.</p>
-<h3>Speed-aware frozen-tail proof and complete Light command verification.</h3>
-<p>Paced Quick and Batch exports now scale source tail boundaries proportionally to the speed factor while verifying full video and audio pitch-preserving filter graphs.</p>
-<h3>Preset clamping across work modes and strict target-script readback.</h3>
-<p>Saving presets and copying settings to Batch automatically sanitize mode-specific bounds and speech flags, while localization verification enforces target-script character presence and outlined emoji preservation.</p>
-]]></description>
-      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
-      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1704/Variator-0.4.0-1704.zip" sparkle:version="1704" sparkle:shortVersionString="0.4.0" length="1731738068" type="application/octet-stream" sparkle:edSignature="eXskOc7ou+C4w+vb2xXLyUAR0/Y0ZfrjV/qRRtekoO+lm058XkIwZJDMKZSY3natUoMfg9S3A7yuHGkUaE+0DQ==" />
-      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
     </item>
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: T0wkG0qq0d8x8MGXoM30WC4vyEilrHuzKKI23bYiwxhaGJjdkcDqwmcZJXZJO3gEdKFojbX+eTFMo74HTMQwDw==
-length: 22731
+edSignature: AnGlmFQ8oXRNft0T8w3GsJjhQ5wbIaDj6mVWkwki2ZAcPII/DTa9DwZL/AiNCpdfA6bQ8X+HR3GuCw8DEzljAQ==
+length: 23545
 -->
