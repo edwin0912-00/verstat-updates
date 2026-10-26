@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1733)</title>
+      <pubDate>Mon, 26 Oct 2026 14:52:00 +0100</pubDate>
+      <sparkle:version>1733</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1733)</h2>
+<p>FullAppCheck 1.0 4-stage combinatorial QA &amp; Single-Mode ghost-parameter isolation, Scene Studio transitions across live preview, recipes &amp; batch queue, and 10-bit HDR PNG decoding.</p>
+<h3>Wire Scene Studio transitions across live preview, recipes, and batch queue with 10-bit HDR frame decoding.</h3>
+<p>Connects per-cut Scene Studio transition effects across interactive preview, Smart Auto-Recipes, and batch queue rendering, while adding 10-bit HDR PNG decoding and protected-region vision detection so HDR source clips process without color or channel failures.</p>
+<h3>Zero dormant parameter leaks when feature toggles are off and lossless mode-switching across Canvas items.</h3>
+<p>Prevents disabled Color Grading, Crop, Look, Subtitle, and Hook Banner sub-settings from leaking into exported plans or manifests, preserves custom text and canonical bezel/top-center coordinates when switching through iPhone Volume HUD, and supports timing and rotation on stickers without schema errors.</p>
+<h3>Preserve original source lineage on unwrapped localization receipts and add FullAppCheck 1.0 nightly verification.</h3>
+<p>Records normalization.original provenance when unwrapping localized working videos, allows empty text or username on reply stickers during live editing, and introduces the 4-stage FullAppCheck 1.0 combinatorial verification suite.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1733/Variator-0.4.0-1733.zip" sparkle:version="1733" sparkle:shortVersionString="0.4.0" length="1527127304" type="application/octet-stream" sparkle:edSignature="AsJhhs/DPNaHzhG61KxQ+FP5sU+Vl9hjqMGQMbV8UjkKxDcyWoRiCt7dpFce/XxX9MvmZYN0xKE9dKZO27LtDA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1733/Variator1733-1730.delta" sparkle:version="1733" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1730" length="25053402" type="application/octet-stream" sparkle:edSignature="6KLlWE9jh2G7tV5z1NIBWGZEEgBPlZ6XfFzKmGKPsHhHtg9rlen1T+9qPZ9fkxOzRNI9YttskCZQ5WEwiekiBg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1730)</title>
       <pubDate>Fri, 23 Oct 2026 19:15:00 +0200</pubDate>
       <sparkle:version>1730</sparkle:version>
@@ -208,6 +232,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: AnGlmFQ8oXRNft0T8w3GsJjhQ5wbIaDj6mVWkwki2ZAcPII/DTa9DwZL/AiNCpdfA6bQ8X+HR3GuCw8DEzljAQ==
-length: 23545
+edSignature: /OFNyJUksO4Q1R5AzrzsuxkG7zbpCjfKn74cPrx0uleZUGZZ9pAZSp5kZLfGiWZan2b2peO0stsqS6ZUBMXdCw==
+length: 26365
 -->
