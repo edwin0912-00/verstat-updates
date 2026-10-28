@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1734)</title>
+      <pubDate>Wed, 28 Oct 2026 19:30:00 +0100</pubDate>
+      <sparkle:version>1734</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1734)</h2>
+<p>Reliable TikTok and Reels export across Medium and Voice Separation pipelines, instant Use Original hook extraction with live canvas visibility, opaque circular Yope stickers at the playhead, native hard-cut collage timing, and calibrated Classic TikTok Outline thickness.</p>
+<h3>Fix Medium export replay validation, voice separation fallback, and session run-binding recovery.</h3>
+<p>Preserves source audio stream duration during Medium speed and pitch rendering, automatically retries voice separation on CPU with clean error reporting when hardware acceleration fails, and self-heals stale run bindings and working input provenance during session save and export.</p>
+<h3>Copy original on-screen hook text on demand, keep edited hooks visible on canvas, and set TikTok outline to 3.5.</h3>
+<p>Clicking Use Original in the Hook section now runs fast Vision text recognition on the opening frames whenever transcript hooks are empty, always populates the editor, keeps replaced hook text visible on the video preview canvas, and defaults Classic TikTok Outline thickness to 3.5 with zero-fade hard cuts on hooks and collages.</p>
+<h3>Add seven opaque circular Yope stickers and insert them directly at the timeline cursor.</h3>
+<p>Replaces automatic word-snapping with seven fully opaque circular Yope sticker variants from the marketing sheet and adds an Add Yope Logo at Playhead button that places the selected sticker right at the current timeline position.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1734/Variator-0.4.0-1734.zip" sparkle:version="1734" sparkle:shortVersionString="0.4.0" length="1527563566" type="application/octet-stream" sparkle:edSignature="OjflqkQTVr2DV0sx4Ibm2TY/tMN26Nbeh0Th1wZ+K50+D5pgpBJqcB3trMZMbTfP/5yBMoVNTT9VjOx3UOoHBw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1734/Variator1734-1733.delta" sparkle:version="1734" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1733" length="8267702" type="application/octet-stream" sparkle:edSignature="ZJPwUhk40FMlc230q/kmth4UbSaUpbnWYDNkNAK92fg+6v1cn0ee/40oTZyLHYk8LoT0sqi4nGlHPYj3e/vpAw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1733)</title>
       <pubDate>Mon, 26 Oct 2026 14:52:00 +0100</pubDate>
       <sparkle:version>1733</sparkle:version>
@@ -232,6 +256,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /OFNyJUksO4Q1R5AzrzsuxkG7zbpCjfKn74cPrx0uleZUGZZ9pAZSp5kZLfGiWZan2b2peO0stsqS6ZUBMXdCw==
-length: 26365
+edSignature: 7v+bYNjy0zIgm0hJ3tUlefJeqn4NIg+GqfdAUP7kxKh+4hBFq293thsfQlTThhNYKe85sZh5nd7Ir+pQkvHRDw==
+length: 29283
 -->
