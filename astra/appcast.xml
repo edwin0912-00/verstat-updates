@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1737)</title>
+      <pubDate>Fri, 30 Oct 2026 17:15:00 +0100</pubDate>
+      <sparkle:version>1737</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1737)</h2>
+<p>Seamless TikTok and Instagram Reels export across importer-normalized clips and paced Medium renders, live Replace hook text rendering alongside Hook Collage without OCR state pollution, automatic audio-stream drift normalization on import, and case-safe APFS storage maintenance.</p>
+<h3>Preserve importer-normalized analysis bindings, align Medium speed audio duration, and normalize container drift on import.</h3>
+<p>Keeps importer-normalized working inputs bound to their verified analysis directory when exporting without caption localization, trims replacement audio mixes before tempo scaling in Medium renders so sped-up clips match video duration to the frame, and falls back to lossless-video audio re-encoding when source containers carry sub-second edit-list drift.</p>
+<h3>Render Replace hook text alongside Hook Collage, keep Use Original OCR clean, and preserve stretched hook timeline bars.</h3>
+<p>Displays custom Replace hook text on the preview canvas and in exported videos even when Hook Collage is active, prevents Use Original OCR extraction from overwriting the baseline hook state, keeps stretched hook bars intact on the Scene Studio timeline, and prevents narrow-width clipping in the Speed and Length row.</p>
+<h3>Preserve APFS path casing during automatic storage cleanup and lock diagnostics key permissions.</h3>
+<p>Preserves original file-system path casing when scanning active project references on case-preserving APFS volumes so automatic background storage maintenance never defers on valid snapshots, and enforces strict owner-only permissions on the bundled diagnostics deploy key across release archives and binary deltas.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1737/Variator-0.4.0-1737.zip" sparkle:version="1737" sparkle:shortVersionString="0.4.0" length="1527590663" type="application/octet-stream" sparkle:edSignature="BpLpRTCqxWNLULq+9GFp/UJRlhHRi4xR8VllJ8UMKsSuO0Y/GwE3pdY4qp/t3bunrdm3JKLJ6aUPEBHbeMOPBA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1737/Variator1737-1734.delta" sparkle:version="1737" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1734" length="6918582" type="application/octet-stream" sparkle:edSignature="H78WM6s3lqjiD7IjuvBmMtOl4os94vVsK+AxsX7Fwudyu4OZyfBNdSlW+ZpCny90m7T48WEZtl/J9lMjjCNnDA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1734)</title>
       <pubDate>Wed, 28 Oct 2026 19:30:00 +0100</pubDate>
       <sparkle:version>1734</sparkle:version>
@@ -256,6 +280,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 7v+bYNjy0zIgm0hJ3tUlefJeqn4NIg+GqfdAUP7kxKh+4hBFq293thsfQlTThhNYKe85sZh5nd7Ir+pQkvHRDw==
-length: 29283
+edSignature: E4+fdpsyAuTyiOBYh+87QpaDSzMHD5x5l9eKt+qxlSiGJZVOmK1QQRSPl540c8PmOmloA8Un8iboyTr3u9YAAg==
+length: 32400
 -->
