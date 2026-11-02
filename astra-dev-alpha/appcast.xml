@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1738)</title>
+      <pubDate>Mon, 02 Nov 2026 19:00:00 +0100</pubDate>
+      <sparkle:version>1738</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1738)</h2>
+<p>Stable uncropped output when Crop is off in Recipes and Quick Variations, streamlined 1-click Batch recipe chips and per-row inline controls, automatic Brand Logo synthesis in Batch mode, and 6-Stage FullAppCheck verification.</p>
+<h3>Eliminate unintended per-scene random crops and flickering look cycles when Crop is off.</h3>
+<p>Keeps exported videos at 0% crop with a single consistent color look across all scenes whenever Crop is not explicitly added to the recipe, preventing camera shake and unwanted zoom jumps on multi-scene exports.</p>
+<h3>Unified 1-click Batch recipe bar, per-row inline toggles, Brand Logo synthesis, and footer export bar.</h3>
+<p>Replaces nested Batch tabs with a single top bar for Formula Presets and 1-click recipe chips, adds direct Collage, Hook, Logo, and Speed toggles on each video row, synthesizes Brand Logo overlays post-analysis in Batch mode, and consolidates folder selection next to Export All.</p>
+<h3>Full 6-stage combinatorial, real-render, and wild-corpus verification with reply-sticker and drop-shadow accuracy.</h3>
+<p>Completes all 6 stages of FullAppCheck across bitmask, intra-block, cross-stage tensor, temporal non-commutativity, real FFmpeg/ffprobe renders, and wild-corpus metamorphic checks, while tightening reply-sticker username cleanup and white-on-white drop-shadow mask extraction.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1738/Variator-0.4.0-1738.zip" sparkle:version="1738" sparkle:shortVersionString="0.4.0" length="1527629744" type="application/octet-stream" sparkle:edSignature="g+ExUXUxaeJ8auPyH2u5eshsc+ZGYl6to0ZHWsnaEIMrY1Y2Svm3urPAgHjCitt0Ti0A9zGdP5cDYg5xWQHxBA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1738/Variator1738-1737.delta" sparkle:version="1738" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1737" length="7423710" type="application/octet-stream" sparkle:edSignature="nDcYdRxhEX15Yaq8sKOrlT5uMNNf2PGV/IAWYZzU0dW9wUr5XElCWDRZEA8l8I1nXTYdFL6I5YL0Wwiw0NErAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1737)</title>
       <pubDate>Fri, 30 Oct 2026 17:15:00 +0100</pubDate>
       <sparkle:version>1737</sparkle:version>
@@ -280,6 +304,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: E4+fdpsyAuTyiOBYh+87QpaDSzMHD5x5l9eKt+qxlSiGJZVOmK1QQRSPl540c8PmOmloA8Un8iboyTr3u9YAAg==
-length: 32400
+edSignature: BrWFfo0nXfGauq181Ye9Sx33hSAweFgtQuB44O/gAdrlFtCgCyUyB+IqMsTSD0Q2Q3OyOpq/dIO2Xf1gqzvrBg==
+length: 35204
 -->
