@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1758)</title>
+      <pubDate>Wed, 04 Nov 2026 18:55:56 +0100</pubDate>
+      <sparkle:version>1758</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1758)</h2>
+<p>Quick Replace now exports the hook copy exactly as the editor shows it: the font, weight, size, plate, outline and emoji you chose.</p>
+<h3>The export keeps your Replace text settings.</h3>
+<p>Replace in Quick showed your edited hook in the preview, but the export drew a default copy or none. The export now draws the same copy, at the same place and time, over the original hook.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1758/Variator-0.4.0-1758.zip" sparkle:version="1758" sparkle:shortVersionString="0.4.0" length="1527758368" type="application/octet-stream" sparkle:edSignature="q3z1b8tYvKzAo2vho0iFTOCBYFDagDYPkYk14FD+EyZzh6dPIVnggcnPAZCbUwtUvYF1MiHZ41kNlpxNalXcBQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1758/Variator1758-1756.delta" sparkle:version="1758" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1756" length="6647258" type="application/octet-stream" sparkle:edSignature="eOBSItLRe874lvIN7nj83MDNy2x1E7kTljcFAx6wqc5O2CmAYjyQCw9DT0dPXFsVqe3J8z4Cvad49TTvFaZNBw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1756)</title>
       <pubDate>Wed, 04 Nov 2026 17:06:23 +0100</pubDate>
       <sparkle:version>1756</sparkle:version>
@@ -358,6 +378,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 0SLAXZgzQL9MxFASK3CLzVcXwKWSL4BfjUDXE9FTFiLV2WX/MnuFa5VuEBeNGZCOC4tiTpJs7Ci74bhanbtEAA==
-length: 40990
+edSignature: 3yn+HBpT1Jf1iCOLCT1AglfwRaZ1/H/Elrl6SyPCDxOFl6ONfag2eoIvFgwzKGWv+zO6rCfimYmr/qnpUP9KBw==
+length: 42825
 -->
