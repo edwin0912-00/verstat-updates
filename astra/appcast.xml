@@ -7,6 +7,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0 (1756)</title>
+      <pubDate>Wed, 04 Nov 2026 17:06:23 +0100</pubDate>
+      <sparkle:version>1756</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.0 (Build 1756)</h2>
+<p>Liliya's recipe works end to end in Single and Batch: 1.2x speed, a photo collage on the original hook, and the Yope logo from 2.0 s that never covers the face or the subtitles. The preview now shows exactly what the export will contain.</p>
+<h3>The export matches the editor at any speed.</h3>
+<p>Quick no longer adds a hidden 1.15x speed or pitch. Speed, collage, logo and subtitles follow the finished-video timeline, and the timeline shows finished-video time. The recipe keeps the original hook: no erase and no plate on top.</p>
+<h3>The logo shows from 2.0 s for 2.5 s, off the face and off the subtitles.</h3>
+<p>The logo picks a visible spot between the face and the subtitles, gets smaller only when it must, and draws above the collage. You can drag it anywhere; Batch keeps it at 2.0 s on every video.</p>
+<h3>Every Batch video gets the same recipe as the editor.</h3>
+<p>Collage cards come from photos only and keep the recipe window, each video keeps its own hook, the copied preset survives a restart, and adding a video no longer drops a waiting one from the queue.</p>
+<h3>An element shows in the preview only inside its time window.</h3>
+<p>A selected logo, text or sticker is no longer drawn faintly on every frame. Revert brings the original video back, and removing a recipe change no longer breaks the next render.</p>
+<h3>A one-line caption no longer fails with text-does-not-fit.</h3>
+<p>A stored hook row that kept its line breaks is now measured on one line, so the localized caption draws instead of stopping the job.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1756/Variator-0.4.0-1756.zip" sparkle:version="1756" sparkle:shortVersionString="0.4.0" length="1527746942" type="application/octet-stream" sparkle:edSignature="mmK44bLAqkGhoH7CE5cw/NilhTNIZl+if4Hskvu4lErWII2YFOWN1FSjW04vT4t72YrhvDdqI154g0shso7zAw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.0-1756/Variator1756-1755.delta" sparkle:version="1756" sparkle:shortVersionString="0.4.0" sparkle:deltaFrom="1755" length="5497042" type="application/octet-stream" sparkle:edSignature="Ia7S36rtp7wdNJGxR7r0nT6k5d8LBVJHglSoWE9Gt6K3qZaareRDs5oiBwdEu2tjwBEE5+J5B7LDzd43IY/WBQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1755)</title>
       <pubDate>Wed, 04 Nov 2026 16:47:44 +0100</pubDate>
       <sparkle:version>1755</sparkle:version>
@@ -330,6 +358,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: kAzVE4TN6OYlL1j4QWc4Xy82gvtaIofOw365ywO6N982O//DCM5n1CL1VaFFvUeCBm39Js8p6DA8U10zHbzhBQ==
-length: 37993
+edSignature: 0SLAXZgzQL9MxFASK3CLzVcXwKWSL4BfjUDXE9FTFiLV2WX/MnuFa5VuEBeNGZCOC4tiTpJs7Ci74bhanbtEAA==
+length: 40990
 -->
