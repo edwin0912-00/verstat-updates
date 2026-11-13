@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2256)</title>
+      <pubDate>Sat, 14 Nov 2026 00:03:14 +0100</pubDate>
+      <sparkle:version>2256</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2256)</h2>
+<p>Variator 0.4.1 hotfix: a video with captions removed now always saves, and a video without sound renders without any warning.</p>
+<h3>Your video always saves with its sound in step.</h3>
+<p>The sound now always ends on the last frame of the picture. A video whose sound was a few milliseconds shorter than its picture no longer stops with a sync message.</p>
+<h3>Videos without sound just render.</h3>
+<p>A video without a sound track renders without sound and without a notice.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2256/Variator-0.4.1-2256.zip" sparkle:version="2256" sparkle:shortVersionString="0.4.1" length="1504786652" type="application/octet-stream" sparkle:edSignature="PH+k0x8YFk+1kGK9gZHVofA0+t3ir8CIKQTMvUiWr3OhvVNaHKCGPC+MiJX6Ojz1QQO5AgSIRhjeMI8UgKXWCA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2256/Variator2256-2253.delta" sparkle:version="2256" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2253" length="8761722" type="application/octet-stream" sparkle:edSignature="5LrGB2zSnYfFAmyddo2Gi7RIxrUH+czRrQq6UoyLvRI4EEzwApcAjgNJ2YaNqIIFeY2o4KtCODO3jnIrWOelCQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2253)</title>
       <pubDate>Fri, 13 Nov 2026 12:20:00 +0100</pubDate>
       <sparkle:version>2253</sparkle:version>
@@ -402,6 +424,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: xMqbX4WjS0o1DK4O3UMrVpxseeHOYH/R1tJQI5vCTVvjjwsk9Bp71oArpmDe5ldkcSspbmYkjrFu0FedHgUSAQ==
-length: 44984
+edSignature: 8tBgP+5WVUgEfH6W9A+yVHxnqIYPXi/E2iY8VYHMlR+ZLGx/wwX6uyfafR9XStMYO4UeJsRnqORc/9tX0Dd2BQ==
+length: 46916
 -->
