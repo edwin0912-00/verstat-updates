@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2253)</title>
+      <pubDate>Fri, 13 Nov 2026 12:20:00 +0100</pubDate>
+      <sparkle:version>2253</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2253)</h2>
+<p>Variator 0.4.1.1 keeps your edits and your Mac safe while it works: brand names stay as written in a translation, and the app builds and runs on the latest Xcode.</p>
+<h3>Brand names stay as written.</h3>
+<p>When a translation returns a brand name unchanged, the caption keeps it and the report says why, instead of treating it as a missed translation.</p>
+<h3>Built and tested with the latest Xcode.</h3>
+<p>The app and its checks now build with Xcode 27.2. A stale helper from an older build can no longer end up in the app.</p>
+<h3>Automated checks ignore stray clicks.</h3>
+<p>While the built-in checks run, their window ignores mouse and keyboard input, so a click cannot change a check by accident.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2253/Variator-0.4.1-2253.zip" sparkle:version="2253" sparkle:shortVersionString="0.4.1" length="1504780472" type="application/octet-stream" sparkle:edSignature="nec54173H1kRdJTRzj0VHvdNK1WvU7Wr/cR84ecKhqrV7q8tTJQzc5svM+BqU+V3+NTFOWxiRugMNNmYJfF0CQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2253/Variator2253-1758.delta" sparkle:version="2253" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="1758" length="19154146" type="application/octet-stream" sparkle:edSignature="96rtnLjzZ1Bf2rzDuH0GmdlcoXHTbx8P7eyUOSFE+9OMO/rRPa69/Qi2mmgjBLkOWw3DuA9TR92S5Un6EvNRCQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.0 (1758)</title>
       <pubDate>Wed, 04 Nov 2026 18:55:56 +0100</pubDate>
       <sparkle:version>1758</sparkle:version>
@@ -378,6 +402,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3yn+HBpT1Jf1iCOLCT1AglfwRaZ1/H/Elrl6SyPCDxOFl6ONfag2eoIvFgwzKGWv+zO6rCfimYmr/qnpUP9KBw==
-length: 42825
+edSignature: xMqbX4WjS0o1DK4O3UMrVpxseeHOYH/R1tJQI5vCTVvjjwsk9Bp71oArpmDe5ldkcSspbmYkjrFu0FedHgUSAQ==
+length: 44984
 -->
