@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2259)</title>
+      <pubDate>Sat, 14 Nov 2026 16:20:46 +0100</pubDate>
+      <sparkle:version>2259</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2259)</h2>
+<p>Variator 0.4.1 hotfix: Instagram videos in VP9 render again.</p>
+<h3>Instagram videos in VP9 render again.</h3>
+<p>Videos downloaded from Instagram in the VP9 format no longer stop with a decoder error when you create variants.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2259/Variator-0.4.1-2259.zip" sparkle:version="2259" sparkle:shortVersionString="0.4.1" length="1504793103" type="application/octet-stream" sparkle:edSignature="wIZnWFOzTJjsSXPYcdFvt6tyTelcwN5x7xOyLF5/G1idjH7VEex5628VqeZm+2L3Ze3FNrniwSLQuODax1YyCQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2259/Variator2259-2258.delta" sparkle:version="2259" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2258" length="8200162" type="application/octet-stream" sparkle:edSignature="sh0t4ZTVaK90q98Whrxf4OuI5hDG2K6zJvR0k28Dw/JsUSmUGydP0PF8W+F59KOWmc/IXaNd+KtpbpDXVFEHBQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2258)</title>
       <pubDate>Sat, 14 Nov 2026 01:44:40 +0100</pubDate>
       <sparkle:version>2258</sparkle:version>
@@ -449,6 +469,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: rIrOHiYoHrBSbEM3MtDegzxz1Cy26HVTKoTunuwuutIVjY17SyG85AEHvxxpmMYsTgYQP5s290QVOLmRn9h5Bw==
-length: 49576
+edSignature: wjcQeKd/E844b9HFEom0YhBPS06gb9hPk61TeYpw59vvjkUX1rLHell0l2rZOlFGAwoRN4m5bRFPu0xTPj+GDQ==
+length: 51257
 -->
