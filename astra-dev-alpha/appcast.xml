@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2260)</title>
+      <pubDate>Sat, 14 Nov 2026 17:32:17 +0100</pubDate>
+      <sparkle:version>2260</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2260)</h2>
+<p>Variator 0.4.1 hotfix: a short single-scene video renders in Quick again with your own look and crop.</p>
+<h3>Single-scene videos render in Quick again.</h3>
+<p>A short video with one scene no longer stops with &quot;Light plan does not preserve the whole-source timeline&quot; when it has its own look or crop.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2260/Variator-0.4.1-2260.zip" sparkle:version="2260" sparkle:shortVersionString="0.4.1" length="1504800730" type="application/octet-stream" sparkle:edSignature="Ir3klBIORY4rLm6FTXUmpB+46jiDYQxYUg+jdhyMhmR9WMqmy1XVWZgRPOQZIUMNUoNP9ufB3gYZRf91npDSAQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2260/Variator2260-2259.delta" sparkle:version="2260" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2259" length="8071314" type="application/octet-stream" sparkle:edSignature="+uplrnMtkK84YX+KWdU4oKnSZxM7j4MBTNI/c5VW3AvV3yZrbXG23DtMszX3ZPchnM9t/ffZGuCVZbkRpVOcBg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2259)</title>
       <pubDate>Sat, 14 Nov 2026 16:20:46 +0100</pubDate>
       <sparkle:version>2259</sparkle:version>
@@ -469,6 +489,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: wjcQeKd/E844b9HFEom0YhBPS06gb9hPk61TeYpw59vvjkUX1rLHell0l2rZOlFGAwoRN4m5bRFPu0xTPj+GDQ==
-length: 51257
+edSignature: Vuo9wu9eKK7M89HICWnMqWCAdaXd+IEbbooXXUB0CS7Nru8DEvX42QaazqNSVrX+N4PSDbJEvvrggBrAsU9QCw==
+length: 53022
 -->
