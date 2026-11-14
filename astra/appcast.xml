@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2262)</title>
+      <pubDate>Sun, 15 Nov 2026 00:59:02 +0100</pubDate>
+      <sparkle:version>2262</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2262)</h2>
+<p>Variator 0.4.1 hotfix: text and graphics you add stay sharp in the export, and the Speed field shows the real speed of each new video.</p>
+<h3>Added text stays sharp in the export.</h3>
+<p>On light, low-bitrate source videos the export no longer blurs the text and graphics you add: they look as sharp as in the preview.</p>
+<h3>The Speed field shows the real speed.</h3>
+<p>When you open a new video, the Speed field and slider show 1.00, the speed the video really renders at, instead of the number from the previous video.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2262/Variator-0.4.1-2262.zip" sparkle:version="2262" sparkle:shortVersionString="0.4.1" length="1504807627" type="application/octet-stream" sparkle:edSignature="TEPDUn2U+zUyDp1barYIaEqhDwAVW++cvcnOCmlmzi8vXjIwJRmN9qO8Vh7WL+tCCdovHnT8x7AeDg34e8DbBg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2262/Variator2262-2261.delta" sparkle:version="2262" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2261" length="8433294" type="application/octet-stream" sparkle:edSignature="MOirD4g7GP5h1JUAmNlIOxUbPPoXHgHMIbevMW4iT2lKzt2IZUgGRmhqjNTFp48X9FPPW6qqyreygFpLFNBtAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2261)</title>
       <pubDate>Sat, 14 Nov 2026 19:48:04 +0100</pubDate>
       <sparkle:version>2261</sparkle:version>
@@ -509,6 +531,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: iFPlVX1KgtlnHZT2tTO+meOTKtHHoKlS1HKNxjxk6llKRO7lZOp1Pv+rZ7b2Cm9+nrXRVl5Kkv5qvPS2KOvUBg==
-length: 54722
+edSignature: dV9G36cJCAOLQPgMxfeU7wS1HE4IAKQm/jV1llxoCDBgSyWTvsQpoOjag+hxF1TDMLMGODwaIbgpRpMvDCOEDg==
+length: 56701
 -->
