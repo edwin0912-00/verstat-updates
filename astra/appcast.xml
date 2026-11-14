@@ -7,6 +7,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2261)</title>
+      <pubDate>Sat, 14 Nov 2026 19:48:04 +0100</pubDate>
+      <sparkle:version>2261</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2261)</h2>
+<p>Variator 0.4.1 hotfix: every video you open starts at normal speed and pitch.</p>
+<h3>A new video starts at normal speed.</h3>
+<p>Speed and pitch from the previous video no longer carry over: every video you open starts at speed 1.00 and pitch 0.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2261/Variator-0.4.1-2261.zip" sparkle:version="2261" sparkle:shortVersionString="0.4.1" length="1504798432" type="application/octet-stream" sparkle:edSignature="7VMKKiBqFTcMD6cdv74Ugf1hW32s1jGNUBmGjHvD4tGph0cBpsJMt0VhHNygaW/w2lmlSfCHd68ue6kiDdyeDg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2261/Variator2261-2260.delta" sparkle:version="2261" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2260" length="8215254" type="application/octet-stream" sparkle:edSignature="fbufImstwQMwTpWFmcIcUnq9J+b5AEmAp3HmNk9PuCNK4+9JwWHMv8wY+lyw/08m2qsSOcriq8VstgG76AG+Cw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2260)</title>
       <pubDate>Sat, 14 Nov 2026 17:32:17 +0100</pubDate>
       <sparkle:version>2260</sparkle:version>
@@ -489,6 +509,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Vuo9wu9eKK7M89HICWnMqWCAdaXd+IEbbooXXUB0CS7Nru8DEvX42QaazqNSVrX+N4PSDbJEvvrggBrAsU9QCw==
-length: 53022
+edSignature: iFPlVX1KgtlnHZT2tTO+meOTKtHHoKlS1HKNxjxk6llKRO7lZOp1Pv+rZ7b2Cm9+nrXRVl5Kkv5qvPS2KOvUBg==
+length: 54722
 -->
