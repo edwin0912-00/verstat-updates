@@ -7,6 +7,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1 (2258)</title>
+      <pubDate>Sat, 14 Nov 2026 01:44:40 +0100</pubDate>
+      <sparkle:version>2258</sparkle:version>
+      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1 (Build 2258)</h2>
+<p>Variator 0.4.1 hotfix: phone videos with a variable frame rate render again, and every kind of sound saves in step with the picture without errors.</p>
+<h3>Phone videos with a variable frame rate render again.</h3>
+<p>Videos from TikTok and phone cameras whose frame rate changes over time no longer stop with a probe error when you create variants.</p>
+<h3>Your video always saves with its sound in step.</h3>
+<p>The sound always ends on the last frame of the picture. A video whose sound was a few milliseconds shorter than its picture no longer stops with a sync message, and a video without sound renders without a notice.</p>
+<h3>Surround sound renders without losing a channel.</h3>
+<p>Videos with 5.1 or 7.1 sound, including AC-3 and E-AC-3 from cameras and editors, render without stopping, and every channel keeps its place.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2258/Variator-0.4.1-2258.zip" sparkle:version="2258" sparkle:shortVersionString="0.4.1" length="1504789344" type="application/octet-stream" sparkle:edSignature="3U37k/ZEEcuTrcIJFtY7uM86KvIBHmmZ0xGM9a1oE5IuajkvEkm7JqY+Kmlg3IEyzqE8nqhkW70vz0Fsj/n6DA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2258/Variator2258-2256.delta" sparkle:version="2258" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2256" length="8604282" type="application/octet-stream" sparkle:edSignature="vkMXjjRUX8kFqMFs+YRsuGSUJTmmFXRjL5JkTzpNYasksfHNNnw3XSVeUDK7aGs5FqEwy9Hhs79p5lrbwezGBw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1-2258/Variator2258-2253.delta" sparkle:version="2258" sparkle:shortVersionString="0.4.1" sparkle:deltaFrom="2253" length="8791898" type="application/octet-stream" sparkle:edSignature="NGUQE6mU/H2Ra30rqLgLukFj9fEexncTmowF1SW0ROFI2D5ZtaoYqvOnjPun5wEVoXE1kM77n/0YqBhw2HSYDQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2256)</title>
       <pubDate>Sat, 14 Nov 2026 00:03:14 +0100</pubDate>
       <sparkle:version>2256</sparkle:version>
@@ -424,6 +449,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8tBgP+5WVUgEfH6W9A+yVHxnqIYPXi/E2iY8VYHMlR+ZLGx/wwX6uyfafR9XStMYO4UeJsRnqORc/9tX0Dd2BQ==
-length: 46916
+edSignature: rIrOHiYoHrBSbEM3MtDegzxz1Cy26HVTKoTunuwuutIVjY17SyG85AEHvxxpmMYsTgYQP5s290QVOLmRn9h5Bw==
+length: 49576
 -->
