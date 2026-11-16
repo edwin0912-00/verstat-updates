@@ -7,6 +7,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2487) QA</title>
+      <pubDate>Mon, 16 Nov 2026 20:09:36 +0100</pubDate>
+      <sparkle:version>2487</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2487)</h2>
+<p>Variator 0.4.1.3 candidate: Analyze no longer fails with a false 'invalid event' after a successful analysis, plus the 2480 fixes (text inside the frame, odd-size videos, no microphone prompt, phone VFR plates, Studio subtitles, karaoke, Studio Hard on faceless videos).</p>
+<h3>Analyze finishes reliably.</h3>
+<p>On a busy Mac, Analyze sometimes failed with 'completed analysis event did not include artifactPath' after it had finished. The app now reads the whole result before it continues.</p>
+<h3>Text stays inside the frame.</h3>
+<p>A text block placed near an edge is moved inward so no letter is cut off, in the preview and in the export.</p>
+<h3>Videos with an odd width or height render.</h3>
+<p>A video such as 719x1280 now renders at the nearest even size instead of failing.</p>
+<h3>No microphone prompt.</h3>
+<p>Exporting no longer makes macOS ask for microphone access.</p>
+<h3>Phone videos with an uneven frame rate render on the Engine.</h3>
+<p>Clips that move between 24 and 30 frames per second keep the same picture as the preview.</p>
+<h3>Subtitles in the export match the preview.</h3>
+<p>Speech subtitles break into the same phrases in the preview and in the exported video.</p>
+<h3>Karaoke highlights the spoken word in every export.</h3>
+<p>The TikTok Karaoke style lights the current word also when the export uses the fallback renderer.</p>
+<h3>Studio Hard works on videos without a face.</h3>
+<p>A caption-only video renders without the spotlight instead of stopping with an error.</p>
+<h3>Local models keep to their own folder.</h3>
+<p>Model downloads no longer read or write your personal Hugging Face cache or token.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2487/Variator-0.4.1.3-2487.zip" sparkle:version="2487" sparkle:shortVersionString="0.4.1.3" length="1505127671" type="application/octet-stream" sparkle:edSignature="BKpXDy8NcB4PdOPoYeu2B5KnSbDJ1f3zYPNU7AnesnXwcD/Igz+EtmjbCa/wuCj4K5okpvR0HPeJN3IuENnzBg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2487/Variator2487-2480.delta" sparkle:version="2487" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2480" length="8889946" type="application/octet-stream" sparkle:edSignature="bZ7pFKqO/41deS3YGSCaDbawq1fKJKQjEKEnmZKxU+LGWg/rUI/UaqP+jAeuMnPqEtGB2yWdOojuqeJmos2lAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2480) QA</title>
       <pubDate>Mon, 16 Nov 2026 16:37:15 +0100</pubDate>
       <sparkle:version>2480</sparkle:version>
@@ -75,6 +111,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: aw3T+okCWRRY/kibQEnCDTzD5Smr5yHLgvH2pUp5R5UJ8VTHBoOwiyzJ54eyPF2AxyN1J0oEWlqShe6fRSHTBw==
-length: 6003
+edSignature: jZQkHlE7toZ4cpDXJAWNopsZGdhtEW4bsDsJVvFl7m6zyXuTWAt01mG5b1v6srPfkZZsUQUWrHoLGA7IrnaCCg==
+length: 9123
 -->
