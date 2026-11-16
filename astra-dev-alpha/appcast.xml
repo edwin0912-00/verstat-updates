@@ -45,7 +45,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
       <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.2-2461/Variator-0.4.1.2-2461.zip" sparkle:version="2461" sparkle:shortVersionString="0.4.1.2" length="1505029900" type="application/octet-stream" sparkle:edSignature="Q2bQqBeeRfVM82NOQfpJGva0IWxuTypLYDKf9UfDeShVAB9G3551putplRY34GG8IIrUG1h6ONmLRZimrT+CBQ==" />
       <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
       <sparkle:deltas>
-        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.2-2461/Variator2461-2263.delta" sparkle:version="2461" sparkle:shortVersionString="0.4.1.2" sparkle:deltaFrom="2263" length="10334366" type="application/octet-stream" sparkle:edSignature="MtQ+eG8DFvENNQVOGjftb2exP7IGOkkwzvw/OsfbCEoRfYodJokBvSVta3RzqpVvS766kXabATg9z6YVZsFeDw==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.2-2461/Variator2461-2263.delta" sparkle:version="2461" sparkle:shortVersionString="0.4.1.2" sparkle:deltaFrom="2263" length="10340958" type="application/octet-stream" sparkle:edSignature="/cpQ4YZHlT/K4aFyWY0fM5CXsDPLm9sN9noSlUzpWN+Z66b2JnwuaVA5L8E3hlWR9oiDSAzbNS4yUBo9jhEFDQ==" />
       </sparkle:deltas>
     </item>
     <item>
@@ -593,6 +593,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qM+bBaCQD32Hva7U7iUuQo95YycX1EwAWNi2FfMoNaamS8F6EgwhWUePHUIAoxcTYPpWSznGo2rZRpd0QljbCw==
+edSignature: nt7tcPVb5NjnvBSFXyR021iGxEQt/gweh2Y/Mb4huKAGGUUlLiOFZmywIZxtZ2hYTlycpT9Kc37CbGwfb+RwAw==
 length: 62078
 -->
