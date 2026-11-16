@@ -7,6 +7,48 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.2 (2461)</title>
+      <pubDate>Mon, 16 Nov 2026 15:32:59 +0100</pubDate>
+      <sparkle:version>2461</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.2 (Build 2461)</h2>
+<p>Variator 0.4.1.2 candidate: speech subtitles and your own fonts reach the export, HDR stays HDR, Thai hooks read correctly, 29.97, 60 fps and variable-frame-rate phone videos render on the Engine, and a crash during diagnostics upload is fixed.</p>
+<h3>Speech subtitles are in the export.</h3>
+<p>In Studio and Localization the subtitles you see in the preview are now burned into the exported video.</p>
+<h3>Your own fonts reach the export.</h3>
+<p>A font you dropped in or downloaded is used in the exported video, not only in the preview.</p>
+<h3>HDR stays HDR.</h3>
+<p>An HDR iPhone clip keeps its HDR colour in the preview and in the export.</p>
+<h3>Thai hook text is read in Thai.</h3>
+<p>A hook written in one non-Latin script is read in its own language; a mixed or unreadable hook shows a reason.</p>
+<h3>The Liliya recipe keeps the voice pitch.</h3>
+<p>The Standard UGC recipe no longer raises the voice pitch.</p>
+<h3>The banner names only your delivered variations.</h3>
+<p>A freshly imported video no longer shows a 'Derived Variation' banner from old test runs; the banner names only variations of the open video that you delivered.</p>
+<h3>Every export gets its own name.</h3>
+<p>Exports are named from their own result instead of a fixed placeholder, so repeated exports to one folder no longer collide as -2, -3, -4.</p>
+<h3>No developer controls in the release build.</h3>
+<p>A packaged build hides the DEV badge, Lab, Arcade and Dock Animation and is stamped as a candidate.</p>
+<h3>29.97 and 60 fps videos render like the preview.</h3>
+<p>Videos at 29.97, 23.976, 59.94 and 60 frames per second now go through the same renderer as the preview, so the export matches what you see.</p>
+<h3>Phone videos with an uneven frame rate keep their full length.</h3>
+<p>A video whose frame rate changes while recording no longer loses its last half second, and its picture stays in step with the sound.</p>
+<h3>No more quits after a diagnostics upload.</h3>
+<p>The app no longer closes during work shortly after it sends its diagnostics.</p>
+<h3>Your recipe choice stays when you apply a recipe.</h3>
+<p>Apply Recipe keeps the goal you picked instead of switching it back.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.2-2461/Variator-0.4.1.2-2461.zip" sparkle:version="2461" sparkle:shortVersionString="0.4.1.2" length="1505029900" type="application/octet-stream" sparkle:edSignature="Q2bQqBeeRfVM82NOQfpJGva0IWxuTypLYDKf9UfDeShVAB9G3551putplRY34GG8IIrUG1h6ONmLRZimrT+CBQ==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.2-2461/Variator2461-2263.delta" sparkle:version="2461" sparkle:shortVersionString="0.4.1.2" sparkle:deltaFrom="2263" length="10334366" type="application/octet-stream" sparkle:edSignature="MtQ+eG8DFvENNQVOGjftb2exP7IGOkkwzvw/OsfbCEoRfYodJokBvSVta3RzqpVvS766kXabATg9z6YVZsFeDw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1 (2263)</title>
       <pubDate>Sun, 15 Nov 2026 06:50:05 +0100</pubDate>
       <sparkle:version>2263</sparkle:version>
@@ -551,6 +593,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: LBynaVZo2SokxskE97C+1XXFLBO9IpXCsNz4bCm/zEUFshyGHvMI/2yxzHnC6ofi+bI170+zfR3LyBoOX7I6CQ==
-length: 58426
+edSignature: qM+bBaCQD32Hva7U7iUuQo95YycX1EwAWNi2FfMoNaamS8F6EgwhWUePHUIAoxcTYPpWSznGo2rZRpd0QljbCw==
+length: 62078
 -->
