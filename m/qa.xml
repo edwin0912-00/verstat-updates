@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2480) QA</title>
+      <pubDate>Mon, 16 Nov 2026 16:37:15 +0100</pubDate>
+      <sparkle:version>2480</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2480)</h2>
+<p>Variator 0.4.1.3 candidate: text never runs off the frame, odd-size videos render, no microphone prompt, phone videos with uneven frame rates keep their plate on the Engine, Studio subtitles match the preview, karaoke highlights the spoken word, Studio Hard works on faceless caption videos.</p>
+<h3>Text stays inside the frame.</h3>
+<p>A text block placed near an edge is moved inward so no letter is cut off, in the preview and in the export.</p>
+<h3>Videos with an odd width or height render.</h3>
+<p>A video such as 719x1280 now renders at the nearest even size instead of failing.</p>
+<h3>No microphone prompt.</h3>
+<p>Exporting no longer makes macOS ask for microphone access.</p>
+<h3>Phone videos with an uneven frame rate render on the Engine.</h3>
+<p>Clips that move between 24 and 30 frames per second keep the same picture as the preview.</p>
+<h3>Subtitles in the export match the preview.</h3>
+<p>Speech subtitles break into the same phrases in the preview and in the exported video.</p>
+<h3>Karaoke highlights the spoken word in every export.</h3>
+<p>The TikTok Karaoke style lights the current word also when the export uses the fallback renderer.</p>
+<h3>Studio Hard works on videos without a face.</h3>
+<p>A caption-only video renders without the spotlight instead of stopping with an error.</p>
+<h3>Local models keep to their own folder.</h3>
+<p>Model downloads no longer read or write your personal Hugging Face cache or token.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2480/Variator-0.4.1.3-2480.zip" sparkle:version="2480" sparkle:shortVersionString="0.4.1.3" sparkle:edSignature="5rJfSzEZc90UcFFNbQbaqxoJI+brFvWbtfaYwCiDzXjZA7Z+Up6oR+eta8oweO2giRMpbMPQQnG9wgKN9X3PCg==" length="1505130219" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.2 (2457) QA</title>
       <pubDate>Mon, 16 Nov 2026 11:48:32 +0100</pubDate>
       <sparkle:version>2457</sparkle:version>
@@ -46,6 +75,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: TZwzGvQRSIKCqgUoIkC317jHosMYpdlRhoYXiIC9Sr8rpbcBTc6muTBQhUHansBm7Pmy3sZhz0zkQkS6O0G4AA==
-length: 3706
+edSignature: aw3T+okCWRRY/kibQEnCDTzD5Smr5yHLgvH2pUp5R5UJ8VTHBoOwiyzJ54eyPF2AxyN1J0oEWlqShe6fRSHTBw==
+length: 6003
 -->
