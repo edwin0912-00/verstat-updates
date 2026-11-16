@@ -7,6 +7,52 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2506) QA</title>
+      <pubDate>Mon, 16 Nov 2026 22:49:32 +0100</pubDate>
+      <sparkle:version>2506</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2506)</h2>
+<p>Variator 0.4.1.3 candidate: canvas clicks select what you see, scale arrows scale, late burned captions are found, Erase Region ignores texture noise, the hook Font row is back with TikTok Sans as default, plus the 2487 fixes.</p>
+<h3>Clicks select what you see.</h3>
+<p>A click on the preview selects the element shown at that moment; a hidden element no longer takes the click.</p>
+<h3>Scale arrows scale.</h3>
+<p>Pressing the corner arrows of a selected element scales it; rotation starts only from the round handle.</p>
+<h3>Late captions are found.</h3>
+<p>Burned captions anywhere in the video become editable layers, not only the first seconds.</p>
+<h3>Erase ignores texture noise.</h3>
+<p>Two or three letters read from clothing or background no longer fail an Erase Region export.</p>
+<h3>TikTok Sans by default; Font row in the Hook card.</h3>
+<p>Hook, banner and subtitles start in TikTok Sans; the Hook card Font row edits the same font as Fine-tune Hook.</p>
+<h3>Analyze finishes reliably.</h3>
+<p>On a busy Mac, Analyze sometimes failed with 'completed analysis event did not include artifactPath' after it had finished. The app now reads the whole result before it continues.</p>
+<h3>Text stays inside the frame.</h3>
+<p>A text block placed near an edge is moved inward so no letter is cut off, in the preview and in the export.</p>
+<h3>Videos with an odd width or height render.</h3>
+<p>A video such as 719x1280 now renders at the nearest even size instead of failing.</p>
+<h3>No microphone prompt.</h3>
+<p>Exporting no longer makes macOS ask for microphone access.</p>
+<h3>Phone videos with an uneven frame rate render on the Engine.</h3>
+<p>Clips that move between 24 and 30 frames per second keep the same picture as the preview.</p>
+<h3>Subtitles in the export match the preview.</h3>
+<p>Speech subtitles break into the same phrases in the preview and in the exported video.</p>
+<h3>Karaoke highlights the spoken word in every export.</h3>
+<p>The TikTok Karaoke style lights the current word also when the export uses the fallback renderer.</p>
+<h3>Studio Hard works on videos without a face.</h3>
+<p>A caption-only video renders without the spotlight instead of stopping with an error.</p>
+<h3>Local models keep to their own folder.</h3>
+<p>Model downloads no longer read or write your personal Hugging Face cache or token.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2506/Variator-0.4.1.3-2506.zip" sparkle:version="2506" sparkle:shortVersionString="0.4.1.3" length="1505102119" type="application/octet-stream" sparkle:edSignature="h/Pvdj6C5hlDmof5G+ojHtPSL91bRmZqSKfU/unvG3/GWkd+n7FtES3djy7rm3NOcJCV2ffPqzN4Tl4i1p6KDw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2506/Variator2506-2487.delta" sparkle:version="2506" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2487" length="9412866" type="application/octet-stream" sparkle:edSignature="A5yisBEwgtHNtVWCQR3GhHl36HlJ0MZpd/CNQTL5FeHXFbFDfEwMIUIYprjpd+aGeRudbjWUtE/ob9G306bFBQ==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2487) QA</title>
       <pubDate>Mon, 16 Nov 2026 20:09:36 +0100</pubDate>
       <sparkle:version>2487</sparkle:version>
@@ -111,6 +157,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: jZQkHlE7toZ4cpDXJAWNopsZGdhtEW4bsDsJVvFl7m6zyXuTWAt01mG5b1v6srPfkZZsUQUWrHoLGA7IrnaCCg==
-length: 9123
+edSignature: 2fVH11zjdQKF6TB34/PktNyABCyNvCMKoApuByjHMk4s+1YRrKL+a8W7h7nT8iixo27EdGuqVJ1qE8ebVPJCBw==
+length: 12939
 -->
