@@ -7,6 +7,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2525) QA</title>
+      <pubDate>Tue, 17 Nov 2026 01:23:01 +0100</pubDate>
+      <sparkle:version>2525</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2525)</h2>
+<p>Variator 0.4.1.3 candidate: canvas clicks, handles and rotated layers behave as drawn; subtitles match the export at cue edges, avoid burned text and group the same words; padded 16:9 text matches the export.</p>
+<h3>Click what you see.</h3>
+<p>A fresh click selects the top layer you see; a repeat click at the same point goes to the layer below. Choosing a layer in the list starts fresh. Rotated layers are clicked by their shape. Hidden tracked layers show no handles.</p>
+<h3>Subtitles match the video.</h3>
+<p>The paused preview shows a subtitle only while it is on screen in the export, ends it at the same frame, keeps a kept subtitle when an overlapping one is removed, and groups the same words as the export after a trim.</p>
+<h3>Subtitles avoid burned text.</h3>
+<p>Speech subtitles are placed clear of every burned caption and move when text is found late.</p>
+<h3>16:9 text stays where you put it.</h3>
+<p>On a 16:9 video in a 9:16 frame, text is drawn in the preview where the export draws it.</p>
+<h3>Long variable-frame-rate videos map fully.</h3>
+<p>Every frame of a long variable-frame-rate video is read, not only the first part.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2525/Variator-0.4.1.3-2525.zip" sparkle:version="2525" sparkle:shortVersionString="0.4.1.3" length="1505125718" type="application/octet-stream" sparkle:edSignature="Mgwb963Opb7hHxKLZzH1abRjsSNy1bkO5/1310POQrwLe738lGKNlaa2oZTNE+m8nA9z9w/06/hm+c/JJM1qAw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2525/Variator2525-2506.delta" sparkle:version="2525" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2506" length="8989582" type="application/octet-stream" sparkle:edSignature="aICAF5tfV89LbYqCROmYlwB6s+W6cNAhhYtIN2TPlaM14PK19a466y8yd3sPuC505IX6viy1uu9tOx6vyYoPAg==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2506) QA</title>
       <pubDate>Mon, 16 Nov 2026 22:49:32 +0100</pubDate>
       <sparkle:version>2506</sparkle:version>
@@ -157,6 +185,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2fVH11zjdQKF6TB34/PktNyABCyNvCMKoApuByjHMk4s+1YRrKL+a8W7h7nT8iixo27EdGuqVJ1qE8ebVPJCBw==
-length: 12939
+edSignature: YZIKMAPNN8xnr+lx8XWzoFuwAPTAovyzVK5kflAR3LX9RN9TZPy+DgOgsfL4FPOHCfEVtX4dXdQzOGb0f57FDg==
+length: 15561
 -->
