@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2554) QA</title>
+      <pubDate>Wed, 18 Nov 2026 00:07:08 +0100</pubDate>
+      <sparkle:version>2554</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2554)</h2>
+<p>Variator 0.4.1.3 candidate: with the hook collage on, Generate and Roll put the new hook words on the canvas again.</p>
+<h3>The collage hook shows its new words.</h3>
+<p>With the hook collage on, the hook appears on the canvas as soon as you press Replace, and the generated words go into it. Your moves, size and style stay as you set them.</p>
+<h3>Renders no longer stop at start.</h3>
+<p>Variator's engine uses its own empty security setting, so a locked Homebrew OpenSSL file can no longer stop renders, previews or downloads.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2554/Variator-0.4.1.3-2554.zip" sparkle:version="2554" sparkle:shortVersionString="0.4.1.3" length="1505205204" type="application/octet-stream" sparkle:edSignature="gB+jDB7bBnu37svKog99RZyHLTKdjIn/I1B/Yq0FMv7rUaICdWBXjzifVYXE92QJP+gvwSoa9Cp2kIEkP7SuDw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2554/Variator2554-2551.delta" sparkle:version="2554" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2551" length="8522478" type="application/octet-stream" sparkle:edSignature="ZrJdtTk5PNzKqQC9Se8pjxLuMtpPNq2gqSRIxpGpAV0sAygkTb64T3dQYZcJbBCsyYK2nF7ANb5kq0tdrYtdBw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2551) QA</title>
       <pubDate>Tue, 17 Nov 2026 22:14:02 +0100</pubDate>
       <sparkle:version>2551</sparkle:version>
@@ -255,6 +277,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: dsddUa5wfq6yD5FskvZW8TyfB/SE0AxC0+uyHLOUY/C/FvFdLImKx49xZeBq2R2uIZE5SDxyYolXRHoBsQaqBQ==
-length: 21857
+edSignature: mM2ke0eIinbsec0CpYDGhEt9L8/k8m5LJuj7X4DqO2SYADUsq5fEWETFoR8PHrb0E5CvldvjrQENulbvlSeEBw==
+length: 23860
 -->
