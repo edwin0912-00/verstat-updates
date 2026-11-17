@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2536) QA</title>
+      <pubDate>Tue, 17 Nov 2026 02:04:44 +0100</pubDate>
+      <sparkle:version>2536</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2536)</h2>
+<p>Variator 0.4.1.3 candidate: hook and Suggest never write invented text and show the reason with Switch engine; batch keeps each video's own hook; the developer switch works in every build; erase failures report what stayed readable.</p>
+<h3>Your text stays.</h3>
+<p>When the text engine fails, Replace, Roll, Suggest and batch keep your text and show the reason with Switch engine; nothing invented is written.</p>
+<h3>Suggest shows what happens.</h3>
+<p>Suggest on a selected text shows progress and, if it fails, the same reason row as Hook; an old answer never overwrites newer text.</p>
+<h3>Developer switch works.</h3>
+<p>The hidden developer gesture works in every build again.</p>
+<h3>Erase failures explain themselves.</h3>
+<p>When erased text stays readable, the log names the frames, boxes and coverage.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2536/Variator-0.4.1.3-2536.zip" sparkle:version="2536" sparkle:shortVersionString="0.4.1.3" length="1505150350" type="application/octet-stream" sparkle:edSignature="35znxv2jhifpN2lufgBzHZTjdMxyKEqO1bFnX8lqqgzDchjeQbbHKJFt/mj2xyeQf3C5+v+Gkv42qR+E6WfBDA==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2536/Variator2536-2525.delta" sparkle:version="2536" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2525" length="9381594" type="application/octet-stream" sparkle:edSignature="Q3jh827Gdxse0W8yHNk77dn2CuQQe+g3VwJTlq5jx0qVMNKUKgc6DR1oxS/XdQ6zB9lIJenGDucCvCCQrSEaAA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2525) QA</title>
       <pubDate>Tue, 17 Nov 2026 01:23:01 +0100</pubDate>
       <sparkle:version>2525</sparkle:version>
@@ -185,6 +211,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: YZIKMAPNN8xnr+lx8XWzoFuwAPTAovyzVK5kflAR3LX9RN9TZPy+DgOgsfL4FPOHCfEVtX4dXdQzOGb0f57FDg==
-length: 15561
+edSignature: ACjJN5PKVD2jIUi49hFY89l5oTAxXNRfPotgmy/blIRcX6+lBwEdB4kfDrRHErg16op1tLYh+DTEeyZISeW1Bg==
+length: 17847
 -->
