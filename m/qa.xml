@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2548) QA</title>
+      <pubDate>Tue, 17 Nov 2026 18:26:45 +0100</pubDate>
+      <sparkle:version>2548</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2548)</h2>
+<p>Variator 0.4.1.3 candidate (canvas): rotating with the mouse turns the picture, scale arrows scale tracked objects, drag, handles and layer picking follow what is drawn, rotated text stays inside the frame.</p>
+<h3>Rotation turns the picture.</h3>
+<p>Turning an element with the round handle now rotates what you see and in the export, not only the saved angle.</p>
+<h3>Scale works on tracked objects.</h3>
+<p>Scaling a tracked object changes its drawn size; handles sit on the object and stay reachable at small sizes.</p>
+<h3>Click and drag pick the right layer.</h3>
+<p>A click selects the layer you see, rotated layers are picked by their shape, choosing in the list starts a fresh selection, and drag and scale presses have one owner.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2548/Variator-0.4.1.3-2548.zip" sparkle:version="2548" sparkle:shortVersionString="0.4.1.3" length="1505190033" type="application/octet-stream" sparkle:edSignature="McL6H1pFJHhfxibXYTHUKDTV8zWFJfgxOBgWPPNzt1xPl9S6cYbMf1dGxTfDpruTVGBstWIWYzR0kEu01ln8Bw==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2548/Variator2548-2536.delta" sparkle:version="2548" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2536" length="9596990" type="application/octet-stream" sparkle:edSignature="zPFh6q7ry3YIFqYs//BWM9Oy050VfuOj58AkXMZPqK5gqLIXwqBWQAwZudtbBjZnKPY+WXARaUc7D7IOLta1BA==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2536) QA</title>
       <pubDate>Tue, 17 Nov 2026 02:04:44 +0100</pubDate>
       <sparkle:version>2536</sparkle:version>
@@ -211,6 +235,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ACjJN5PKVD2jIUi49hFY89l5oTAxXNRfPotgmy/blIRcX6+lBwEdB4kfDrRHErg16op1tLYh+DTEeyZISeW1Bg==
-length: 17847
+edSignature: QnIk+Lvx/3rtWTs9pdiCHsisJz/q7vKsSmq4RD6PNDcLCK71DXzfgQhxpTVIQDrn+4saDefbESoZCOn3o4cpBw==
+length: 20059
 -->
