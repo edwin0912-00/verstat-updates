@@ -7,6 +7,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.3 (2565) QA</title>
+      <pubDate>Wed, 18 Nov 2026 16:15:05 +0100</pubDate>
+      <sparkle:version>2565</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.3 (Build 2565)</h2>
+<p>Variator 0.4.1.3: the preview canvas works by hand - rotate with the mouse, scale with the corners, drag at any moment, pick the right layer - and renders no longer stop at start.</p>
+<h3>Rotate with the mouse.</h3>
+<p>The round handle turns the element on the canvas and in the export; undo, redo and autosave keep the angle.</p>
+<h3>Scale with the corners.</h3>
+<p>Corner handles scale tracked and small elements, near the edge too, and never rotate them by mistake.</p>
+<h3>The click picks what you see.</h3>
+<p>A click selects the visible top layer at the current moment, a rotated text by its shape, and a hidden logo shows no handles.</p>
+<h3>The collage hook shows its words.</h3>
+<p>With the hook collage on, Generate and Roll put the new words on the canvas; your position and style stay.</p>
+<h3>Renders start on every Mac.</h3>
+<p>A locked Homebrew OpenSSL setting can no longer stop renders, previews or downloads.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2565/Variator-0.4.1.3-2565.zip" sparkle:version="2565" sparkle:shortVersionString="0.4.1.3" length="1505110786" type="application/octet-stream" sparkle:edSignature="tX+kSYSr4rwn25p8IgxiZBgxrLWC1yPj4dkvGPJoMX9UPyeZGQAvJ6jSMLnvd1RLLTjkWxaqO/wQDAFrGeYdDg==" />
+      <!-- INVARIANT 0: sparkle:deltas MUST be direct sibling to enclosure under item -->
+      <sparkle:deltas>
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2565/Variator2565-2564.delta" sparkle:version="2565" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2564" length="7977330" type="application/octet-stream" sparkle:edSignature="89CLzOT8eZL+ZyiqoiH4Wxc0kw+dWTylvXbuQbOW5EU816xqulsDgl5xcdYBabSpoEso131BTWM355T8rLE+AQ==" />
+        <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.3-2565/Variator2565-2461.delta" sparkle:version="2565" sparkle:shortVersionString="0.4.1.3" sparkle:deltaFrom="2461" length="10139334" type="application/octet-stream" sparkle:edSignature="tBl+mAx+iv1zBdJQ3YCIsOe765UaNDr8zsItq/+4BjWpnngU/ZrQXEdjX+NiM0vt9ARxJB+ZuyMMtq/bXqBzAw==" />
+      </sparkle:deltas>
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2564) QA</title>
       <pubDate>Wed, 18 Nov 2026 13:17:51 +0100</pubDate>
       <sparkle:version>2564</sparkle:version>
@@ -335,6 +364,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: qZFQq16wy1eRusykI6mUct6WOfLcGpsow99hVCKlmqjO1ouc00EePXC5qD9K/Y1QvL54oQ+ZKZe5S+zPag98CQ==
-length: 29414
+edSignature: rqnkeRtxdxFkCkgWWH8gxI9z1C2XCw+839qqDX1sIe7liz2QUXL6RlE7oFwKlPtlbijxrVeu9+MJqGL00ZK7BQ==
+length: 32191
 -->
