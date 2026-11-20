@@ -7,6 +7,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.4 (2568) QA</title>
+      <pubDate>Fri, 20 Nov 2026 19:19:38 +0100</pubDate>
+      <sparkle:version>2568</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.4 (Build 2568)</h2>
+<p>Variator 0.4.1.4 RC 2: banner, collage and plate end on the hook&#x27;s last frame, the Studio plate always reaches the export, localization always gives an export, and links import from any folder.</p>
+<h3>Banner and collage end on the hook&#x27;s last frame.</h3>
+<p>The end of the old burned hook is measured to the frame, so the Hook Banner, the Hook Collage and the plate never run into the next scene.</p>
+<h3>The plate always reaches the export.</h3>
+<p>With a hook collage on, the Replace plate you see in the editor is now always in the rendered video.</p>
+<h3>Localization always gives you a video.</h3>
+<p>When a check after translating finds a problem, you still get the localized video, and the Captions note tells you what to look at.</p>
+<h3>Links import from any folder.</h3>
+<p>TikTok and Instagram links download again when Variator lives in a folder whose name has spaces or non-Latin letters.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.4-2568/Variator-0.4.1.4-2568.zip" sparkle:version="2568" sparkle:shortVersionString="0.4.1.4" sparkle:edSignature="KDvQ8WQUosgU2KIjnrehKRu/0QUy9i3qyu05WzPwQqEdU6Lq+p/neL68uS5fXTSbb0UTfoxHKMm5sM8R7dLkBg==" length="1505158199" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.3 (2565) QA</title>
       <pubDate>Wed, 18 Nov 2026 16:15:05 +0100</pubDate>
       <sparkle:version>2565</sparkle:version>
@@ -364,6 +386,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: rqnkeRtxdxFkCkgWWH8gxI9z1C2XCw+839qqDX1sIe7liz2QUXL6RlE7oFwKlPtlbijxrVeu9+MJqGL00ZK7BQ==
-length: 32191
+edSignature: RwXZ31Fv9QOXmnZpK0wrYdcRDQNomuw8HWQsruSrS2ZcvI4Xq3pauXlRcSu6GK7y2lcY9viX6A0vfAqzFS2hAA==
+length: 34062
 -->
