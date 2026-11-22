@@ -7,6 +7,34 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.5 (2569) QA</title>
+      <pubDate>Sun, 22 Nov 2026 12:54:04 +0100</pubDate>
+      <sparkle:version>2569</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.5 (Build 2569)</h2>
+<p>Variator 0.4.1.5: Remove works over faces, long hooks keep their plate and collage, items follow the speed, and the final video always renders on the Engine.</p>
+<h3>Remove anyway erases the hook over a face.</h3>
+<p>After the face warning, Remove anyway now really erases the burned hook, also where it crosses a face.</p>
+<h3>Long hooks keep their plate and collage.</h3>
+<p>A burned hook that stays on screen longer than 7 s keeps the Replace plate and the Hook Collage for its whole length.</p>
+<h3>Stickers and text follow the speed.</h3>
+<p>With a speed change in Quick, every canvas item starts and ends at the right moment of the finished video.</p>
+<h3>The final video always renders on the Engine.</h3>
+<p>An emoji sticker or a silent clip with pitch no longer sends the final video to the fallback renderer.</p>
+<h3>A market dub speaks the market language.</h3>
+<p>Dubbing for a target market always uses that market&#x27;s language, and a skipped dub is shown with its reason.</p>
+<h3>The hook follows the right video.</h3>
+<p>Switching the source video refreshes the measured hook, so items never inherit the hook of the previous clip.</p>
+<h3>Bundled fonts are listed correctly.</h3>
+<p>TikTok Sans appears under Bundled with Variator, and colour-emoji Latin fonts are no longer marked as broken.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.5-2569/Variator-0.4.1.5-2569.zip" sparkle:version="2569" sparkle:shortVersionString="0.4.1.5" sparkle:edSignature="hMFbyDd+Z491MeCl1ccSU5+NHBCsnrcrGwL2lcFXq716pYG0Mlm6V93PfycJgbvWuZFH8hp6YBioIY9rZXGnBg==" length="1505192580" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.4 (2568) QA</title>
       <pubDate>Fri, 20 Nov 2026 19:19:38 +0100</pubDate>
       <sparkle:version>2568</sparkle:version>
@@ -386,6 +414,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RwXZ31Fv9QOXmnZpK0wrYdcRDQNomuw8HWQsruSrS2ZcvI4Xq3pauXlRcSu6GK7y2lcY9viX6A0vfAqzFS2hAA==
-length: 34062
+edSignature: DTWMA3vgpLhl5VPtKrVzimc+PrcmPXB9AwtucAMbbsUVtabods8lTsHEts+r1zWpJTEKnwMUqwxBmP/c2DcdAw==
+length: 36331
 -->
