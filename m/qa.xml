@@ -7,6 +7,44 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.6 (2626) QA</title>
+      <pubDate>Mon, 23 Nov 2026 05:31:32 +0100</pubDate>
+      <sparkle:version>2626</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.6 (Build 2626)</h2>
+<p>Variator 0.4.1.6: two variations per video, hooks erased for their full time, Thai hooks read, clearer render errors and a hook preview that matches the export.</p>
+<h3>Two variations per video.</h3>
+<p>Create now makes two variations of each video instead of three, so a batch finishes sooner.</p>
+<h3>A hook is erased until its text leaves.</h3>
+<p>A detected hook stays erased for as long as its text is on screen, also on two-line hooks.</p>
+<h3>Quick keeps the hook window on short clips.</h3>
+<p>On single-take clips and after an early first cut, Quick now places the hook in the same window as Localization.</p>
+<h3>A refused render says why.</h3>
+<p>When a render cannot run, the app now shows its real reason instead of a generic error.</p>
+<h3>Scene settings survive a new analysis.</h3>
+<p>After a new analysis or an undo, per-scene settings drop only the scenes that no longer exist.</p>
+<h3>The hook preview matches the export size.</h3>
+<p>The hook preview now uses the same minimum size and per-line word limit as the finished video.</p>
+<h3>Replace with Original keeps the source style.</h3>
+<p>Replace with the Original style keeps the look of the source hook, and an unclean erase keeps its cover.</p>
+<h3>Emoji are never invented.</h3>
+<p>A colour blob is never drawn as a made-up emoji, and emoji no longer shorten the hook collage.</p>
+<h3>Thai hooks are read.</h3>
+<p>Burned Thai hooks are now read by text recognition, so they can be replaced or translated.</p>
+<h3>Mixed-script hooks get their full time.</h3>
+<p>A one-line hook that mixes scripts now keeps its real on-screen time.</p>
+<h3>Remove after Localization matches the editor.</h3>
+<p>Remove after Localization renders the same clean plate that the editor shows.</p>
+<h3>A stuck render retries once.</h3>
+<p>If the Engine stops making progress, it retries once and then shows a clear error, without a second renderer.</p>
+]]></description>
+      <!-- Primary release enclosure: MUST be self-closing; NEVER wrap sparkle:deltas inside enclosure -->
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.6-2626/Variator-0.4.1.6-2626.zip" sparkle:version="2626" sparkle:shortVersionString="0.4.1.6" sparkle:edSignature="3aO61x+5N50bekXuXWzIfaNfCdYvyVXLq6zTVRcymjUsiDC6m+nDxeIswfFCSnj1c+Vzsu3zV301N8CA4ca9Ag==" length="1505272638" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.5 (2569) QA</title>
       <pubDate>Sun, 22 Nov 2026 12:54:04 +0100</pubDate>
       <sparkle:version>2569</sparkle:version>
@@ -414,6 +452,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: DTWMA3vgpLhl5VPtKrVzimc+PrcmPXB9AwtucAMbbsUVtabods8lTsHEts+r1zWpJTEKnwMUqwxBmP/c2DcdAw==
-length: 36331
+edSignature: /sP7nZtlM7sP/0rknl08iDFnXRPVtdq7/bO7ASdlrxs2Cibm7KSmUroHQBhIrsIvUkP9eXxTcQvfSrHHSbtvAQ==
+length: 39191
 -->
