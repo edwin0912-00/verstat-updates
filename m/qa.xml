@@ -7,6 +7,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.8 (2649) QA</title>
+      <pubDate>Mon, 23 Nov 2026 22:58:41 +0100</pubDate>
+      <sparkle:version>2649</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.8 (Build 2649)</h2>
+<p>Variator 0.4.1.8: a recipe or Roll keeps your selection and never opens Editing Logo; hook, roll and preview fixes from 18 November.</p>
+<h3>A recipe never jumps to Editing Logo.</h3>
+<p>Applying a recipe or rolling keeps what you had selected. Revealing a replaced hook moves the playhead only and selects nothing.</p>
+<h3>A recipe never starts a hook erase by itself.</h3>
+<p>Recipes and restores no longer start a hidden erase. A pending erase is cancelled when you switch away.</p>
+<h3>Roll and Cancel behave predictably.</h3>
+<p>Roll changes Crop unless it is locked or the recipe turns Crop off, and Cancel undoes the last roll.</p>
+<h3>New items draw above the hook, and the list jumps to the right frame.</h3>
+<p>Items you add appear above the hook in the preview and the export. Clicking an item in the list jumps to its first shown frame. No edge-snap sound.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.8-2649/Variator-0.4.1.8-2649.zip" sparkle:version="2649" sparkle:shortVersionString="0.4.1.8" sparkle:edSignature="t/1iSCucMNuR2HDDKK8r+WzsRcXKmG9LE+FuhdVlBIj4YX0ovSYqbZ5LHdsraL9h8HKp9uUnl/0K6Cu4q3WOBg==" length="1505321158" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.7 (2630) QA</title>
       <pubDate>Mon, 23 Nov 2026 13:43:52 +0100</pubDate>
       <sparkle:version>2630</sparkle:version>
@@ -467,6 +488,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ZN44N8V9TEp6WpdMMXvv2u2kJ0vzZA+qAtMIreljsXlnM+on+89j7LzAimjswo5z1LalEbNIz4rWmKWFOk2ZAA==
-length: 40315
+edSignature: YDcYA1MxIYcB444qAzzvdjCQxnwf4q7XrvfxNOeN6E5kYC77TJe7/btIzfMPAIzFYITFGvtrVgpxtLDK2gexDw==
+length: 42035
 -->
