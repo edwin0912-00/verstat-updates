@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.7 (2630) QA</title>
+      <pubDate>Mon, 23 Nov 2026 13:43:52 +0100</pubDate>
+      <sparkle:version>2630</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.7 (Build 2630)</h2>
+<p>Variator 0.4.1.7: Hard mode follows the subject correctly when the video speed changes.</p>
+<h3>Follow stays on the subject at any speed.</h3>
+<p>When a Hard variation speeds the video up or slows it down, the follow crop now keeps the subject in frame for the whole clip.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.7-2630/Variator-0.4.1.7-2630.zip" sparkle:version="2630" sparkle:shortVersionString="0.4.1.7" sparkle:edSignature="WkttmJV0/GWDIINkwhvOWQP+P9892jLH7nHMYJO6PRoNNCZWJZLxIWdmAqUbuu959vBjdLb1Gyt5HzmhLEtdDw==" length="1505286828" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.6 (2626) QA</title>
       <pubDate>Mon, 23 Nov 2026 05:31:32 +0100</pubDate>
       <sparkle:version>2626</sparkle:version>
@@ -452,6 +467,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: /sP7nZtlM7sP/0rknl08iDFnXRPVtdq7/bO7ASdlrxs2Cibm7KSmUroHQBhIrsIvUkP9eXxTcQvfSrHHSbtvAQ==
-length: 39191
+edSignature: ZN44N8V9TEp6WpdMMXvv2u2kJ0vzZA+qAtMIreljsXlnM+on+89j7LzAimjswo5z1LalEbNIz4rWmKWFOk2ZAA==
+length: 40315
 -->
