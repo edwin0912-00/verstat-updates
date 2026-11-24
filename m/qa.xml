@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.9 (2652) QA</title>
+      <pubDate>Tue, 24 Nov 2026 08:04:45 +0100</pubDate>
+      <sparkle:version>2652</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.9 (Build 2652)</h2>
+<p>Variator 0.4.1.9: dragging a slider no longer piles up background work; the preview catches up with the last value.</p>
+<h3>Sliders stay smooth while you drag.</h3>
+<p>A slider drag now prepares one background preview, for the value you stop on. Before, every step started its own full preparation, so the preview could lag for many seconds.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.9-2652/Variator-0.4.1.9-2652.zip" sparkle:version="2652" sparkle:shortVersionString="0.4.1.9" sparkle:edSignature="kAdDh6y9YUIQhOPniSwFDJRTId3mywVQYbFKnyS7b5jX2EpnYENpIxlptpFHP02ZkZpniHu8RRqe09tu3mJADg==" length="1505312905" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.8 (2649) QA</title>
       <pubDate>Mon, 23 Nov 2026 22:58:41 +0100</pubDate>
       <sparkle:version>2649</sparkle:version>
@@ -488,6 +503,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: YDcYA1MxIYcB444qAzzvdjCQxnwf4q7XrvfxNOeN6E5kYC77TJe7/btIzfMPAIzFYITFGvtrVgpxtLDK2gexDw==
-length: 42035
+edSignature: 9o7VKBerqmV7gdCqAc4nzIBfLaFHRQ3Xe4C3L4NoQo+02Anlu3qCCIpZe/7kHAe3yy1umCce3G9mhuy4NWWSBg==
+length: 43228
 -->
