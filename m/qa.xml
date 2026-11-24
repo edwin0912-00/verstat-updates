@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.11 (2666) QA</title>
+      <pubDate>Tue, 24 Nov 2026 16:49:01 +0100</pubDate>
+      <sparkle:version>2666</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.11 (Build 2666)</h2>
+<p>Variator 0.4.1.11: recipes really change crop and look, a finished render saves itself, and Drag out lives only on a ready render.</p>
+<h3>A recipe's crop and look show up.</h3>
+<p>The first analysis no longer pins its own crop and look on every scene over your recipe; a scene you set by hand keeps its value.</p>
+<h3>A finished render saves itself.</h3>
+<p>Each new render is saved once to your export folder; the Done card says where.</p>
+<h3>Drag out only on a ready render.</h3>
+<p>Edit never shows Ready or Drag out; Render keeps them after a second Create too, with a green frame. The Look &amp; sound group is called Sound where it has no look control.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.11-2666/Variator-0.4.1.11-2666.zip" sparkle:version="2666" sparkle:shortVersionString="0.4.1.11" sparkle:edSignature="BYZzPN7edVbB/fQ+YOfhZMx5BrPdU6g31WMGNYMSfMJI60e8ucI8ahQWs3Wc7oHNTssTntevbMUTzvy5ED71Aw==" length="1505333079" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.11 (2661) QA</title>
       <pubDate>Tue, 24 Nov 2026 11:23:22 +0100</pubDate>
       <sparkle:version>2661</sparkle:version>
@@ -539,6 +558,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: xLWAEIh+kK1HLi84FeYo7n/ILdldTQzlGD1UbfYCLS0lgAQHbTQWDkkUnfNorlDRKZgTLfG0/gEn1o1EOUsRDg==
-length: 46318
+edSignature: W20S6zTY4X96iXm/dIMaIo5Y92b2xp5p2YvF+MqI489/BEui/LU8Q/3yrPlTPBKVH1nZqVIZ26tK+F+bGYZ4BQ==
+length: 47836
 -->
