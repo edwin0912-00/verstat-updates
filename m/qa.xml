@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.11 (2669) QA</title>
+      <pubDate>Tue, 24 Nov 2026 17:40:45 +0100</pubDate>
+      <sparkle:version>2669</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.11 (Build 2669)</h2>
+<p>Variator 0.4.1.11: a selected hook plate shows its own controls, and an export keeps Downloads clean.</p>
+<h3>Select the hook plate, edit it.</h3>
+<p>A hook plate on the preview, also one a recipe lifted over the collage, opens its own text, style, size and position controls.</p>
+<h3>Only the video in Downloads.</h3>
+<p>The export's service files stay hidden next to the video; you see the video and its subtitles.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.11-2669/Variator-0.4.1.11-2669.zip" sparkle:version="2669" sparkle:shortVersionString="0.4.1.11" sparkle:edSignature="ovhvP6v4Fa147ryFG2Hlfr1UOLpcTqhWTtRn17D6HoP2AEfHavtP+FUQsMkTokg2o35Gp/u1OyGMGfn6YwU4Aw==" length="1505346198" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.11 (2666) QA</title>
       <pubDate>Tue, 24 Nov 2026 16:49:01 +0100</pubDate>
       <sparkle:version>2666</sparkle:version>
@@ -558,6 +575,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: W20S6zTY4X96iXm/dIMaIo5Y92b2xp5p2YvF+MqI489/BEui/LU8Q/3yrPlTPBKVH1nZqVIZ26tK+F+bGYZ4BQ==
-length: 47836
+edSignature: 5MvNOLa94WyTSoH4ljXiFZD0gBvzeNd4VgayxSVvnrG6LteWYqADpWxVZLnhkb4gvjRPYaMow9UGcuFkuDf2Aw==
+length: 49110
 -->
