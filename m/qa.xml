@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.10 (2655) QA</title>
+      <pubDate>Tue, 24 Nov 2026 08:35:02 +0100</pubDate>
+      <sparkle:version>2655</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.10 (Build 2655)</h2>
+<p>Variator 0.4.1.10: the Hook card never shows a green «Hook Erased» while the hook can still be read in the result.</p>
+<h3>«Hook Erased» is shown only when the hook is really gone.</h3>
+<p>After an erase, the app reads the result again. If the old hook can still be read, the Hook card no longer shows the green «Hook Erased». This also holds after Replace, Localization and a Batch job, and after Revert and Undo.</p>
+<h3>Sliders stay smooth while you drag.</h3>
+<p>A slider drag now prepares one background preview, for the value you stop on.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.10-2655/Variator-0.4.1.10-2655.zip" sparkle:version="2655" sparkle:shortVersionString="0.4.1.10" sparkle:edSignature="kDVR2/ssfaKBHiVn3eiS0CwJ9sv8ppszmWsUbJXXKJEkkG+s2yFd58uGrR2pMncjRO0x8qDfnwtnrioAgM3nCQ==" length="1505312149" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.9 (2652) QA</title>
       <pubDate>Tue, 24 Nov 2026 08:04:45 +0100</pubDate>
       <sparkle:version>2652</sparkle:version>
@@ -503,6 +520,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 9o7VKBerqmV7gdCqAc4nzIBfLaFHRQ3Xe4C3L4NoQo+02Anlu3qCCIpZe/7kHAe3yy1umCce3G9mhuy4NWWSBg==
-length: 43228
+edSignature: hK1P6eifPB4SFHMqxtxTiAkPa37EOYZJnsD51HNFGp4yS1qej3vS3aDFfvHVI36DRNlaKCEF6CXerB/8aVg5Dg==
+length: 44636
 -->
