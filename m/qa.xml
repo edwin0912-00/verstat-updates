@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.11 (2661) QA</title>
+      <pubDate>Tue, 24 Nov 2026 11:23:22 +0100</pubDate>
+      <sparkle:version>2661</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.11 (Build 2661)</h2>
+<p>Variator 0.4.1.11: LaMa AI also erases the hook's text lines, so an erased hook cannot be read any more; the erase check no longer counts text outside the erased area.</p>
+<h3>An erased hook is really gone.</h3>
+<p>When LaMa AI removes a burned hook, it now also fills the rectangles of the hook's text lines, so the old words cannot be read back. Faces, hands and bodies are never covered; hair or a headband above a face can be.</p>
+<h3>The erase check reads only the erased area.</h3>
+<p>A word counts as a left-over hook only when most of it lies inside the erased area, so a strap or an object beside the hook no longer fails the check.</p>
+<h3>«Hook Erased» is shown only when the hook is really gone.</h3>
+<p>If the old hook can still be read after an erase, the Hook card no longer shows the green «Hook Erased».</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.11-2661/Variator-0.4.1.11-2661.zip" sparkle:version="2661" sparkle:shortVersionString="0.4.1.11" sparkle:edSignature="YNYP6MzqutUZB+zlslUdBxXEC90kfpDsnPTnPCTo82+Y5opLQl9edKz0EAfV5psuYvzqbofSyeWvZMReerA7CQ==" length="1505331678" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.10 (2655) QA</title>
       <pubDate>Tue, 24 Nov 2026 08:35:02 +0100</pubDate>
       <sparkle:version>2655</sparkle:version>
@@ -520,6 +539,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: hK1P6eifPB4SFHMqxtxTiAkPa37EOYZJnsD51HNFGp4yS1qej3vS3aDFfvHVI36DRNlaKCEF6CXerB/8aVg5Dg==
-length: 44636
+edSignature: xLWAEIh+kK1HLi84FeYo7n/ILdldTQzlGD1UbfYCLS0lgAQHbTQWDkkUnfNorlDRKZgTLfG0/gEn1o1EOUsRDg==
+length: 46318
 -->
