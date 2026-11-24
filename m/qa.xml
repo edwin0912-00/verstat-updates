@@ -7,6 +7,51 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.1.11 (2673) QA</title>
+      <pubDate>Tue, 24 Nov 2026 19:59:40 +0100</pubDate>
+      <sparkle:version>2673</sparkle:version>
+      <sparkle:shortVersionString>0.4.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[
+<h2>What's New in Variator 0.4.1.11 (Build 2673)</h2>
+<p>Variator 0.4.1.11: Localization really translates the hook, recipes change crop and look, the hook plate has its own controls, a ready render stays green with a big Drag out and saves itself.</p>
+<h3>The hook comes out in your language.</h3>
+<p>A stray letter in the background no longer makes the app think the video is already in your target language, so the hook and captions are translated.</p>
+<h3>One hook over the collage.</h3>
+<p>Lift Hook over Collage lifts the original hook only when you keep it; a translated or replaced hook is never shown twice.</p>
+<h3>A recipe&#x27;s crop and look show up.</h3>
+<p>The first analysis no longer pins its own crop and look on every scene over your recipe; a scene you set by hand keeps its value.</p>
+<h3>Select the hook plate, edit it.</h3>
+<p>A hook plate on the preview, also one a recipe lifted over the collage, opens its own text, style, size and position controls.</p>
+<h3>Render keeps your last render and its Drag out.</h3>
+<p>Pick Render 1 above the player: the bottom bar shows Drag out of that render even after you changed settings, and the settings wait read-only until you switch back to Edit (Cmd+1).</p>
+<h3>A ready render is green.</h3>
+<p>The player gets a green frame and a green Ready · Drag out label; drag the video from anywhere on it.</p>
+<h3>A finished render saves itself.</h3>
+<p>Each new render is saved once to your export folder; the Done card says where.</p>
+<h3>Only the video in Downloads.</h3>
+<p>The export&#x27;s service files stay hidden next to the video; you see the video and its subtitles.</p>
+<h3>An erased hook is really gone.</h3>
+<p>When LaMa AI removes a burned hook, it now also fills the rectangles of the hook&#x27;s text lines, so the old words cannot be read back. Faces, hands and bodies are never covered; hair or a headband above a face can be.</p>
+<h3>«Hook Erased» is shown only when the hook is really gone.</h3>
+<p>After an erase, the app reads the result again. If the old hook can still be read, the Hook card no longer shows the green «Hook Erased». This also holds after Replace, Localization and a Batch job, and after Revert and Undo.</p>
+<h3>Sliders stay smooth while you drag.</h3>
+<p>A slider drag now prepares one background preview, for the value you stop on. Before, every step started its own full preparation, so the preview could lag for many seconds.</p>
+<h3>The new hook plate covers the old one.</h3>
+<p>Replace with a white plate: the plate is as wide as the old burned hook and stays exactly as long as the old hook is on screen.</p>
+<h3>Two variations per video.</h3>
+<p>Create now makes two variations of each video instead of three, so a batch finishes sooner.</p>
+<h3>A refused render says why.</h3>
+<p>When a render cannot run, the app now shows its real reason instead of a generic error.</p>
+<h3>Thai hooks are read.</h3>
+<p>Burned Thai hooks are now read by text recognition, so they can be replaced or translated.</p>
+<h3>Progress you can read.</h3>
+<p>The progress cards keep light text on their dark background, also when macOS uses the light appearance.</p>
+]]></description>
+      <enclosure url="https://github.com/edwin0912-00/verstat-updates/releases/download/v0.4.1.11-2673/Variator-0.4.1.11-2673.zip" sparkle:version="2673" sparkle:shortVersionString="0.4.1.11" sparkle:edSignature="g+0+tINqvHOq3o0pnV+nKQ+pIL0J74WFp5asHP01jNPpcXrVWSvCDLhl4UIEmua4t1wOk60ze8mtvJwN9o5WCg==" length="1505358700" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.4.1.11 (2669) QA</title>
       <pubDate>Tue, 24 Nov 2026 17:40:45 +0100</pubDate>
       <sparkle:version>2669</sparkle:version>
@@ -575,6 +620,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 5MvNOLa94WyTSoH4ljXiFZD0gBvzeNd4VgayxSVvnrG6LteWYqADpWxVZLnhkb4gvjRPYaMow9UGcuFkuDf2Aw==
-length: 49110
+edSignature: MydKbt2sHI3RdfX26JxwNSkMpmLo/KcSBxPN0hpxCg64rBrSFJbQ9ikAMQBm6GTlaOmLMKjXq4xmegnrSvPdDQ==
+length: 53065
 -->
